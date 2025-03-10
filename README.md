@@ -11,7 +11,7 @@
 
 ## Figma
 
-[Katipunan PSO at UCR Website Figma Design File](https://www.figma.com/)
+[Katipunan PSO at UCR Website Figma Design File](https://www.figma.com/design/z6lnHVlBbXPtLDT36RzRaW/KATI-WEBSITE?node-id=0-1&t=9J9zMeKZouBskKcT-1)
 
 ## Node.js
 
