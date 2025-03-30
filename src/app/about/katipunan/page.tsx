@@ -1,9 +1,9 @@
-const Home = () => {
+const Katipunan = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      Katipunan
     </div>
   );
 };
 
-export default Home;
+export default Katipunan;

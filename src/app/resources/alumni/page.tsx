@@ -1,9 +1,9 @@
-const Home = () => {
+const Alumni = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      Alumni
     </div>
   );
 };
 
-export default Home;
+export default Alumni;

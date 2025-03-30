@@ -1,9 +1,9 @@
-const Home = () => {
+const Jfav = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      JFAV
     </div>
   );
 };
 
-export default Home;
+export default Jfav;

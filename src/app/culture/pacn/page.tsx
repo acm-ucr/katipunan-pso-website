@@ -1,9 +1,9 @@
-const Home = () => {
+const Pacn = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      PACN
     </div>
   );
 };
 
-export default Home;
+export default Pacn;
