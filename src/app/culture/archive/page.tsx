@@ -1,9 +1,9 @@
-const Home = () => {
+const Archive = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      PACN Archive
     </div>
   );
 };
 
-export default Home;
+export default Archive;

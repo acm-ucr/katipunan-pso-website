@@ -1,9 +1,9 @@
-const Home = () => {
+const Rural = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      Rural
     </div>
   );
 };
 
-export default Home;
+export default Rural;

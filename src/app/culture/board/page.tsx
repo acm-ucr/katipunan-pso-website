@@ -1,9 +1,9 @@
-const Home = () => {
+const Board = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      PACN Board
     </div>
   );
 };
 
-export default Home;
+export default Board;

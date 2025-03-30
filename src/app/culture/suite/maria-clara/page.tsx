@@ -1,9 +1,9 @@
-const Home = () => {
+const MariaClara = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      Maria Clara
     </div>
   );
 };
 
-export default Home;
+export default MariaClara;

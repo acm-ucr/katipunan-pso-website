@@ -1,9 +1,9 @@
-const Home = () => {
+const TimeCapsule = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      Time Capsule
     </div>
   );
 };
 
-export default Home;
+export default TimeCapsule;

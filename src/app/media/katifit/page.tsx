@@ -1,9 +1,9 @@
-const Home = () => {
+const Katifit = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      Katifit
     </div>
   );
 };
 
-export default Home;
+export default Katifit;

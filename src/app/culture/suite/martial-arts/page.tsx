@@ -1,9 +1,9 @@
-const Home = () => {
+const MartialArts = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Home
+      Filipino Martial Arts
     </div>
   );
 };
 
-export default Home;
+export default MartialArts;
