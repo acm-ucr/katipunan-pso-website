@@ -1,8 +1,13 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Inria_Serif } from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const inria_serif = Inria_Serif({
+  subsets: ["latin"],
+  weight: ["300", "400", "700"],
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -16,7 +21,9 @@ type LayoutProps = {
 export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={`bg-kpso-white ${inter.className} ${inria_serif.className}`}
+      >
         <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
       </body>
     </html>
