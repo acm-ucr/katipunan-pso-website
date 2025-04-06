@@ -11,7 +11,11 @@ const Quote = ({ Phrase, Source }: { Phrase: string; Source: string }) => {
         <div className="pt-5 text-3xl">{Source}</div>
       </div>
       <div className="mb-15 ml-auto flex flex-shrink-0 justify-end">
-        <Image src={Sun} alt="Filipino Sun" className="h-auto w-170 object-contain" />
+        <Image
+          src={Sun}
+          alt="Filipino Sun"
+          className="h-auto w-170 object-contain"
+        />
       </div>
     </div>
   );
