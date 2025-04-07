@@ -1,7 +1,11 @@
-import Example from "@/components/Example";
+import Navbar from "@/components/Navbar";
 
 const Home = () => {
-  return <Example text1="Adjust" text2="these" text3="Props" />;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 };
 
 export default Home;
