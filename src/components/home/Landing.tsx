@@ -16,42 +16,42 @@ const Landing = () => {
       <Image
         src={Flower}
         alt="FLOWER"
-        className="absolute top-85 left-65 w-[20vw] scale-x-[-1]"
-      />
-
-      <Image
-        src={Header}
-        alt="Group"
-        className="relative top-40 -right-105 h-80 w-[120vw]"
+        className="absolute top-85 left-63 w-70 scale-x-[-1]"
       />
 
       <Image
         src={Flower}
         alt="FLOWER"
-        className="absolute top-15 -right-145 w-[20vw]"
+        className="absolute top-15 -right-146 w-70 object-cover"
+      />
+
+      <Image
+        src={Header}
+        alt="Group"
+        className="relative top-40 -right-105 z-20 h-80 w-150 rounded-lg shadow-lg"
       />
 
       <Image
         src={Club}
         alt="CLUBNAME"
-        className="relative top-35 left-165 w-[22vw]"
+        className="relative top-34 left-165 z-20 w-75"
       />
 
       <Image
         src={Vine}
         alt="VINE"
-        className="relative bottom-50 left-87 h-[35vh] w-[5vw]"
+        className="relative bottom-45 left-87 w-18"
       />
 
       <Image
         src={Vine}
         alt="VINE"
-        className="relative bottom-97 left-245 h-[35vh] w-[5vw] scale-x-[-1] scale-y-[-1]"
+        className="relative bottom-74 left-245 h-40 w-18 scale-x-[-1] scale-y-[-1]"
       />
       <Image
         src={Vine}
         alt="VINE"
-        className="relative bottom-98 left-118 h-[35vh] w-[5vw] scale-x-[-1] rotate-90"
+        className="relative bottom-60 left-118 w-18 scale-x-[-1] rotate-90"
       />
     </div>
   );
