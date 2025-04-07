@@ -13,7 +13,7 @@ const Navbar = () => {
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
             <li>
               <a href="#" className="block px-4 py-2">
-                What is Katipunan
+                What is webp
               </a>
             </li>
             <li>
@@ -44,13 +44,13 @@ const Navbar = () => {
             </li>
             <li>
               <a href="#" className="block px-4 py-2">
-                Katipunan Experience
+                webp Experience
               </a>
             </li>
           </ul>
         </li>
 
-        <img src="/Katipunan Logo.png" alt="Logo" className="h-12 w-auto" />
+        <img src="/webp Logo.webp" alt="Logo" className="h-12 w-auto" />
 
         <li className="group relative">
           <button className="rounded-inline-block px-4 py-2">Culture</button>

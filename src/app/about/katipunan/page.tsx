@@ -1,9 +1,9 @@
-const Katipunan = () => {
+const webp = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Katipunan
+      webp
     </div>
   );
 };
 
-export default Katipunan;
+export default webp;
