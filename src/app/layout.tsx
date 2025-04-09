@@ -1,12 +1,14 @@
 import "./globals.css";
 import { Inter, Inria_Serif } from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
+import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const inria_serif = Inria_Serif({
   subsets: ["latin"],
   weight: ["300", "400", "700"],
+  variable: "--font-inria-serif",
 });
 
 export const metadata = {
@@ -22,9 +24,12 @@ export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`bg-kpso-white ${inter.className} ${inria_serif.className}`}
+        className={`bg-kpso-white ${inter.variable} ${inria_serif.variable}`}
       >
-        <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
+        <ReactQueryClientProvider>
+          <Navbar />
+          {children}
+        </ReactQueryClientProvider>
       </body>
     </html>
   );
