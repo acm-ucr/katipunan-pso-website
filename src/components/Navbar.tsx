@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Logo from "@/public/Katipunan Logo.png";
 
 const Navbar = () => {
   return (
@@ -58,11 +59,11 @@ const Navbar = () => {
         </li>
 
         <Image
-          src="/Katipunan Logo.png"
-          width={271}
-          height={67}
+          src={Logo}
+          width={175}
+          height={60}
           alt="Kati logo"
-          className="py-3"
+          className="py-4"
         />
 
         <li className="group relative">
