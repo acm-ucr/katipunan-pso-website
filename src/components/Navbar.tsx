@@ -13,7 +13,7 @@ const Navbar = () => {
         </li>
 
         <li className="group relative">
-          <button className="rounded-inline-block px-6 py-2 text-xl">
+          <button className="rounded-inline-block px-6 py-2 text-xl hover:cursor-pointer">
             ABOUT
           </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
@@ -36,7 +36,7 @@ const Navbar = () => {
         </li>
 
         <li className="group relative">
-          <button className="rounded-inline-block px-4 py-2 text-xl">
+          <button className="rounded-inline-block px-4 py-2 text-xl hover:cursor-pointer">
             EVENTS
           </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
@@ -58,16 +58,18 @@ const Navbar = () => {
           </ul>
         </li>
 
-        <Image
-          src={Logo}
-          width={175}
-          height={60}
-          alt="Kati logo"
-          className="py-4"
-        />
+        <Link href="/">
+          <Image
+            src={Logo}
+            width={175}
+            height={60}
+            alt="Kati logo"
+            className="py-4"
+          />
+        </Link>
 
         <li className="group relative">
-          <button className="rounded-inline-block px-4 py-2 text-xl">
+          <button className="rounded-inline-block px-4 py-2 text-xl hover:cursor-pointer">
             CULTURE
           </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
@@ -95,7 +97,7 @@ const Navbar = () => {
         </li>
 
         <li className="group relative">
-          <button className="rounded-inline-block px-4 py-2 text-xl">
+          <button className="rounded-inline-block px-4 py-2 text-xl hover:cursor-pointer">
             RESOURCES
           </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
@@ -118,7 +120,7 @@ const Navbar = () => {
         </li>
 
         <li className="group relative">
-          <button className="rounded-inline-block px-4 py-2 text-xl">
+          <button className="rounded-inline-block px-4 py-2 text-xl hover:cursor-pointer">
             MEDIA
           </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
