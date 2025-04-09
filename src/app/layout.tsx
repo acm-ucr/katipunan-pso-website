@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter, Inria_Serif } from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -25,7 +26,10 @@ export default function RootLayout({ children }: LayoutProps) {
       <body
         className={`bg-kpso-white ${inter.variable} ${inria_serif.variable}`}
       >
-        <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
+        <ReactQueryClientProvider>
+          <Navbar />
+          {children}
+        </ReactQueryClientProvider>
       </body>
     </html>
   );
