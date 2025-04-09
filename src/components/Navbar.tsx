@@ -1,126 +1,145 @@
+import Image from "next/image";
+import Link from "next/link";
+
 const Navbar = () => {
   return (
     <nav className="bg-kpso-brown px-6 py-4 text-black">
-      <ul className="flex items-center justify-center space-x-6">
+      <ul className="flex flex-wrap items-center justify-center gap-24">
         <li>
-          <a href="#" className="px-4 py-2">
-            Home
-          </a>
+          <Link href="/" className="px-4 py-2 text-xl">
+            HOME
+          </Link>
         </li>
 
         <li className="group relative">
-          <button className="rounded-inline-block px-4 py-2">About</button>
+          <button className="rounded-inline-block px-6 py-2 text-xl">
+            ABOUT
+          </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/about/katipunan" className="block px-4 py-4">
                 What is Katipunan
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/about/cabinet" className="block px-4 py-2">
                 Meet the Cabinet
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/about/constitution" className="block px-4 py-2">
                 Constitution
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
 
         <li className="group relative">
-          <button className="rounded-inline-block px-4 py-2">Events</button>
+          <button className="rounded-inline-block px-4 py-2 text-xl">
+            EVENTS
+          </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/events/pamilya" className="block px-4 py-2">
                 Pamilya Program
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/events/jfav" className="block px-4 py-2">
                 JFAV
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/events/ke" className="block px-4 py-2">
                 Katipunan Experience
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
 
-        <img src="/Katipunan Logo.png" alt="Logo" className="h-12 w-auto" />
+        <Image
+          src="/Katipunan Logo.png"
+          width={271}
+          height={67}
+          alt="Kati logo"
+          className="py-3"
+        />
 
         <li className="group relative">
-          <button className="rounded-inline-block px-4 py-2">Culture</button>
+          <button className="rounded-inline-block px-4 py-2 text-xl">
+            CULTURE
+          </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/culture/pacn" className="block px-4 py-2">
                 PACN
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/culture/suite" className="block px-4 py-2">
                 Suite Overview
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/culture/board" className="block px-4 py-2">
                 Board
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/culture/archive" className="block px-4 py-2">
                 Archive
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
 
         <li className="group relative">
-          <button className="rounded-inline-block px-4 py-2">Resources</button>
+          <button className="rounded-inline-block px-4 py-2 text-xl">
+            RESOURCES
+          </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/resources/alumni" className="block px-4 py-2">
                 Alumni
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/resources/academics" className="block px-4 py-2">
                 Academics
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="/resources/time-capsule" className="block px-4 py-2">
                 Time Capsule
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
 
         <li className="group relative">
-          <button className="rounded-inline-block px-4 py-2">Media</button>
+          <button className="rounded-inline-block px-4 py-2 text-xl">
+            MEDIA
+          </button>
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="#" className="block px-4 py-2">
                 Photos
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="#" className="block px-4 py-2">
                 Videos
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="#" className="block px-4 py-2">
                 Katiweekly
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2">
+              <Link href="#" className="block px-4 py-2">
                 Katifits
-              </a>
+              </Link>
             </li>
           </ul>
         </li>
