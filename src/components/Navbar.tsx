@@ -18,7 +18,7 @@ const Navbar = () => {
           <ul className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
             <li>
               <Link href="/about/katipunan" className="block px-4 py-4">
-                What is Katipunan
+                What is webp
               </Link>
             </li>
             <li>
@@ -51,14 +51,14 @@ const Navbar = () => {
             </li>
             <li>
               <Link href="/events/ke" className="block px-4 py-2">
-                Katipunan Experience
+                webp Experience
               </Link>
             </li>
           </ul>
         </li>
 
         <Image
-          src="/Katipunan Logo.png"
+          src="/webp Logo.webp"
           width={271}
           height={67}
           alt="Kati logo"
