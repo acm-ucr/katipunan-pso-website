@@ -23,7 +23,7 @@ const Mission = () => {
         <div className="text-6xl text-[#2A3993]">Mission Statement</div>
         <div className="pt-5 text-3xl">
           With a community grounded in rich Filipino culture and History, we
-          Katipunan PSO strive to empower & unify individuals from diverse
+          webp PSO strive to empower & unify individuals from diverse
           backgrounds emphasizing inclusivity, respect, & growth.
         </div>
         <div className="pt-25 text-5xl text-[#2A3993]">
