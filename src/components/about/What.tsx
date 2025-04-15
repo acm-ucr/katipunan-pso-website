@@ -1,5 +1,5 @@
-const What = () => {
+const webp = () => {
   return <></>;
 };
 
-export default What;
+export default webp;
