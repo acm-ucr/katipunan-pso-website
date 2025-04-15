@@ -5,7 +5,7 @@ import Logo from "@/public/Katipunan Logo.png";
 const Navbar = () => {
   return (
     <nav className="bg-kpso-brown px-6 py-4 text-black">
-      <ul className="flex flex-wrap items-center justify-center gap-20">
+      <ul className="flex flex-wrap items-center justify-center gap-24">
         <li>
           <Link href="/" className="px-4 py-2 text-xl">
             HOME
@@ -57,17 +57,15 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
-        <li className="flex items-center justify-center">
-          <Link href="/">
-            <Image
-              src={Logo}
-              width={200}
-              height={60}
-              alt="Kati logo"
-              className="py-4"
-            />
-          </Link>
-        </li>
+        <Link href="/">
+          <Image
+            src={Logo}
+            width={175}
+            height={60}
+            alt="Kati logo"
+            className="py-4"
+          />
+        </Link>
 
         <li className="group relative">
           <button className="rounded-inline-block px-4 py-2 text-xl hover:cursor-pointer">
