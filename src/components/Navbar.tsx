@@ -57,7 +57,6 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
-
         <Link href="/">
           <Image
             src={Logo}
