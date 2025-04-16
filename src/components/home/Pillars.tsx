@@ -11,11 +11,7 @@ const Pillars = () => {
         SOCIAL
         <div className="relative top-5 h-1 w-lg bg-black"></div>
       </div>
-      <Image
-        src={Social}
-        alt="SOCIAL IMAGE"
-        className="relative w-7xl"
-      />
+      <Image src={Social} alt="SOCIAL IMAGE" className="relative w-7xl" />
       <div className="font-inria-serif relative top-10 left-10 z-20 text-7xl">
         ACADEMIC
         <div className="relative top-5 h-1 w-lg bg-black"></div>
