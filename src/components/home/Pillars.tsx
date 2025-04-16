@@ -14,7 +14,7 @@ const Pillars = () => {
       <Image
         src={Social}
         alt="SOCIAL IMAGE"
-        className="relative sm:w-xl md:w-4xl lg:w-7xl"
+        className="relative w-7xl"
       />
       <div className="font-inria-serif relative top-10 left-10 z-20 text-7xl">
         ACADEMIC
@@ -23,7 +23,7 @@ const Pillars = () => {
       <Image
         src={Academic}
         alt="ACADEMIC IMAGE"
-        className="relative bottom-40 left-20 sm:w-xl md:w-4xl lg:w-7xl"
+        className="relative bottom-40 left-20 w-7xl"
       />
       <div className="font-inria-serif relative bottom-35 left-200 z-20 text-7xl">
         CULTURAL
@@ -32,7 +32,7 @@ const Pillars = () => {
       <Image
         src={Cultural}
         alt="CULTURAL IMAGE"
-        className="relative bottom-120 sm:w-xl md:w-4xl lg:w-7xl"
+        className="relative bottom-120 w-7xl"
       />
       <div className="font-inria-serif relative bottom-150 z-20 text-7xl">
         COMMUNITY
@@ -41,7 +41,7 @@ const Pillars = () => {
       <Image
         src={Community}
         alt="COMMUNITY IMAGE"
-        className="relative bottom-200 left-20 sm:w-xl md:w-4xl lg:w-7xl"
+        className="relative bottom-200 left-20 w-7xl"
       />
     </div>
   );
