@@ -1,7 +1,10 @@
-import Example from "@/components/Example";
+// uncomment this line and comment everything else if working on example component
+// import Example from "@/components/Example";
 
 const Home = () => {
-  return <Example text1="Adjust" text2="these" text3="Props" />;
+  // uncomment this line and comment everything else if working on example component
+  // return <Example text1="Adjust" text2="these" text3="Props" />;
+  <></>
 };
 
 export default Home;
