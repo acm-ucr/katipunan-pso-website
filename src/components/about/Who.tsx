@@ -4,7 +4,7 @@ const Who = () => {
       <div className="text-kpso-blue text-6xl">Who Can Join</div>
       <div className="text-5xl font-bold">Anyone!</div>
       <div className="text-center text-4xl">
-        Katipunan is open for anyone and everyone!
+        webp is open for anyone and everyone!
       </div>
     </div>
   );
