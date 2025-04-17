@@ -2,7 +2,7 @@ import "./globals.css";
 import { Inter, Inria_Serif } from "next/font/google";
 import { ReactQueryClientProvider } from "@/utils/react-query";
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer"
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
