@@ -5,7 +5,7 @@ import Vine from "@/public/floral/cornervines.svg";
 
 const Mission = () => {
   return (
-    <div className="font-inria-serif flex flex-row items-start">
+    <div className="font-inria-serif relative items-start overflow-hidden">
       <div className="absolute -mr-30 flex shrink-0 flex-col overflow-visible">
         <div>
           <Image
@@ -19,7 +19,7 @@ const Mission = () => {
         </div>
       </div>
 
-      <div className="absolute left-1/4 flex w-[50%] flex-col pt-40 text-center">
+      <div className="relative left-1/4 flex w-[50%] flex-col py-40 text-center">
         <div className="text-kpso-blue text-6xl">Mission Statement</div>
         <div className="pt-5 text-3xl">
           With a community grounded in rich Filipino culture and History, we
@@ -36,7 +36,7 @@ const Mission = () => {
         </div>
       </div>
 
-      <div className="absolute right-0 -mr-30 flex shrink-0 flex-col">
+      <div className="absolute top-0 right-0 -mr-30 flex shrink-0 flex-col">
         <div>
           <Image
             src={Vine}

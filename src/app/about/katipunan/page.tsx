@@ -1,8 +1,14 @@
+import What from "@/components/about/What";
+import Who from "@/components/about/Who";
+import How from "@/components/about/How";
+
 const Katipunan = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Katipunan
-    </div>
+    <>
+      <What />
+      <Who />
+      <How />
+    </>
   );
 };
 
