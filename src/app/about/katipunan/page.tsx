@@ -2,7 +2,7 @@ import What from "@/components/about/What";
 import Who from "@/components/about/Who";
 import How from "@/components/about/How";
 
-const Katipunan = () => {
+const webp = () => {
   return (
     <>
       <What />
@@ -12,4 +12,4 @@ const Katipunan = () => {
   );
 };
 
-export default Katipunan;
+export default webp;
