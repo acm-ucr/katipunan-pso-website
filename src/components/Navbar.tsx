@@ -102,16 +102,16 @@ const Navbar = () => {
               MEDIA
             </button>
             <div className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
-              <Link href="#" className="block px-4 py-2">
+              <Link href="/media/photos" className="block px-4 py-2">
                 Photos
               </Link>
-              <Link href="#" className="block px-4 py-2">
+              <Link href="/media/videos" className="block px-4 py-2">
                 Videos
               </Link>
-              <Link href="#" className="block px-4 py-2">
+              <Link href="/media/katiweekly" className="block px-4 py-2">
                 Katiweekly
               </Link>
-              <Link href="#" className="block px-4 py-2">
+              <Link href="/media/katifit" className="block px-4 py-2">
                 Katifits
               </Link>
             </div>
