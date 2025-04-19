@@ -4,7 +4,7 @@ import Logo from "@/public/Katipunan Logo.png";
 
 const Navbar = () => {
   return (
-    <div className="bg-kpso-brown relative px-6 py-4 text-black">
+    <div className="bg-kpso-brown fixed top-0 z-100 w-full px-6 py-4 text-black">
       <div className="mx-auto flex max-w-screen-xl items-center justify-between">
         <div className="flex items-center gap-12">
           <Link href="/" className="px-4 py-2 text-xl">

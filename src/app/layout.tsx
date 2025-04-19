@@ -29,6 +29,7 @@ export default function RootLayout({ children }: LayoutProps) {
       >
         <ReactQueryClientProvider>
           <Navbar />
+          <div className="m-18" />
           {children}
           <Footer />
         </ReactQueryClientProvider>
