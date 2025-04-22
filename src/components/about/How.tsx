@@ -5,8 +5,8 @@ const How = () => {
     <div className="flex w-full justify-end p-4">
       <div className="flex h-103 w-3xl items-center justify-center border-4 border-blue-400">
         <Image
-          src="/Katipunan Logo.png"
-          alt="Katipunan Logo"
+          src="/webp Logo.webp"
+          alt="webp Logo"
           width={732}
           height={412}
         />
@@ -17,11 +17,11 @@ const How = () => {
           HOW TO JOIN
         </p>
         <div className="font-inria-serif flex flex-col gap-4 p-10 text-center text-3xl">
-          <p>Interested in joining Katipunan? It's easy! </p>
+          <p>Interested in joining webp? It's easy! </p>
           <p>
             Just venmo our Treasurer, Ava Boado, the general member fee of $32.
           </p>
-          <p>And just like that, you're now an official Katipunero!</p>
+          <p>And just like that, you're now an official webppunero!</p>
           <p>Ava's Venmo: @pompu</p>
         </div>
       </div>
