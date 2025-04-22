@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "@/public/Katipunan Logo.png";
+import Logo from "@/public/webp Logo.webp";
 
 const Navbar = () => {
   return (
@@ -17,7 +17,7 @@ const Navbar = () => {
             </button>
             <div className="bg-kpso-red-secondary absolute top-full left-0 hidden rounded text-black shadow-lg group-hover:block">
               <Link href="/about/katipunan" className="block px-4 py-4">
-                What is Katipunan
+                webp is webp
               </Link>
               <Link href="/about/cabinet" className="block px-4 py-2">
                 Meet the Cabinet
@@ -40,7 +40,7 @@ const Navbar = () => {
                 JFAV
               </Link>
               <Link href="/events/ke" className="block px-4 py-2">
-                Katipunan Experience
+                webp Experience
               </Link>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Navbar = () => {
               src={Logo}
               width={175}
               height={60}
-              alt="Kati logo"
+              alt="webp logo"
               className="py-2"
             />
           </Link>
@@ -109,10 +109,10 @@ const Navbar = () => {
                 Videos
               </Link>
               <Link href="/media/katiweekly" className="block px-4 py-2">
-                Katiweekly
+                webpweekly
               </Link>
               <Link href="/media/katifit" className="block px-4 py-2">
-                Katifits
+                webpfits
               </Link>
             </div>
           </div>
