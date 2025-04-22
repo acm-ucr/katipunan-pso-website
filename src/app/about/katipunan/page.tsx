@@ -1,15 +1,15 @@
-import What from "@/components/about/What";
+import webp from "@/components/about/webp";
 import Who from "@/components/about/Who";
 import How from "@/components/about/How";
 
-const Katipunan = () => {
+const webp = () => {
   return (
     <>
-      <What />
+      <webp />
       <Who />
       <How />
     </>
   );
 };
 
-export default Katipunan;
+export default webp;
