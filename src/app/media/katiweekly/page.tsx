@@ -1,9 +1,9 @@
-const Katiweekly = () => {
+const webpweekly = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Katiweekly
+      webpweekly
     </div>
   );
 };
 
-export default Katiweekly;
+export default webpweekly;
