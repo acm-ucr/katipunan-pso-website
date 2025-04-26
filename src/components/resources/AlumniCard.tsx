@@ -17,8 +17,8 @@ const AlumniCard = ({
   image,
 }: AlumniCardProps) => {
   return (
-    <div className="flex h-127 w-sm flex-col justify-center border-4 border-blue-800">
-      <div className="flex h-100 w-sm justify-center border-4 border-amber-500">
+    <div className="flex h-127 w-sm flex-col justify-center">
+      <div className="flex h-100 w-sm justify-center">
         <Image
           src={image}
           alt="Photo of alumni"
@@ -27,10 +27,8 @@ const AlumniCard = ({
           className="object-cover"
         />
       </div>
-      <div className="w-sx flex h-9 flex-col justify-center border-green-800">
-        <div className="font-inria-serif border-4 text-center text-3xl">
-          {fullName}
-        </div>
+      <div className="w-sx flex h-9 flex-col justify-center">
+        <div className="font-inria-serif text-center text-3xl">{fullName}</div>
       </div>
       <div className="mx-auto flex h-5 w-40 justify-center">
         <div className="font-inria-serif text-center text-lg">{gradClass}</div>
