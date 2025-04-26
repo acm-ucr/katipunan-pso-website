@@ -1,9 +1,9 @@
-const Katifit = () => {
+const webpfit = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center">
-      Katifit
+      webpfit
     </div>
   );
 };
 
-export default Katifit;
+export default webpfit;
