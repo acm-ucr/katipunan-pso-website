@@ -4,7 +4,7 @@ type BoardCardProps = {
   position: string;
   name: string;
   webp: string;
-  is_apprentice: boolean;
+  is_apprentice: boolean ;
 };
 
 const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
