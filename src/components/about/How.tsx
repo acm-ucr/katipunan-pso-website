@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const How = () => {
   return (
-    <div className="flex w-full justify-end p-4">
+    <div className="flex items-center">
       <div className="flex h-103 w-3xl items-center justify-center border-4 border-blue-400">
         <Image
           src="/Katipunan Logo.png"
