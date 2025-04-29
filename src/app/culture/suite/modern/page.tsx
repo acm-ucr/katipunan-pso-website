@@ -6,7 +6,7 @@ const Modern = () => {
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="MODERN" />
       <div className="flex h-screen w-screen items-center justify-center">
-      Modern
+        Modern
       </div>
     </>
   );

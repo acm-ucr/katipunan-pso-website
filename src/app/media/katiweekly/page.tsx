@@ -6,7 +6,7 @@ const Katiweekly = () => {
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="KATIWEEKLY" />
       <div className="flex h-screen w-screen items-center justify-center">
-      Kati Weekly
+        Kati Weekly
       </div>
     </>
   );

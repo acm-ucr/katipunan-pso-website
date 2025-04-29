@@ -6,7 +6,7 @@ const Rural = () => {
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="RURAL" />
       <div className="flex h-screen w-screen items-center justify-center">
-      Rural
+        Rural
       </div>
     </>
   );

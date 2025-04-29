@@ -6,7 +6,7 @@ const MariaClara = () => {
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="MARIA CLARA" />
       <div className="flex h-screen w-screen items-center justify-center">
-      Maria Clara
+        Maria Clara
       </div>
     </>
   );
