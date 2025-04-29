@@ -7,7 +7,7 @@ const Ke = () => {
       <Header
         webp={HeaderImg}
         alt="Picture of Club"
-        txt="Katipunan Experience (KE)"
+        txt="webppunan Experience (KE)"
       />
       <div className="flex h-screen w-screen items-center justify-center">
         KE
