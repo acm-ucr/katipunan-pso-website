@@ -1,16 +1,16 @@
 import Header from "@/components/Header";
-import What from "@/components/about/What";
+import webp from "@/components/about/webp";
 import Who from "@/components/about/Who";
 import How from "@/components/about/How";
 import HeaderImg from "@/public/HEADER.webp";
 
-const Katipunan = () => {
+const webppunan = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="WHAT IS KATIPUNAN?" />
 
       <div className="mb-32"></div>
-      <What />
+      <webp />
       <div className="mb-16"></div>
       <div className="mx-16">
         <Who />
@@ -21,4 +21,4 @@ const Katipunan = () => {
   );
 };
 
-export default Katipunan;
+export default webppunan;
