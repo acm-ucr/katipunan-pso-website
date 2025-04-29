@@ -1,8 +1,14 @@
+import HeaderImg from "@/public/HEADER.webp";
+import Header from "@/components/Header";
+
 const SuiteOverview = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Suite Overview
-    </div>
+    <>
+      <Header webp={HeaderImg} alt="Picture of Club" txt="SUITE OVERVIEW" />
+      <div className="flex h-screen w-screen items-center justify-center">
+        SUITE OVERVIEW
+      </div>
+    </>
   );
 };
 

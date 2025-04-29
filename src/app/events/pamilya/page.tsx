@@ -1,8 +1,14 @@
+import HeaderImg from "@/public/HEADER.webp";
+import Header from "@/components/Header";
+
 const Pamilya = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Pamilya
-    </div>
+    <>
+      <Header webp={HeaderImg} alt="Picture of Club" txt="PAMILYA PROGRAM" />
+      <div className="flex h-screen w-screen items-center justify-center">
+        Pamilya
+      </div>
+    </>
   );
 };
 

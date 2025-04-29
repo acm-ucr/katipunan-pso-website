@@ -1,8 +1,14 @@
+import HeaderImg from "@/public/HEADER.webp";
+import Header from "@/components/Header";
+
 const MartialArts = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Filipino Martial Arts
-    </div>
+    <>
+      <Header webp={HeaderImg} alt="Picture of Club" txt="FILIPINO MARTIAL ARTS" />
+      <div className="flex h-screen w-screen items-center justify-center">
+      Martial Arts
+      </div>
+    </>
   );
 };
 

@@ -1,8 +1,14 @@
+import HeaderImg from "@/public/HEADER.webp";
+import Header from "@/components/Header";
+
 const MariaClara = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
+    <>
+      <Header webp={HeaderImg} alt="Picture of Club" txt="MARIA CLARA" />
+      <div className="flex h-screen w-screen items-center justify-center">
       Maria Clara
-    </div>
+      </div>
+    </>
   );
 };
 
