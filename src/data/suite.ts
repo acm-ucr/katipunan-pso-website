@@ -1,8 +1,8 @@
 export const tags = [
-  { name: "RURAL" },
-  { name: "MARIA CLARA" },
-  { name: "CORDILLERA" },
-  { name: "MODERN" },
-  { name: "FILLIPINO MARTIAL ARTS" },
-  { name: "TINIKLING" },
+  { name: "RURAL", image: "/HEADER.webp" },
+  { name: "MARIA CLARA", image: "/HEADER.webp" },
+  { name: "CORDILLERA", image: "/HEADER.webp" },
+  { name: "MODERN", image: "/HEADER.webp" },
+  { name: "FILIPINO MARTIAL ARTS", image: "/HEADER.webp" },
+  { name: "TINIKLING", image: "/HEADER.webp" },
 ];
