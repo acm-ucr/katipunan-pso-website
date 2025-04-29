@@ -1,8 +1,13 @@
+import HeaderImg from "@/public/HEADER.webp";
+import Header from "@/components/Header";
+import Chartutor from "@/components/resources/Chartutor";
+
 const Academics = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Academics
-    </div>
+    <>
+      <Header webp={HeaderImg} alt="Picture of Club" txt="ACADEMICS" />
+      <Chartutor />
+    </>
   );
 };
 
