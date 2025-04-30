@@ -12,7 +12,7 @@ const Constitution = () => {
       <div className="font-inria-serif mb-20 flex w-screen flex-col text-xl">
         <div className="flex flex-col items-center">
           <div className="mt-10 flex underline">
-            Katipunan Pilipino Student Organization
+            webppunan Pilipino Student Organization
           </div>
           <div className="font-thin italic">September 28, 2024</div>
           <div>University of California, Riverside</div>
@@ -22,7 +22,7 @@ const Constitution = () => {
         <div className="mr-60 ml-60 pt-8">
           <div className="font-bold italic">Preamble</div>
           <div className="pt-4">
-            We, the members of Katipunan (Pilipino Student Organization) at the
+            We, the members of webppunan (Pilipino Student Organization) at the
             University of California, Riverside, in order to advance the
             awareness and development of both the Pilipino and Pilipino-American
             culture through cultural, educational, communal, and social means,
@@ -31,12 +31,12 @@ const Constitution = () => {
           </div>
           <div className="pt-10 font-semibold underline">ARTICLE I</div>
           <div className="font-light italic">
-            Katipunan Pilipino Student Organization
+            webppunan Pilipino Student Organization
           </div>
           <div className="pt-4">
-            The official name of this organization shall be Katipunan (Pilipino
+            The official name of this organization shall be webppunan (Pilipino
             Student Organization) at the University of California, Riverside and
-            may be referred to as Katipunan for the remainder of this
+            may be referred to as webppunan for the remainder of this
             Constitution.
           </div>
 
@@ -67,11 +67,11 @@ const Constitution = () => {
           </div>
           <div className="pt-4 italic">A. Eligibility for Membership</div>
           <div>
-            Katipunan is all-inclusive. Membership is open to students and
+            webppunan is all-inclusive. Membership is open to students and
             non-students regardless of race, ethnicity, color, national origin,
             sexual orientation, gender, religion, ability, age, school, and
             political affiliation. All who pay the designated yearly dues are
-            official Katipunan members and are encouraged to promote the
+            official webppunan members and are encouraged to promote the
             organization’s well-being and spirit.
           </div>
           <br />
@@ -97,10 +97,10 @@ const Constitution = () => {
           </div>
           <br />
           <div className="">
-            Members of Katipunan are expected to adhere strictly to a zero
+            Members of webppunan are expected to adhere strictly to a zero
             tolerance policy to all forms of sexual assault and sexual
             harassment. Any instances of sexual assault/sexual harassment that
-            is brought to the attention of the Katipunan cabinet shall be
+            is brought to the attention of the webppunan cabinet shall be
             investigated and will result in revokement of membership for the
             individual who has perpetrated the act. No refund shall be given for
             any membership dues paid. Necessary officials shall also be
@@ -147,10 +147,10 @@ const Constitution = () => {
             Historian(s), Public Relations Chairperson(s), Social Activities
             Chairperson(s), Academics Chairperson, Athletics Coordinator, Alumni
             Liaison, Outreach Director, PACN Coordinator, Apprentice Advisor,
-            and Katipunan Apprentices.
+            and webppunan Apprentices.
           </div>
           <div>
-            Katipunan Apprentices are not limited to the instruction of the
+            webppunan Apprentices are not limited to the instruction of the
             Apprentice Advisor.
           </div>
           <br />
@@ -199,7 +199,7 @@ const Constitution = () => {
           <div>Appointments: Cabinet Positions</div>
           <ul className="ml-6 list-decimal">
             <li>
-              Katipunan Apprentices shall be appointed by the Cabinet during the
+              webppunan Apprentices shall be appointed by the Cabinet during the
               Fall Quarter.
             </li>
             <li>
@@ -250,14 +250,14 @@ const Constitution = () => {
           </div>
           <div>The President's duties include:</div>
           <ul className="ml-8 list-disc">
-            <li>Shall be the official representative of Katipunan.</li>
+            <li>Shall be the official representative of webppunan.</li>
             <li>
               Shall preside over all meetings of the organization unless
               otherwise stated.{" "}
             </li>
             <li>
               May delegate responsibility to a chosen representative regarding
-              Katipunan concerns.
+              webppunan concerns.
             </li>
             <li>
               Shall be an authorized signature on all official organization
@@ -280,7 +280,7 @@ const Constitution = () => {
               the duties of the President in their absence.
             </li>
             <li>
-              Shall be the official representative for Katipunan in
+              Shall be the official representative for webppunan in
               intercollegiate functions and any other collegiate Pilipino
               associations.{" "}
             </li>
