@@ -1,5 +1,5 @@
 const EventInfo = () => {
-  return(
+  return (
     <div className="font-inria-serif flex w-screen flex-col items-center justify-center gap-4">
       <div className="text-kpso-blue text-center text-6xl">
         WHAT IS THE PAMILYA PROGRAM?
@@ -17,7 +17,7 @@ const EventInfo = () => {
         need to excel.
       </div>
     </div>
-  ); 
+  );
 };
 
 export default EventInfo;
