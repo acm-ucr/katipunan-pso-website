@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Suite = () => {
   return (
-    <div className="mt-32 grid grid-cols-3 gap-32">
+    <div className="mt-20 grid grid-cols-3 gap-32">
       {tags.map(({ name, image, link }, index) => (
         <Link href={link} key={index}>
           <div
