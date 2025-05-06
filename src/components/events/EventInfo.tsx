@@ -1,7 +1,7 @@
 const EventInfo = () => {
   return (
-    <div className="font-inria-serif mx-50 flex w-screen flex-col items-center justify-center gap-4">
-      <div className="text-kpso-blue text-center text-6xl">
+    <div className="font-inria-serif flex flex-col items-center justify-center gap-4 px-40">
+      <div className="text-kpso-blue mb-8 text-center text-6xl">
         WHAT IS THE PAMILYA PROGRAM?
       </div>
       <div className="text-center text-2xl leading-[70px]">
