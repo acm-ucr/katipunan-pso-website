@@ -1,5 +1,6 @@
 import HeaderImg from "@/public/HEADER.webp";
 import Header from "@/components/Header";
+import Contact from "@/components/events/Contact";
 
 const Jfav = () => {
   return (
@@ -9,8 +10,11 @@ const Jfav = () => {
         alt="Picture of Club"
         txt="Justice for Filipino American Veterans (JFAV)"
       />
-      <div className="flex h-screen w-screen items-center justify-center">
-        JFAV
+      <div>
+        <Contact
+          name="jfav_la"
+          instagramLink="https://www.instagram.com/jfav_la/"
+        />
       </div>
     </>
   );
