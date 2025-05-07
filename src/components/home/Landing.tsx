@@ -2,7 +2,7 @@ import Image from "next/image";
 import Img1 from "@/public/University of California, Riverside.svg";
 import Header from "@/public/HEADER.webp";
 import Flower from "@/public/floral/blackflower.webp";
-import Vine from "@/public/floral/shortvine.svg";
+import Vine from "@/public/floral/blackshortvine.svg";
 import Club from "@/public/Katipunan PSO.svg";
 
 const Landing = () => {
