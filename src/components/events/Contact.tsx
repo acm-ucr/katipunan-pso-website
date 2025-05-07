@@ -10,7 +10,7 @@ const Contact = ({
 }) => {
   return (
     <div className="m-30 flex flex-col items-center">
-      <div className="mb-10 font-serif text-2xl">
+      <div className="font-inria-serif mb-10 text-2xl">
         For more information follow @{name}!
       </div>
       <Link
