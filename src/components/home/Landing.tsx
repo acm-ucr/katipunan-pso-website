@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Img1 from "@/public/University of California, Riverside.svg";
 import Header from "@/public/HEADER.webp";
 import Flower from "@/public/floral/blackflower.webp";
 import Vine from "@/public/floral/blackshortvine.svg";
@@ -7,52 +6,46 @@ import Club from "@/public/Katipunan PSO.svg";
 
 const Landing = () => {
   return (
-    <div className="relative w-2/5">
-      <Image
-        src={Img1}
-        alt="UCR-NAME"
-        className="absolute top-32 left-107 w-80"
-      />
-      <Image
-        src={Flower}
-        alt="FLOWER"
-        className="absolute top-85 left-63 w-70 scale-x-[-1]"
-      />
+    <div className="relative mx-auto my-40 w-max text-center sm:my-80 sm:text-start">
+      <div className="hidden xl:block">
+        <Image
+          src={Flower}
+          alt="FLOWER"
+          className="absolute -top-25 -right-45"
+        />
+        <Image
+          src={Flower}
+          alt="FLOWER"
+          className="absolute -bottom-55 -left-55"
+        />
+        <Image src={Vine} alt="VINE" className="absolute top-60 -left-35" />
+        <Image
+          src={Vine}
+          alt="VINE"
+          className="absolute -right-24 bottom-50 scale-x-[-1] scale-y-[-1]"
+        />
+        <Image
+          src={Vine}
+          alt="VINE"
+          className="absolute -bottom-62 left-40 scale-x-[-1] rotate-90"
+        />
+      </div>
 
-      <Image
-        src={Flower}
-        alt="FLOWER"
-        className="absolute top-15 -right-146 w-70 object-cover"
-      />
-
-      <Image
-        src={Header}
-        alt="Group"
-        className="relative top-40 -right-105 z-20 h-80 w-150 rounded-lg shadow-lg"
-      />
-
-      <Image
-        src={Club}
-        alt="CLUBNAME"
-        className="relative top-34 left-165 z-20 w-75"
-      />
-
-      <Image
-        src={Vine}
-        alt="VINE"
-        className="relative bottom-45 left-87 w-18"
-      />
-
-      <Image
-        src={Vine}
-        alt="VINE"
-        className="relative bottom-74 left-245 h-40 w-18 scale-x-[-1] scale-y-[-1]"
-      />
-      <Image
-        src={Vine}
-        alt="VINE"
-        className="relative bottom-60 left-118 w-18 scale-x-[-1] rotate-90"
-      />
+      <h1 className="font-inria-serif mb-3 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+        University of California, Riverside
+      </h1>
+      <div className="relative w-max">
+        <Image
+          src={Header}
+          alt="Group"
+          className="w-80 rounded-lg shadow-lg sm:w-120 md:w-150 lg:w-200 xl:w-250"
+        />
+        <Image
+          src={Club}
+          alt="CLUBNAME"
+          className="hidden xl:absolute xl:right-0 xl:-bottom-20 xl:block"
+        />
+      </div>
     </div>
   );
 };
