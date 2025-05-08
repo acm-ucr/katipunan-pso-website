@@ -6,7 +6,7 @@ import Club from "@/public/Katipunan PSO.svg";
 
 const Landing = () => {
   return (
-    <div className="relative mx-auto w-max my-40 sm:my-80">
+    <div className="relative mx-auto my-40 w-max text-center sm:my-80 sm:text-start">
       <div className="hidden xl:block">
         <Image
           src={Flower}
@@ -31,14 +31,14 @@ const Landing = () => {
         />
       </div>
 
-      <h1 className="font-inria-serif text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-3">
+      <h1 className="font-inria-serif mb-3 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
         University of California, Riverside
       </h1>
       <div className="relative w-max">
         <Image
           src={Header}
           alt="Group"
-          className="w-80 sm:w-120 md:w-150 lg:w-200 xl:w-250 rounded-lg shadow-lg"
+          className="w-80 rounded-lg shadow-lg sm:w-120 md:w-150 lg:w-200 xl:w-250"
         />
         <Image
           src={Club}

@@ -5,7 +5,7 @@ import Vine from "@/public/floral/cornervines.svg";
 
 const Mission = () => {
   return (
-    <div className="font-inria-serif relative mt-50 w-full overflow-x-hidden overflow-y-hidden bg-[#F0EBE5]">
+    <div className="font-inria-serif relative mt-50 w-full overflow-x-hidden overflow-y-hidden bg-[#F0EBE5] px-25 sm:px-20 md:px-0">
       <Image
         src={Flower}
         alt="Flower TL"
@@ -31,16 +31,18 @@ const Mission = () => {
       />
 
       <div className="relative z-10 mx-auto max-w-3xl py-40 text-center">
-        <h2 className="text-kpso-blue text-6xl">Mission Statement</h2>
-        <p className="pt-5 text-3xl">
+        <h2 className="text-kpso-blue text-4xl sm:text-6xl">
+          Mission Statement
+        </h2>
+        <p className="pt-5 text-2xl sm:text-3xl">
           With a community grounded in rich Filipino culture and History, we
           Katipunan PSO strive to empower & unify individuals from diverse
           backgrounds emphasizing inclusivity, respect, & growth.
         </p>
-        <h3 className="text-kpso-blue pt-24 text-5xl">
+        <h3 className="text-kpso-blue pt-24 text-4xl sm:text-5xl">
           Cabinet Mission Statement
         </h3>
-        <p className="pt-5 text-3xl">
+        <p className="pt-5 text-2xl sm:text-3xl">
           Through the foundation of our 4 pillars, we aspire to foster a
           welcoming & engaging environment by honoring our past & building a
           better future, together.
