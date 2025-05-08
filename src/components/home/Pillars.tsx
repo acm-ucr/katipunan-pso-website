@@ -6,39 +6,58 @@ import Community from "@/public/Community.svg";
 
 const Pillars = () => {
   return (
-    <div className="relative w-full overflow-x-hidden">
-      <div className="font-inria-serif relative top-27 left-80 z-20 text-4xl lg:top-62 lg:left-200 lg:text-7xl">
-        SOCIAL
-        <div className="relative top-2 h-1 w-sm bg-black lg:top-5 lg:w-lg"></div>
+    <div className="overflow-x-hidde w-full">
+      {/* SOCIAL */}
+      <div className="relative w-full">
+        <Image
+          src={Social}
+          alt="SOCIAL IMAGE"
+          className="w-full object-cover pr-30"
+        />
+        <div className="font-inria-serif absolute top-10 right-0 text-center text-4xl text-black sm:top-20 sm:text-6xl md:text-7xl lg:text-8xl">
+          SOCIAL
+          <div className="mt-3 h-1 w-50 bg-black sm:w-80 md:w-160" />
+        </div>
       </div>
-      <Image src={Social} alt="SOCIAL IMAGE" className="relative w-7xl" />
-      <div className="font-inria-serif relative top-8 left-5 z-20 text-4xl lg:top-10 lg:left-10 lg:text-7xl">
-        ACADEMIC
-        <div className="relative top-2 h-1 w-sm bg-black lg:top-5 lg:w-lg"></div>
+
+      {/* ACADEMIC */}
+      <div className="relative w-full">
+        <Image
+          src={Academic}
+          alt="ACADEMIC IMAGE"
+          className="mt-10 w-full object-cover pl-30 sm:mt-20 md:mt-20 lg:mt-0"
+        />
+        <div className="font-inria-serif absolute top-0 left-0 text-center text-4xl text-black sm:text-6xl md:text-7xl lg:text-8xl">
+          ACADEMIC
+          <div className="mt-3 h-1 w-50 bg-black sm:w-100 md:w-160" />
+        </div>
       </div>
-      <Image
-        src={Academic}
-        alt="ACADEMIC IMAGE"
-        className="relative bottom-13 left-18 w-7xl lg:bottom-40"
-      />
-      <div className="font-inria-serif relative bottom-10 left-70 z-20 text-4xl lg:bottom-30 lg:left-200 lg:text-7xl">
-        CULTURAL
-        <div className="relative top-2 h-1 w-sm bg-black lg:top-5 lg:w-lg"></div>
+
+      {/* CULTURAL */}
+      <div className="relative w-full">
+        <Image
+          src={Cultural}
+          alt="CULTURAL IMAGE"
+          className="w-full object-cover pr-30"
+        />
+        <div className="font-inria-serif absolute top-5 right-0 text-center text-4xl text-black sm:top-15 sm:text-6xl md:top-20 md:text-7xl lg:top-50 lg:text-8xl">
+          CULTURAL
+          <div className="mt-3 h-1 w-60 bg-black sm:w-100 md:w-160" />
+        </div>
       </div>
-      <Image
-        src={Cultural}
-        alt="CULTURAL IMAGE"
-        className="relative bottom-45 lg:bottom-120 lg:w-7xl"
-      />
-      <div className="font-inria-serif relative bottom-55 z-20 text-4xl lg:bottom-150 lg:text-7xl">
-        COMMUNITY
-        <div className="relative top-2 h-1 w-sm bg-black lg:top-5 lg:w-lg"></div>
+
+      {/* COMMUNITY */}
+      <div className="relative w-full">
+        <Image
+          src={Community}
+          alt="COMMUNITY IMAGE"
+          className="w-full object-cover pl-30"
+        />
+        <div className="font-inria-serif absolute top-0 left-0 text-center text-4xl text-black sm:text-6xl md:top-5 md:text-7xl lg:top-10 lg:text-8xl">
+          COMMUNITY
+          <div className="mt-3 h-1 w-60 bg-black sm:w-100 md:w-160" />
+        </div>
       </div>
-      <Image
-        src={Community}
-        alt="COMMUNITY IMAGE"
-        className="relative bottom-75 left-18 w-7xl lg:bottom-200"
-      />
     </div>
   );
 };
