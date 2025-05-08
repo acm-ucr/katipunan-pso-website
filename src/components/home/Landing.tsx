@@ -7,7 +7,7 @@ import Club from "@/public/Katipunan PSO.svg";
 
 const Landing = () => {
   return (
-    <div className="relative w-2/5">
+    <div className="relative w-2/5 overflow-x-hidden">
       <Image
         src={Img1}
         alt="UCR-NAME"
