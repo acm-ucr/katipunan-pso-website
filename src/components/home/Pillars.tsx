@@ -6,7 +6,7 @@ import Community from "@/public/Community.svg";
 
 const Pillars = () => {
   return (
-    <div className="w-full overflow-x-hidde">
+    <div className="overflow-x-hidde w-full">
       {/* SOCIAL */}
       <div className="relative w-full">
         <Image
@@ -14,9 +14,9 @@ const Pillars = () => {
           alt="SOCIAL IMAGE"
           className="w-full object-cover pr-30"
         />
-        <div className="font-inria-serif absolute top-20 right-0 text-center text-5xl md:text-7xl sm:text-6xl lg:text-8xl text-black">
+        <div className="font-inria-serif absolute top-20 right-0 text-center text-5xl text-black sm:text-6xl md:text-7xl lg:text-8xl">
           SOCIAL
-          <div className="mt-3 h-1 w-80 md:w-160 bg-black" />
+          <div className="mt-3 h-1 w-80 bg-black md:w-160" />
         </div>
       </div>
 
@@ -25,11 +25,11 @@ const Pillars = () => {
         <Image
           src={Academic}
           alt="ACADEMIC IMAGE"
-          className="w-full object-cover pl-30 mt-20 md:mt-20 lg:mt-0"
+          className="mt-20 w-full object-cover pl-30 md:mt-20 lg:mt-0"
         />
-        <div className="font-inria-serif absolute top-0 left-0 text-center text-5xl md:text-7xl sm:text-6xl lg:text-8xl text-black">
+        <div className="font-inria-serif absolute top-0 left-0 text-center text-5xl text-black sm:text-6xl md:text-7xl lg:text-8xl">
           ACADEMIC
-          <div className="mt-3 h-1 w-100 md:w-160 bg-black" />
+          <div className="mt-3 h-1 w-100 bg-black md:w-160" />
         </div>
       </div>
 
@@ -40,9 +40,9 @@ const Pillars = () => {
           alt="CULTURAL IMAGE"
           className="w-full object-cover pr-30"
         />
-        <div className="font-inria-serif absolute text-5xl top-10 sm:top-15 md:top-20 lg:top-50 right-0 text-center md:text-7xl sm:text-6xl lg:text-8xl text-black">
+        <div className="font-inria-serif absolute top-10 right-0 text-center text-5xl text-black sm:top-15 sm:text-6xl md:top-20 md:text-7xl lg:top-50 lg:text-8xl">
           CULTURAL
-          <div className="mt-3 h-1 w-100  md:w-160 bg-black" />
+          <div className="mt-3 h-1 w-100 bg-black md:w-160" />
         </div>
       </div>
 
@@ -53,9 +53,9 @@ const Pillars = () => {
           alt="COMMUNITY IMAGE"
           className="w-full object-cover pl-30"
         />
-        <div className="font-inria-serif absolute text-5xl top-0 md:top-5 lg:top-10 left-0 text-center md:text-7xl sm:text-6xl lg:text-8xl text-black">
+        <div className="font-inria-serif absolute top-0 left-0 text-center text-5xl text-black sm:text-6xl md:top-5 md:text-7xl lg:top-10 lg:text-8xl">
           COMMUNITY
-          <div className="mt-3 h-1 w-100 md:w-160 bg-black" />
+          <div className="mt-3 h-1 w-100 bg-black md:w-160" />
         </div>
       </div>
     </div>
