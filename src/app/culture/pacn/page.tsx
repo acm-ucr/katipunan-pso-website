@@ -3,10 +3,9 @@ import Image from "next/image";
 const Pacn = () => {
   return (
     <div className="relative w-screen p-10">
-      {/* z-index: 0 */}
       <Image
         src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/d2760ae17b53c51d4017c72b3b385f526c18ae3f/public/floral/redshortvine.svg"
-        className="absolute top-[1rem] -right-[10rem] z-0 rotate-[30deg]"
+        className="absolute top-7 -right-40 z-0 rotate-[30deg]"
         width={300}
         height={450}
         alt="vineTop"
@@ -14,7 +13,7 @@ const Pacn = () => {
 
       <Image
         src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/refs/heads/dev/public/floral/redflower.webp"
-        className="absolute top-[9rem] -right-[20rem] z-0 rotate-[360deg]"
+        className="absolute top-30 -right-80 z-0 rotate-[360deg]"
         width={712}
         height={701}
         alt="flowerTopRight"
@@ -22,7 +21,7 @@ const Pacn = () => {
 
       <Image
         src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/refs/heads/dev/public/floral/redflower.webp"
-        className="absolute -bottom-[150rem] -left-70 z-0 scale-x-[-1] rotate-[300deg]"
+        className="absolute -bottom-600 -left-70 z-0 scale-x-[-1] rotate-[300deg]"
         width={712}
         height={701}
         alt="flowerBottomLeft"
@@ -30,7 +29,7 @@ const Pacn = () => {
 
       <Image
         src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/d2760ae17b53c51d4017c72b3b385f526c18ae3f/public/floral/redshortvine.svg"
-        className="absolute -bottom-[105rem] -left-[6rem] z-0 rotate-[130deg]"
+        className="absolute -bottom-400 -left-24 z-0 rotate-[130deg]"
         width={250}
         height={701}
         alt="vineLeftBottom"
@@ -38,13 +37,12 @@ const Pacn = () => {
 
       <Image
         src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/d2760ae17b53c51d4017c72b3b385f526c18ae3f/public/floral/redshortvine.svg"
-        className="absolute -right-[7rem] -bottom-[130rem] z-0"
+        className="absolute -right-28 -bottom-600 z-0"
         width={300}
         height={701}
         alt="vineRightBottom"
       />
 
-      {/* z-index: 10 */}
       <div className="relative z-10 flex w-screen flex-col items-center justify-center gap-4 text-center">
         <div className="absolute top-[15rem]">
           <Image
