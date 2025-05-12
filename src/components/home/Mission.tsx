@@ -5,7 +5,7 @@ import Vine from "@/public/floral/cornervines.svg";
 
 const Mission = () => {
   return (
-    <div className="font-inria-serif relative mt-50 w-full overflow-x-hidden overflow-y-hidden bg-[#F0EBE5] px-25 sm:px-20 md:px-0">
+    <div className="font-inria-serif relative w-full overflow-x-hidden overflow-y-hidden bg-[#F0EBE5] px-25 sm:mt-50 sm:px-20 md:px-0">
       <Image
         src={Flower}
         alt="Flower TL"

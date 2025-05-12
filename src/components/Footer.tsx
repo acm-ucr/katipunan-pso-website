@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-kpso-brown bottom-0 mt-32 w-full py-8">
+    <div className="bg-kpso-brown bottom-0 mt-32 w-full overflow-x-hidden py-8">
       <div className="flex justify-center space-x-10 py-2">
         <Link
           href="https://www.facebook.com/groups/676726465688057/"
