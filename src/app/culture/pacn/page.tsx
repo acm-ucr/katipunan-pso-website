@@ -2,35 +2,83 @@
 import Image from "next/image";
 const Pacn = () => {
   return (
-    <div className="font-inria-serif flex w-screen flex-col items-center justify-center gap-4">
-      <br />
-      <Image src="pacnCov.png" width={946} height={532} alt="PacnPhoto" />
+    <div className="relative w-screen p-10">
+      {/* z-index: 0 */}
+      <Image
+        src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/d2760ae17b53c51d4017c72b3b385f526c18ae3f/public/floral/redshortvine.svg"
+        className="absolute top-[1rem] -right-[10rem] z-0 rotate-[30deg]"
+        width={300}
+        height={450}
+        alt="vineTop"
+      />
 
-      <div className="text-kpso-red-primary text-center text-6xl">
-        <br />
-        Overview
-      </div>
-      <div className="text-center text-2xl leading-[70px]">
-        PILIPINO AMERICAN CULTURE NIGHT (PACN) is one of KATIPUNAN’S longest
-        standing events. Happening in the spring quarter, PACN board and cast
-        members come together to put on a show that aims to present PILIPINO
-        AMERICAN CULTURE through acting, singing, dancing, and more. The show
-        consists of a play centered around current Pilipino-American issues
-        along with traditional dances.
-        <br />
-      </div>
+      <Image
+        src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/refs/heads/dev/public/floral/redflower.webp"
+        className="absolute top-[9rem] -right-[20rem] z-0 rotate-[360deg]"
+        width={712}
+        height={701}
+        alt="flowerTopRight"
+      />
 
-      <div className="text-kpso-red-primary text-center text-6xl">
-        <br />
-        Explanation of Title Change
-      </div>
-      <div className="text-center text-2xl leading-[70px]">
-        As of 2020, KATIPUNAN PSO has changed its cultural night title to
-        PILIPINO AMERICAN CULTURE NIGHT, stemming away from PILIPINO CULTURE
-        NIGHT. This title change aims to reflect the current members of the
-        organization along with the position we hold as an American university
-        delivering a production based around Pilipino culture.
-        <br />
+      <Image
+        src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/refs/heads/dev/public/floral/redflower.webp"
+        className="absolute -bottom-[150rem] -left-70 z-0 scale-x-[-1] rotate-[300deg]"
+        width={712}
+        height={701}
+        alt="flowerBottomLeft"
+      />
+
+      <Image
+        src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/d2760ae17b53c51d4017c72b3b385f526c18ae3f/public/floral/redshortvine.svg"
+        className="absolute -bottom-[105rem] -left-[6rem] z-0 rotate-[130deg]"
+        width={250}
+        height={701}
+        alt="vineLeftBottom"
+      />
+
+      <Image
+        src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/d2760ae17b53c51d4017c72b3b385f526c18ae3f/public/floral/redshortvine.svg"
+        className="absolute -right-[7rem] -bottom-[130rem] z-0"
+        width={300}
+        height={701}
+        alt="vineRightBottom"
+      />
+
+      {/* z-index: 10 */}
+      <div className="relative z-10 flex w-screen flex-col items-center justify-center gap-4 text-center">
+        <div className="absolute top-[15rem]">
+          <Image
+            src="https://raw.githubusercontent.com/acm-ucr/katipunan-pso-website/d2760ae17b53c51d4017c72b3b385f526c18ae3f/public/orangebackground.svg"
+            width={946}
+            height={532}
+            alt="PacnPhoto"
+          />
+        </div>
+        <div className="absolute top-[60rem] w-2/3">
+          <div className="text-kpso-red-primary p-10 text-center text-6xl">
+            Overview
+            <div className="p-4 text-center text-2xl leading-[70px] text-black">
+              PILIPINO AMERICAN CULTURE NIGHT (PACN) is one of KATIPUNAN’S
+              longest standing events. Happening in the spring quarter, PACN
+              board and cast members come together to put on a show that aims to
+              present PILIPINO AMERICAN CULTURE through acting, singing,
+              dancing, and more. The show consists of a play centered around
+              current Pilipino-American issues along with traditional dances.
+            </div>
+          </div>
+
+          <div className="text-kpso-red-primary p-10 text-center text-6xl">
+            Explanation of Title Change
+            <div className="p-4 text-center text-2xl leading-[70px] text-black">
+              As of 2020, KATIPUNAN PSO has changed its cultural night title to
+              PILIPINO AMERICAN CULTURE NIGHT, stemming away from PILIPINO
+              CULTURE NIGHT. This title change aims to reflect the current
+              members of the organization along with the position we hold as an
+              American university delivering a production based around Pilipino
+              culture.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
