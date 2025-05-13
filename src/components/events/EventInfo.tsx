@@ -11,7 +11,7 @@ const EventInfo = () => {
         supportive relationship that navigates the challenges of university life
         and beyond. Mentors, selected from diverse backgrounds, offer invaluable
         advice, share their knowledge, and provide a safe space for mentees to
-        explore their passions and interests. Through this program, Katipunan
+        explore their passions and interests. Through this program, webp
         nurtures a sense of community, creating bonds that extend long after
         graduation and ensuring every student has access to the resources they
         need to excel.

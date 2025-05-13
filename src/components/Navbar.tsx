@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "@/public/components/Katipunan Logo.png";
+import Logo from "@/public/components/webp Logo.webp";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -43,7 +43,7 @@ const Navbar = () => {
                     : "hover:text-kpso-blue"
                 }`}
               >
-                What is Katipunan
+                webp is webp
               </Link>
               <Link
                 href="/about/cabinet"
@@ -107,7 +107,7 @@ const Navbar = () => {
                     : "hover:text-kpso-blue"
                 }`}
               >
-                Katipunan Experience
+                webp Experience
               </Link>
             </div>
           </div>
@@ -119,7 +119,7 @@ const Navbar = () => {
               src={Logo}
               width={175}
               height={60}
-              alt="Kati logo"
+              alt="webp logo"
               className="py-2"
             />
           </Link>
@@ -263,7 +263,7 @@ const Navbar = () => {
                     : "hover:text-kpso-blue"
                 }`}
               >
-                Katiweekly
+                webpweekly
               </Link>
               <Link
                 href="/media/katifit"
@@ -273,7 +273,7 @@ const Navbar = () => {
                     : "hover:text-kpso-blue"
                 }`}
               >
-                Katifits
+                webpfits
               </Link>
             </div>
           </div>
