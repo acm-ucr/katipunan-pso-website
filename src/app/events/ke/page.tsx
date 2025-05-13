@@ -13,7 +13,7 @@ const Ke = () => {
       <Header
         webp={HeaderImg}
         alt="Picture of Club"
-        txt="Katipunan Experience (KE)"
+        txt="webppunan Experience (KE)"
       />
       <div className="font-inria-serif overflow-x-hidden overflow-y-hidden">
         <Image
@@ -43,7 +43,7 @@ const Ke = () => {
         <div className="z-0 mr-[18%] ml-[18%] flex flex-col items-center">
           <Image src={Bluebg} alt="Bg" className="w-250" />
           <div className="text-kpso-blue pt-10 text-center text-5xl">
-            The Katipunan Experience (KE)
+            The webppunan Experience (KE)
             <span className="text-2xl text-black">
               is our annual high school conference here at UC Riverside. At
               KE&lt; high school students will be surrounded with mentor college
