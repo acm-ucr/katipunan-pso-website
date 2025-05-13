@@ -4,37 +4,30 @@ import { cabData } from "@/data/Cab";
 import Image from "next/image";
 
 const BoardGrid = () => {
-  // Filter members into cabinet members and apprentices
   const cabinetMembers = cabData.filter((member) => !member.is_apprentice);
   const apprentices = cabData.filter((member) => member.is_apprentice);
 
   return (
-    <div className="mx-auto flex w-full max-w-7xl px-6 py-16">
-      {/* Decorative black flower (top-left corner) */}
-      <div className="absolute top-0 left-0 z-0 flex -translate-x-1 scale-125 rotate-[270deg] items-start justify-start">
+    <div className="relative flex w-full overflow-x-hidden overflow-y-hidden px-6 py-16">
+      <div className="absolute top-0 -left-50 z-0 -translate-x-1 scale-125 rotate-[270deg]">
         <Image
           src="/floral/blackflower.webp"
           alt="Decorative Flow"
-          width={300}
-          height={300}
+          width={500}
+          height={500}
         />
       </div>
-      <div className="absolute top-1/2 -right-5 z-10 mx-auto flex scale-500 -rotate-30 transform justify-center lg:block">
+      <div className="absolute -right-90 bottom-0 z-0 -translate-x-1 scale-125 rotate-[270deg]">
         <Image
           src="/floral/blackdualflowers.webp"
           alt="Side Flower"
-          width={160}
-          height={160}
+          width={800}
+          height={800}
         />
       </div>
 
-      {/* Main content section (for both grids) */}
       <div className="w-full flex-col">
-        {/* Cabinet Members Section */}
         <div className="relative mb-10">
-          {/* Decorative flower on right side, vertically centered */}
-
-          {/* Cabinet Grid */}
           <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 md:gap-x-0 lg:grid-cols-3 lg:gap-x-0 lg:gap-y-50">
             {cabinetMembers.map((member, index) => (
               <BoardCard
@@ -48,10 +41,9 @@ const BoardGrid = () => {
           </div>
         </div>
 
-        {/* Apprentices Section */}
         {apprentices.length > 0 && (
           <div className="mt-50 mb-20 w-full">
-            <h2 className="font-inria-serif relative mb-70 text-center text-8xl font-bold">
+            <h2 className="font-inria-serif relative mb-70 text-center text-6xl">
               APPRENTICES
               <Image
                 src="/floral/longvine.svg"

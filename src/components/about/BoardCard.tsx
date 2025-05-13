@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 type BoardCardProps = {
   position: string;
   name: string;
-  webp: string;
+  webp: StaticImageData;
   is_apprentice: boolean;
 };
 
@@ -11,13 +11,11 @@ const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
   return (
     <div className="flex scale-170 flex-col items-center overflow-hidden rounded-xl p-6">
       <div className="relative h-64 w-48">
-        {/* Blue background with sharp edges */}
         <div
           className="absolute z-0 h-full w-full -translate-y-1 translate-x-2"
           style={{ backgroundColor: "#9ab4d6" }}
         />
 
-        {/* Image */}
         <div className="absolute inset-0 z-10 overflow-hidden">
           <div className="relative h-full w-full">
             <Image
@@ -30,7 +28,6 @@ const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
           </div>
         </div>
 
-        {/* Gradient Label */}
         <div
           className="absolute bottom-0 z-20 flex h-10 w-full items-center pl-2 text-white"
           style={{
@@ -43,9 +40,7 @@ const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
         </div>
       </div>
 
-      <p className="font-inria-serif mt-1 text-2xl font-semibold text-gray-800">
-        {name}
-      </p>
+      <p className="font-inria-serif mt-1 text-xl text-gray-800">{name}</p>
     </div>
   );
 };
