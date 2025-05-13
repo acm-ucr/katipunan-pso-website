@@ -32,7 +32,7 @@ const Chartutor = () => {
         <li>
           Why not? Study with your friends, meet new people, enjoy baked goods,
           and possibly become this week's{" "}
-          <span className="text-kpso-red-primary">KatiKrush</span>!
+          <span className="text-kpso-red-primary">webpKrush</span>!
         </li>
       </ul>
       <div>
