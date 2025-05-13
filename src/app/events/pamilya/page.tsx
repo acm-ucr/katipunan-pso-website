@@ -14,7 +14,13 @@ const Pamilya = () => {
         <PamGrid />
         <EventInfo />
         <div className="mt-30 flex w-full justify-center">
-          <Image src={PAMBig} alt="Big PAM Image" height={480} width={850} />
+          <Image
+            src={PAMBig}
+            className="hidden xl:block"
+            alt="Big PAM Image"
+            height={480}
+            width={850}
+          />
         </div>
         <Contact
           name="ucrkatipunan.sc"
