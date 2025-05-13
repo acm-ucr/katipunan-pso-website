@@ -11,10 +11,10 @@ const Katipunan = () => {
 
       <div className="mb-32"></div>
       <What />
-      <div className="mb-16"></div>
-      <div className="mx-16">
+      <div className="mb-30"></div>
+
+      <div className="flex w-full flex-col items-center justify-center gap-40">
         <Who />
-        <div className="mb-32"></div>
         <How />
       </div>
     </>
