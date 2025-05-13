@@ -1,0 +1,111 @@
+
+export const cabData = [
+  {
+    position: "President",
+    name: "Niki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "Treasurer",
+    name: "Niki asuncion",
+    webp: "cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "Secretary",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "President",
+    name: "Niki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "Treasurer",
+    name: "Niki asuncion",
+    webp: "cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "Secretary",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "President",
+    name: "Niki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "Treasurer",
+    name: "Niki asuncion",
+    webp: "cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "Secretary",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "President",
+    name: "Niki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "Treasurer",
+    name: "Niki asuncion",
+    webp: "cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "Secretary",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: false,
+  },
+  {
+    position: "Apprentice",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: true,
+  },
+  {
+    position: "Apprentice",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: true,
+  },
+  {
+    position: "Apprentice",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: true,
+  },
+  {
+    position: "Apprentice",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: true,
+  },
+  {
+    position: "Apprentice",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: true,
+  },
+  {
+    position: "Apprentice",
+    name: "Nikki Asuncion",
+    webp: "/cabinet/Niki Asuncion.webp",
+    is_apprentice: true,
+  },
+];
