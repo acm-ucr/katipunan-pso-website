@@ -211,16 +211,6 @@ const Navbar = () => {
               >
                 Academics
               </Link>
-              <Link
-                href="/resources/time-capsule"
-                className={`block px-4 py-2 transition-colors duration-300 ${
-                  pathname === "/resources/time-capsule"
-                    ? "text-kpso-blue"
-                    : "hover:text-kpso-blue"
-                }`}
-              >
-                Time Capsule
-              </Link>
             </div>
           </div>
 
