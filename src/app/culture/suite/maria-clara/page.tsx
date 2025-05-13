@@ -1,4 +1,4 @@
-import HeaderImg from "@/public/HEADER.webp";
+import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
 import Image from "next/image";
 import blueFlower from "@/public/floral/blueflower.webp";

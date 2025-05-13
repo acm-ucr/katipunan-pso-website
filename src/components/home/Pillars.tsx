@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Social from "@/public/Social.svg";
-import Academic from "@/public/Academic.svg";
-import Cultural from "@/public/Cultural.svg";
-import Community from "@/public/Community.svg";
+import Social from "@/public/home/Social.svg";
+import Academic from "@/public/home/Academic.svg";
+import Cultural from "@/public/home/Cultural.svg";
+import Community from "@/public/home/Community.svg";
 
 const Pillars = () => {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import WIKImg1 from "@/public/What Is Kati Img1.jpeg";
-import WIKImg2 from "@/public/What Is Kati Img2.jpeg";
-import WIKImg3 from "@/public/What Is Kati Img3.jpeg";
+import WIKImg1 from "@/public/about/What Is Kati Img1.jpeg";
+import WIKImg2 from "@/public/about/What Is Kati Img2.jpeg";
+import WIKImg3 from "@/public/about/What Is Kati Img3.jpeg";
 
 const What = () => {
   return (

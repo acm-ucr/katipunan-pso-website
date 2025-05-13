@@ -1,5 +1,4 @@
-// src/app/culture/pacn/page.tsx
-import HeaderImg from "@/public/HEADER.webp";
+import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
 import Image from "next/image";
 import RedShortVine from "@/public/floral/redshortvine.svg";

@@ -1,24 +1,26 @@
+import HeaderImg from "@/public/components/HEADER.webp";
+
 export const tags = [
-  { name: "RURAL", image: "/HEADER.webp", link: "/culture/suite/rural" },
+  { name: "RURAL", image: HeaderImg, link: "/culture/suite/rural" },
   {
     name: "MARIA CLARA",
-    image: "/HEADER.webp",
+    image: HeaderImg,
     link: "/culture/suite/maria-clara",
   },
   {
     name: "CORDILLERA",
-    image: "/HEADER.webp",
+    image: HeaderImg,
     link: "/culture/suite/cordillera",
   },
-  { name: "MODERN", image: "/HEADER.webp", link: "/culture/suite/modern" },
+  { name: "MODERN", image: HeaderImg, link: "/culture/suite/modern" },
   {
     name: "FILIPINO MARTIAL ARTS",
-    image: "/HEADER.webp",
+    image: HeaderImg,
     link: "/culture/suite/martial-arts",
   },
   {
     name: "TINIKLING",
-    image: "/HEADER.webp",
+    image: HeaderImg,
     link: "/culture/suite/tinikling",
   },
 ];

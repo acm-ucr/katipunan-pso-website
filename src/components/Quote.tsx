@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Sun from "@/public/Sun.svg";
+import Sun from "@/public/components/Sun.svg";
 
 const Quote = ({ Phrase, Source }: { Phrase: string; Source: string }) => {
   return (

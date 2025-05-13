@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import What from "@/components/about/What";
 import Who from "@/components/about/Who";
 import How from "@/components/about/How";
-import HeaderImg from "@/public/HEADER.webp";
+import HeaderImg from "@/public/components/HEADER.webp";
 
 const Katipunan = () => {
   return (

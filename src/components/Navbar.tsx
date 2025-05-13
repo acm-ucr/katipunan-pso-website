@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "@/public/Katipunan Logo.png";
+import Logo from "@/public/components/Katipunan Logo.png";
 
 const Navbar = () => {
   const pathname = usePathname();
