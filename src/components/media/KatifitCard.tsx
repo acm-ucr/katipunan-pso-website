@@ -1,5 +1,5 @@
-const KatifitCard = () => {
+const webpfitCard = () => {
   return <></>;
 };
 
-export default KatifitCard;
+export default webpfitCard;

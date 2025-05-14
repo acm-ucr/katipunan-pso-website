@@ -2,7 +2,7 @@ import Image from "next/image";
 import Header from "@/public/components/HEADER.webp";
 import Flower from "@/public/floral/blackflower.webp";
 import Vine from "@/public/floral/blackshortvine.svg";
-import Club from "@/public/home/Katipunan PSO.svg";
+import Club from "@/public/home/webp PSO.svg";
 
 const Landing = () => {
   return (

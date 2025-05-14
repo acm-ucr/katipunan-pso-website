@@ -1,5 +1,5 @@
-const KatifitGrid = () => {
+const webpfitGrid = () => {
   return <></>;
 };
 
-export default KatifitGrid;
+export default webpfitGrid;
