@@ -1,7 +1,7 @@
 import { FiFacebook } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
 import { AiOutlineYoutube } from "react-icons/ai";
-import Logo from "@/public/components/Katipunan Logo.png";
+import Logo from "@/public/components/webp Logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -40,7 +40,7 @@ const Footer = () => {
           src={Logo}
           width={200}
           height={32}
-          alt="Kati logo"
+          alt="webp logo"
           className="py-2"
         />
       </Link>
