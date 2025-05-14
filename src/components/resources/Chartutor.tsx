@@ -1,6 +1,6 @@
 import Image from "next/image";
 import vine from "@/public/floral/orangelongvine.svg";
-import Schedule from "@/public/resources/ChartutorFall2024.jpeg";
+import Schedule from "@/public/resources/ChartutorFall2024.webp";
 
 const Chartutor = () => {
   return (
@@ -40,7 +40,7 @@ const Chartutor = () => {
         <li>
           Why not? Study with your friends, meet new people, enjoy baked goods,
           and possibly become this week's{" "}
-          <span className="text-kpso-red-primary">KatiKrush</span>!
+          <span className="text-kpso-red-primary">webpKrush</span>!
         </li>
       </ul>
       <div>
