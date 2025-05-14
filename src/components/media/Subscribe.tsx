@@ -1,5 +1,5 @@
 const Subscribe = () => {
-  return <></>;
+  return <div></div>;
 };
 
 export default Subscribe;
