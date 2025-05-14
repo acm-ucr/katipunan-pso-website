@@ -1,119 +1,28 @@
-import Adrik from "@/public/cabinet/Adrik Zulueta.webp";
-import Bianca from "@/public/cabinet/Bianca Berces.webp";
-import Kylie from "@/public/cabinet/Kylie Venus.webp";
-import Ava from "@/public/cabinet/Ava Joye Chloe.webp";
-import Patricia from "@/public/cabinet/Patricia Delfin.webp";
-import Arei from "@/public/cabinet/Arei Estrada.webp";
-import Niki from "@/public/cabinet/Niki Asuncion.webp";
-import EJ from "@/public/cabinet/EJ Penas.webp";
-import Ally from "@/public/cabinet/Allyson Mendoza.webp";
-import Maile from "@/public/cabinet/Maile Kim.webp";
-import Jill from "@/public/cabinet/Jill Ruiz-Delacruz.webp";
-import Jaylene from "@/public/cabinet/Jaylene Villar.webp";
-import Charlie from "@/public/cabinet/Charlie Louie.webp";
-import Abby from "@/public/cabinet/Abby Obra.webp";
-import Caitlin from "@/public/cabinet/Caitlin Gonzales.webp";
-import Lovel from "@/public/cabinet/Lovel Cruz.webp";
-import Ren from "@/public/cabinet/Ren Fang.webp";
-import Hailey from "@/public/cabinet/Hailey Torres.webp";
+import Ren from "@/public/pacn_board/Ren Fang.webp";
+import Isabel from "@/public/pacn_board/Isabel Dela Rama.webp";
+import Jay from "@/public/pacn_board/Jenina (Jay) Fernandez.webp";
+import Patricia from "@/public/pacn_board/Patricia Delfin.webp";
+import Karissa from "@/public/pacn_board/Karissa Francisco.webp";
+import Alexis from "@/public/pacn_board/Alexis Aplaon.webp";
+import Kirsten from "@/public/pacn_board/Kirsten Pozon.webp";
+import Kylie from "@/public/pacn_board/Kylie Venus.webp";
+import Arei from "@/public/pacn_board/Arei Estrada.webp";
+import Klarisse from "@/public/pacn_board/Klarisse Dayrit.webp";
+import Kayla from "@/public/pacn_board/Kayla Vergel de Dios.webp";
+import Zane from "@/public/pacn_board/Zane Sabal.webp";
+import Jema from "@/public/pacn_board/Jema Mae Ranoy.webp";
+import Frannie from "@/public/pacn_board/Frannie Nicolas.webp";
+import Jazzy from "@/public/pacn_board/Jazzy Floresca.webp";
+import Pierre from "@/public/pacn_board/Pierre Godisan.webp";
+import Riley from "@/public/pacn_board/Riley Robes.webp";
+import Cadence from "@/public/pacn_board/Cadence Saniel.webp";
+import Lovel from "@/public/pacn_board/Lovel Cruz.webp";
+import Ava from "@/public/pacn_board/Ava Joye Chloe.webp";
+import Zion from "@/public/pacn_board/Zion Abendano.webp";
+import Abby from "@/public/pacn_board/Abby Obra.webp";
+import Charlize from "@/public/pacn_board/Charlize Munar.webp";
 
 export const PACNBoard = [
-  {
-    position: "President",
-    name: "Adrik Zulueta",
-    webp: Adrik,
-    is_apprentice: false,
-  },
-  {
-    position: "External Vice President",
-    name: "Bianca Berces",
-    webp: Bianca,
-    is_apprentice: false,
-  },
-  {
-    position: "Internal Vice Presidnet",
-    name: "Kylie Venus",
-    webp: Kylie,
-    is_apprentice: false,
-  },
-  {
-    position: "Treasurer",
-    name: "Ava Joye Chloe",
-    webp: Ava,
-    is_apprentice: false,
-  },
-  {
-    position: "Secretary",
-    name: "Patricia Delfin",
-    webp: Patricia,
-    is_apprentice: false,
-  },
-  {
-    position: "Cultural & Community Advocacy Chair",
-    name: "Arei Estrada",
-    webp: Arei,
-    is_apprentice: false,
-  },
-  {
-    position: "Historian",
-    name: "Niki Asuncion",
-    webp: Niki,
-    is_apprentice: false,
-  },
-  {
-    position: "Historian",
-    name: "EJ Penas",
-    webp: EJ,
-    is_apprentice: false,
-  },
-  {
-    position: "Public Relations",
-    name: "Allyson Mendoza",
-    webp: Ally,
-    is_apprentice: false,
-  },
-  {
-    position: "Public Relations",
-    name: "Maile Kim",
-    webp: Maile,
-    is_apprentice: false,
-  },
-  {
-    position: "Social Chair",
-    name: "Jill Ruiz-Delacruz",
-    webp: Jill,
-    is_apprentice: false,
-  },
-  {
-    position: "Social Chair",
-    name: "Jaylene Villar",
-    webp: Jaylene,
-    is_apprentice: false,
-  },
-  {
-    position: "Academics Chairperson",
-    name: "Charlie Louie",
-    webp: Charlie,
-    is_apprentice: false,
-  },
-  {
-    position: "Alumni Liason",
-    name: "Abby Obra",
-    webp: Abby,
-    is_apprentice: false,
-  },
-  {
-    position: "Athletics Coordinator",
-    name: "Caitlin Gonzales",
-    webp: Caitlin,
-    is_apprentice: false,
-  },
-  {
-    position: "Outreach Director",
-    name: "Lovel Cruz",
-    webp: Lovel,
-    is_apprentice: false,
-  },
   {
     position: "PACN Coordinator",
     name: "Ren Fang",
@@ -121,9 +30,135 @@ export const PACNBoard = [
     is_apprentice: false,
   },
   {
-    position: "Apprentice Advisor",
-    name: "Hailey Torres",
-    webp: Hailey,
+    position: "Financial Director",
+    name: "Isabel Dela Rama",
+    webp: Isabel,
+    is_apprentice: false,
+  },
+  {
+    position: "Dance Director",
+    name: "Jenina (Jay) Fernandez",
+    webp: Jay,
+    is_apprentice: false,
+  },
+  {
+    position: "Pactern Advisor",
+    name: "Patricia Delfin",
+    webp: Patricia,
+    is_apprentice: false,
+  },
+  {
+    position: "Media Director",
+    name: "Karissa Francisco",
+    webp: Karissa,
+    is_apprentice: false,
+  },
+  {
+    position: "Marketing & Design Director",
+    name: "Alexis Aplaon",
+    webp: Alexis,
+    is_apprentice: false,
+  },
+  {
+    position: "Marketing & Design Director",
+    name: "Kirsten Pozon",
+    webp: Kirsten,
+    is_apprentice: false,
+  },
+  {
+    position: "Financial Coordinator",
+    name: "Kylie Venus",
+    webp: Kylie,
+    is_apprentice: false,
+  },
+  {
+    position: "Acting Coach",
+    name: "Arei Estrada",
+    webp: Arei,
+    is_apprentice: false,
+  },
+  {
+    position: "Acting Coach",
+    name: "Klarisse Dayrit",
+    webp: Klarisse,
+    is_apprentice: false,
+  },
+  {
+    position: "Stage Crew Manager",
+    name: "Kayla Vergel de Dios",
+    webp: Kayla,
+    is_apprentice: false,
+  },
+  {
+    position: "Stage Crew Manager",
+    name: "Zane Sabal",
+    webp: Zane,
+    is_apprentice: false,
+  },
+  {
+    position: "Sound & Music Coordinator - Band",
+    name: "Jema Mae Ranoy",
+    webp: Jema,
+    is_apprentice: false,
+  },
+  {
+    position: "Sound & Music Coordinator - Band",
+    name: "Frannie Nicolas",
+    webp: Frannie,
+    is_apprentice: false,
+  },
+  {
+    position: "Sound & Music Coordinator - Choir",
+    name: "Jazzy Floresca",
+    webp: Jazzy,
+    is_apprentice: false,
+  },
+  {
+    position: "Sound & Music Coordinator - Band",
+    name: "Pierre Godisan",
+    webp: Pierre,
+    is_apprentice: false,
+  },
+  {
+    position: "Modern Coach",
+    name: "Riley Robes",
+    webp: Riley,
+    is_apprentice: false,
+  },
+  {
+    position: "Maria Clara & Modern Coach",
+    name: "Cadence Saniel",
+    webp: Cadence,
+    is_apprentice: false,
+  },
+  {
+    position: "Maria Clara Coach",
+    name: "Lovel Cruz",
+    webp: Lovel,
+    is_apprentice: false,
+  },
+  {
+    position: "Filipino Martial Arts Coach",
+    name: "Ava Joye Chloe",
+    webp: Ava,
+    is_apprentice: false,
+  },
+  {
+    position: "Tinikling Coach",
+    name: "Zion Abendano",
+    webp: Zion,
+    is_apprentice: false,
+  },
+  {
+    position: "Tinikling Coach",
+    name: "Abby Obra",
+    webp: Abby,
+    is_apprentice: false,
+  },
+  {
+    position: "Tinikling Coach",
+    name: "Charlize Munar",
+    webp: Charlize,
     is_apprentice: false,
   },
 ];
