@@ -3,7 +3,7 @@ import Image from "next/image";
 const How = () => {
   return (
     <div className="flex items-center">
-      <div className="flex h-103 w-3xl items-center justify-center border-4 border-blue-400">
+      <div className="flex h-30 w-lg items-center justify-center border-4 border-blue-400 lg:h-103 lg:w-3xl">
         <Image
           src="/Katipunan Logo.png"
           alt="Katipunan Logo"
@@ -13,10 +13,10 @@ const How = () => {
       </div>
 
       <div className="flex w-1/2 flex-col p-10">
-        <p className="text-kpso-blue font-inria-serif text-center text-5xl">
+        <p className="text-kpso-blue font-inria-serif text-center text-2xl lg:text-5xl">
           HOW TO JOIN
         </p>
-        <div className="font-inria-serif flex flex-col gap-4 p-10 text-center text-3xl">
+        <div className="font-inria-serif flex flex-col gap-4 p-10 text-center sm:mx-10 sm:w-full lg:text-3xl">
           <p>Interested in joining Katipunan? It's easy! </p>
           <p>
             Just venmo our Treasurer, Ava Boado, the general member fee of $32.

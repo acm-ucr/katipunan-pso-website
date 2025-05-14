@@ -5,10 +5,10 @@ import WIKImg3 from "@/public/What Is Kati Img3.jpeg";
 
 const What = () => {
   return (
-    <div className="flex h-screen">
-      <div className="font-inria-serif flex w-1/2 flex-col justify-center p-8 text-xl">
-        <p className="-mt-10 ml-40 max-w-md text-center text-2xl leading-11 tracking-wider">
-          <span className="inline-block text-5xl text-blue-800">
+    <div className="flex sm:h-1/2 lg:h-screen">
+      <div className="font-inria-serif relative flex w-1/2 flex-col justify-center p-8 text-xl">
+        <p className="mx-20 -mt-10 text-center text-lg leading-11 tracking-wider lg:ml-40 lg:text-2xl">
+          <span className="inline-block text-xl text-blue-800 lg:text-5xl">
             Katipunan PSO{" "}
           </span>{" "}
           is a cultural organization at the University of California, Riverside
@@ -19,7 +19,7 @@ const What = () => {
           a strong sense of community among Filipinx students and allies at UCR.
         </p>
       </div>
-      <div className="flex w-1/2 flex-col items-center justify-center pt-16">
+      <div className="relative flex w-1/2 flex-col items-center justify-center pt-16">
         <Image
           src={WIKImg1}
           width={420}
@@ -29,10 +29,9 @@ const What = () => {
         />
         <Image
           src={WIKImg2}
-          width={420}
-          height={320}
           alt="Kati logo"
-          className="-z-10 -translate-y-4 translate-x-10 rounded-xl"
+          height={320}
+          className="-z-10 -translate-y-4 translate-x-10 rounded-xl sm:w-100"
         />
         <Image
           src={WIKImg3}
