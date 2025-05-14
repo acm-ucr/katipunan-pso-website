@@ -1,7 +1,7 @@
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
 import Contact from "@/components/events/Contact";
-import Bluebg from "@/public/Bluebg.svg";
+import KE from "@/public/events/KE.webp";
 import Image from "next/image";
 import BlueFlower from "@/public/floral/blueflower.webp";
 import BlueVine from "@/public/floral/blueshortvine.svg";
@@ -34,7 +34,7 @@ const Ke = () => {
         />
 
         <div className="z-0 mr-[18%] ml-[18%] flex flex-col items-center">
-          <Image src={Bluebg} alt="Bg" className="w-250" />
+          <Image src={KE} alt="Bg" className="w-250" />
           <div className="text-kpso-blue mt-20 pt-10 text-center text-5xl">
             The Katipunan Experience (KE)
             <span className="text-2xl text-black">
