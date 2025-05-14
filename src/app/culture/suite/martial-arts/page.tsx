@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import blueFlower from "@/public/floral/blueflower.webp";
 import blueShortVine from "@/public/floral/blueshortvine.svg";
+import FMA from "@/public/suites/FMA.webp";
 
 const MartialArts = () => {
   return (
@@ -13,7 +14,11 @@ const MartialArts = () => {
         txt="FILIPINO MARTIAL ARTS"
       />
       <div className="flex justify-center">
-        <div className="mt-20 mr-80 ml-80 h-[500] w-full rounded-md bg-blue-500 text-center text-blue-800"></div>
+        <Image
+          src={FMA}
+          alt="FMA Image"
+          className="mt-20 mr-80 ml-80 h-[500px] w-full rounded-md"
+        />
       </div>
 
       <p className="font-inria-serif mt-15 mr-100 ml-100 inline-block justify-center text-center text-xl leading-12">
