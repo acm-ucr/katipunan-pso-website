@@ -36,7 +36,7 @@ const Mission = () => {
         </h2>
         <p className="pt-5 text-2xl sm:text-3xl">
           With a community grounded in rich Filipino culture and History, we
-          Katipunan PSO strive to empower & unify individuals from diverse
+          webppunan PSO strive to empower & unify individuals from diverse
           backgrounds emphasizing inclusivity, respect, & growth.
         </p>
         <h3 className="text-kpso-blue pt-24 text-4xl sm:text-5xl">
