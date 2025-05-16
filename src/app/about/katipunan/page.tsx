@@ -14,7 +14,7 @@ const Katipunan = () => {
       <Header webp={HeaderImg} alt="Picture of Club" txt="WHAT IS KATIPUNAN?" />
 
       <div className="relative w-full overflow-x-hidden overflow-y-hidden">
-        <div>
+        <div className="hidden xl:block">
           <Image
             src={BlueDual}
             alt="Decorative Dual Flower"
