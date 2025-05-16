@@ -300,7 +300,81 @@ const Constitution = () => {
               announcements.
             </li>
           </ul>
-          <div>Winter, and Spring Quarter with the Apprentice Advisor</div>
+          <div>The Internal Vice President’s duties include:</div>
+          <ul className="ml-8 list-disc">
+            <li>
+              In conjunction with the External Vice-President, shall carry out
+              the duties of the President in their absence.
+            </li>
+            <li>
+              Shall be an official representative in any intra-campus
+              coalitions, alliances, and/or councils that which Katipunan is a
+              member of and officially affiliated.
+            </li>
+            <li>
+              Shall participate in APISAC meetings and events as a
+              representative of Katipunan.
+            </li>
+            <li>
+              Shall be responsible for the development and maintenance of
+              relations with intra-campus organizations.
+            </li>
+            <li>
+              Shall be responsible for the development and encouragement of
+              intra-campus philanthropic affairs.
+            </li>
+            <li>
+              Shall be responsible for keeping a list or a directory of
+              intra-campus organizations or affiliates available to the
+              organizations so that networking will be more efficient.
+            </li>
+            <li>
+              Shall be responsible for scheduling and maintaining on-campus
+              facilities for all events and activities.
+            </li>
+            <li>
+              Room requests must be approved by the Internal Vice President at
+              least three weeks before the event in conjunction with the budget
+              reports for the Treasurer if the event is on campus.
+            </li>
+          </ul>
+          <div>The Treasuer's duties include:</div>
+          <ul className="ml-8 list-disc">
+            <li>
+              Shall keep a permanent record for all financial transactions of
+              the organization and shall submit a report upon request.
+            </li>
+            <li>
+              Shall make relevant financial records accessible to general
+              members.
+            </li>
+            <li>
+              Financial records include but are not limited to: dues, donations,
+              fundraisers, and a breakdown of expenses with regards to events.
+            </li>
+            <li>
+              In conjunction with all of the executive cabinet, shall be the
+              only authorized signatory on all official organization financial
+              documents.
+            </li>
+            <li>
+              Must obtain money requisitions and reports of all money
+              transactions for organization events and activities.
+            </li>
+            <li>
+              Shall be responsible for the collection of all monetary
+              transactions.
+            </li>
+            <li>
+              Shall be responsible for overseeing and advising all fundraising
+              events within the organization.
+            </li>
+            <li>
+              Budgets must be approved by the Treasurer one cabinet meeting
+              before the event under the discretion of the Treasurer and
+              President.
+            </li>
+          </ul>
         </div>
       </div>
     </>
