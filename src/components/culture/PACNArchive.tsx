@@ -1,9 +1,9 @@
-import alumniData from "@/data/Alumni";
+import archiveData from "@/data/PACNArchive";
 import Image from "next/image";
 import React from "react";
 import AlumniCard from "@/components/resources/AlumniCard";
 
-const AlumniGrid = () => {
+const PACNArchive = () => {
   return (
     // flowers
     <div className="relative mx-auto w-full overflow-hidden px-20 py-20">
@@ -34,7 +34,7 @@ const AlumniGrid = () => {
 
       <div className="relative z-10">
         <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3">
-          {alumniData.map((alum, index) => (
+          {archiveData.map((alum, index) => (
             <div
               key={index}
               className="flex h-[550px] w-[400px] flex-col items-center justify-start px-4 py-6"
@@ -53,4 +53,4 @@ const AlumniGrid = () => {
   );
 };
 
-export default AlumniGrid;
+export default PACNArchive;
