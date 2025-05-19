@@ -6,7 +6,7 @@ import Club from "@/public/home/Katipunan PSO.svg";
 
 const Landing = () => {
   return (
-    <div className="relative mx-auto my-40 w-max text-center sm:my-80 sm:text-start">
+    <div className="relative mx-auto my-40 w-max text-center sm:mt-50 sm:mb-80 sm:text-start">
       <div className="hidden xl:block">
         <Image
           src={Flower}
