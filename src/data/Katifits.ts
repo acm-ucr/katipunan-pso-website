@@ -1,6 +1,6 @@
 import Zion from "@/public/pacn_board/Zion Abendano.webp";
 
-export const Katifits = [
+export const webpfits = [
   {
     src: Zion,
     alt: "Picture of Zion",
