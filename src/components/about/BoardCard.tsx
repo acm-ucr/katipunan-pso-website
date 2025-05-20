@@ -10,7 +10,7 @@ type BoardCardProps = {
 const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
   return (
     <div className="flex flex-col items-center overflow-hidden rounded-xl p-6">
-      <div className="relative h-56 w-40 transition-all duration-300 sm:h-64 sm:w-48 md:h-72 md:w-52 lg:h-80 lg:w-56 xl:h-96 xl:w-64">
+      <div className="relative h-56 w-40 sm:h-64 sm:w-48 md:h-72 md:w-52 lg:h-80 lg:w-56 xl:h-96 xl:w-64">
         <div
           className="absolute z-0 h-full w-full -translate-y-1 translate-x-2"
           style={{ backgroundColor: "#9ab4d6" }}
@@ -29,14 +29,14 @@ const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
         </div>
 
         <div
-          className="absolute bottom-0 z-20 flex h-10 w-full items-center pl-2 text-white"
+          className="absolute bottom-0 z-20 flex h-10 w-full items-center pl-2 text-white sm:h-15"
           style={{
             background: is_apprentice
               ? "linear-gradient(to right, rgba(154, 180, 214, 0.8) 80%, rgba(100, 181, 255, 0.2) 100%)"
               : "linear-gradient(to right, rgba(30, 64, 175, 0.8) 80%, rgba(30, 64, 175, 0.2) 100%)",
           }}
         >
-          <span className="font-inria-serif text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">
+          <span className="font-inria-serif text-xs sm:text-sm md:text-base lg:text-xl">
             {position}
           </span>
         </div>
