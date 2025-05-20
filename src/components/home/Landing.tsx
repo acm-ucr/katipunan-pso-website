@@ -29,9 +29,10 @@ const Landing = () => {
       />
 
       <motion.h1
-        initial={{ y: -100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
+        viewport={{ once: true }}
         className="font-inria-serif mb-3 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl"
       >
         University of California, Riverside
@@ -42,12 +43,18 @@ const Landing = () => {
           alt="Group"
           className="w-80 rounded-lg shadow-lg sm:w-120 md:w-150 lg:w-200 xl:w-250"
         />
-
-        <Image
-          src={Club}
-          alt="UCR Katipunan PSO Text"
-          className="hidden xl:absolute xl:right-0 xl:-bottom-20 xl:block"
-        />
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
+          viewport={{ once: true }}
+        >
+          <Image
+            src={Club}
+            alt="UCR Katipunan PSO Text"
+            className="hidden xl:absolute xl:right-0 xl:-bottom-20 xl:block"
+          />
+        </motion.div>
       </div>
     </div>
   );
