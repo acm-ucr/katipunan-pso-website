@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "motion/react";
+
 import React from "react";
 import BoardCard from "@/components/about/BoardCard";
 import { PACNBoard } from "@/data/PACNBoard";
@@ -27,13 +30,21 @@ const PACNBoardGrid = () => {
         <div className="relative mb-10">
           <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 md:gap-x-0 lg:grid-cols-3 lg:gap-x-0 lg:gap-y-50">
             {PACNBoard.map((member, index) => (
-              <BoardCard
+              <motion.div
+                initial={{ opacity: 0, y: -20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: (index % 3) * 0.2 }}
+                viewport={{ once: true }}
                 key={index}
-                position={member.position}
-                name={member.name}
-                webp={member.webp}
-                is_apprentice={member.is_apprentice}
-              />
+              >
+                <BoardCard
+                  key={index}
+                  position={member.position}
+                  name={member.name}
+                  webp={member.webp}
+                  is_apprentice={member.is_apprentice}
+                />
+              </motion.div>
             ))}
           </div>
         </div>
