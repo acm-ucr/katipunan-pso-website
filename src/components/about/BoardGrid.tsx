@@ -8,7 +8,7 @@ const BoardGrid = () => {
   const apprentices = cabData.filter((member) => member.is_apprentice);
 
   return (
-    <div className="relative flex w-full overflow-x-hidden overflow-y-hidden px-6 py-16">
+    <div className="relative flex w-full overflow-x-hidden overflow-y-hidden px-6 py-6">
       <div className="absolute top-0 -left-50 z-0 -translate-x-1 scale-125 rotate-[270deg]">
         <Image
           src="/floral/blackflower.webp"
@@ -28,7 +28,7 @@ const BoardGrid = () => {
 
       <div className="w-full flex-col">
         <div className="relative mb-10">
-          <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 md:gap-x-0 lg:grid-cols-3 lg:gap-x-0 lg:gap-y-50">
+          <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 md:gap-x-0 lg:grid-cols-3 lg:gap-x-0 lg:gap-y-20">
             {cabinetMembers.map((member, index) => (
               <BoardCard
                 key={index}
