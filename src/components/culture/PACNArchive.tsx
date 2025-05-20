@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "motion/react";
+
 import archiveData from "@/data/PACNArchive";
 import Image from "next/image";
 import React from "react";
@@ -35,7 +38,11 @@ const PACNArchive = () => {
       <div className="relative z-10">
         <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3">
           {archiveData.map((alum, index) => (
-            <div
+            <motion.div
+              initial={{ opacity: 0, y: -20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: (index % 3) * 0.2 }}
+              viewport={{ once: true }}
               key={index}
               className="flex h-[550px] w-[400px] flex-col items-center justify-start px-4 py-6"
             >
@@ -45,7 +52,7 @@ const PACNArchive = () => {
                 readMoreLink={alum.readMoreLink}
                 image={alum.image}
               />
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
