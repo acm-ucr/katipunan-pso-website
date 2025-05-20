@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "motion/react";
+
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
 import EventInfo from "@/components/events/EventInfo";
@@ -13,7 +16,13 @@ const Pamilya = () => {
       <div>
         <PamGrid />
         <EventInfo />
-        <div className="mt-30 flex w-full justify-center">
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="mt-30 flex w-full justify-center"
+        >
           <Image
             src={PAMBig}
             className="hidden xl:block"
@@ -21,7 +30,7 @@ const Pamilya = () => {
             height={480}
             width={850}
           />
-        </div>
+        </motion.div>
         <Contact
           name="ucrkatipunan.sc"
           instagramLink="https://www.instagram.com/ucrkatipunan.sc/"
