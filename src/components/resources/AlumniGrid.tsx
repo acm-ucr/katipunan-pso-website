@@ -33,7 +33,7 @@ const AlumniGrid = () => {
       </div>
 
       <div className="relative z-10">
-        <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
           {alumniData.map((alum, index) => (
             <div
               key={index}
