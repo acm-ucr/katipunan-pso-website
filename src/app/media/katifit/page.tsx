@@ -1,6 +1,6 @@
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
-import KatifitGrid from "@components/media/KatifitGrid";
+import KatifitGrid from "@/components/media/KatifitGrid";
 
 const Katifit = () => {
   return (
