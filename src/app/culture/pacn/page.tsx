@@ -4,6 +4,7 @@ import Image from "next/image";
 import RedShortVine from "@/public/floral/redshortvine.svg";
 import RedFlower from "@/public/floral/redflower.webp";
 import OrangeBackground from "@/public/orangebackground.svg";
+import Sponser from "@/components/culture/Sponser";
 
 const Pacn = () => {
   return (
@@ -90,6 +91,7 @@ const Pacn = () => {
             </div>
           </div>
         </div>
+        <Sponser />
       </div>
     </div>
   );
