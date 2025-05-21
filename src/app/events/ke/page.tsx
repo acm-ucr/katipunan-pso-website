@@ -18,19 +18,19 @@ const Ke = () => {
         <Image
           src={BlueFlower}
           alt="Flower"
-          className="absolute z-[-10] mt-190 -ml-90 w-180 scale-x-[-1] scale-y-[-1]"
+          className="absolute top-180 z-[-10] mt-190 -ml-45 w-90 scale-x-[-1] scale-y-[-1] lg:top-125 lg:-ml-90 lg:w-180"
         />
 
         <Image
           src={BlueVine}
           alt="Vine"
-          className="absolute right-0 z-[-10] w-70 scale-y-[-1]"
+          className="absolute top-95 right-0 z-[-10] w-25 scale-y-[-1] md:top-115 md:w-45 lg:top-137 lg:w-70"
         />
 
         <Image
           src={BlueVine}
           alt="Vine"
-          className="absolute top-160 right-0 z-[-10] mt-60 w-70"
+          className="absolute top-65 right-0 z-[-10] mt-60 w-25 md:top-110 md:w-45 lg:top-160 lg:w-70"
         />
 
         <div className="z-0 mr-[18%] ml-[18%] flex flex-col items-center">
