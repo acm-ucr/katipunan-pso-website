@@ -2,7 +2,7 @@ import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
 import Subscribe from "@/components/media/Subscribe";
 
-const Katiweekly = () => {
+const webpweekly = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="KATIWEEKLY" />
@@ -13,4 +13,4 @@ const Katiweekly = () => {
   );
 };
 
-export default Katiweekly;
+export default webpweekly;
