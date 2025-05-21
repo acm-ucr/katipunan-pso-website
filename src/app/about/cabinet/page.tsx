@@ -1,8 +1,13 @@
+import HeaderImg from "@/public/components/HEADER.webp";
+import Header from "@/components/Header";
+import BoardGrid from "@/components/about/BoardGrid";
+
 const Cabinet = () => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center">
-      Cabinet
-    </div>
+    <>
+      <Header webp={HeaderImg} alt="Picture of Club" txt="MEET THE CABINET" />
+      <BoardGrid />
+    </>
   );
 };
 

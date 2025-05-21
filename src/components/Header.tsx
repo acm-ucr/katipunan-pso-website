@@ -9,10 +9,10 @@ type photoProps = {
 
 const Header = ({ webp, alt, txt }: photoProps) => {
   return (
-    <div className="relative h-96 w-full">
+    <div className="relative mb-20 h-96 w-full">
       <Image src={webp} alt={alt} fill={true} className="object-cover" />
 
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-700 to-gray-100 opacity-81"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-indigo-900 to-gray-100 opacity-81"></div>
       <div className="absolute inset-0 flex items-center justify-center">
         <h1 className="font-inria-serif text-6xl tracking-wide text-white">
           {txt}
