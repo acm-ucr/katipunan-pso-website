@@ -10,8 +10,8 @@ const Subscribe = ({ NewsLink }: { NewsLink: string }) => {
         to see what we're up to!
       </div>
       <div className="bg-kpso-blue m-7 flex max-w-fit rounded-xl p-4 shadow-xl shadow-neutral-500/80 xl:p-6">
-        <Link href={NewsLink}>
-          <div className="font-inria-serif text-md text-center text-neutral-50 sm:text-sm sm:text-xl xl:text-2xl">
+        <Link href={NewsLink} target="_blank">
+          <div className="font-inria-serif text-md text-center text-neutral-50 sm:text-sm xl:text-2xl">
             Subscribe
           </div>
         </Link>
