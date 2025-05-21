@@ -12,7 +12,7 @@ const Jfav = () => {
           alt="Picture of Club"
           txt="Justice for Filipino American Veterans (JFAV)"
         />
-        <p className="font-inria-serif m-20 text-center text-lg md:text-xl xl:mx-60 xl:my-30 xl:text-2xl">
+        <p className="font-inria-serif m-20 text-center text-sm sm:text-lg md:text-xl lg:text-2xl xl:mx-60 xl:my-30 xl:text-2xl">
           JFAV is a national alliance of Filipino veterans organizations and
           other advocates — the march is meant to serve as a reminder to ensure
           the sacrifices made by Filipinos during World War II aren't forgotten.

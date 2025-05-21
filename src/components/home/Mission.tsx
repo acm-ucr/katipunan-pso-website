@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "motion/react";
+
 import React from "react";
 import Image from "next/image";
 import Flower from "@/public/floral/blueflower.webp";
@@ -31,22 +34,46 @@ const Mission = () => {
       />
 
       <div className="relative z-10 mx-auto max-w-3xl py-40 text-center">
-        <h2 className="text-kpso-blue text-4xl sm:text-6xl">
+        <motion.div
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.3 }}
+          viewport={{ once: true }}
+          className="text-kpso-blue text-4xl sm:text-6xl"
+        >
           Mission Statement
-        </h2>
-        <p className="pt-5 text-2xl sm:text-3xl">
+        </motion.div>
+        <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.6 }}
+          viewport={{ once: true }}
+          className="pt-5 text-2xl sm:text-3xl"
+        >
           With a community grounded in rich Filipino culture and History, we
           Katipunan PSO strive to empower & unify individuals from diverse
           backgrounds emphasizing inclusivity, respect, & growth.
-        </p>
-        <h3 className="text-kpso-blue pt-24 text-4xl sm:text-5xl">
+        </motion.p>
+        <motion.div
+          initial={{ opacity: 0, y: -50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 1 }}
+          viewport={{ once: true }}
+          className="text-kpso-blue pt-24 text-4xl sm:text-5xl"
+        >
           Cabinet Mission Statement
-        </h3>
-        <p className="pt-5 text-2xl sm:text-3xl">
+        </motion.div>
+        <motion.p
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 1.2 }}
+          viewport={{ once: true }}
+          className="pt-5 text-2xl sm:text-3xl"
+        >
           Through the foundation of our 4 pillars, we aspire to foster a
           welcoming & engaging environment by honoring our past & building a
           better future, together.
-        </p>
+        </motion.p>
       </div>
     </div>
   );
