@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "motion/react";
+
 import Image from "next/image";
 import Header from "@/public/components/HEADER.webp";
 import Flower from "@/public/floral/blackflower.webp";
@@ -6,8 +9,8 @@ import Club from "@/public/home/Katipunan PSO.svg";
 
 const Landing = () => {
   return (
-    <div className="relative mx-auto my-40 w-max text-center sm:my-80 sm:text-start">
-      <div className="hidden xl:block">
+    <div className="relative mx-auto my-40 w-max text-center sm:mt-50 sm:mb-80 sm:text-start">
+      <div className="hidden lg:block">
         <Image
           src={Flower}
           alt="FLOWER"
@@ -31,20 +34,33 @@ const Landing = () => {
         />
       </div>
 
-      <h1 className="font-inria-serif mb-3 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+      <motion.h1
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4 }}
+        viewport={{ once: true }}
+        className="font-inria-serif mb-3 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl"
+      >
         University of California, Riverside
-      </h1>
+      </motion.h1>
       <div className="relative w-max">
         <Image
           src={Header}
           alt="Group"
           className="w-80 rounded-lg shadow-lg sm:w-120 md:w-150 lg:w-200 xl:w-250"
         />
-        <Image
-          src={Club}
-          alt="CLUBNAME"
-          className="hidden xl:absolute xl:right-0 xl:-bottom-20 xl:block"
-        />
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
+          viewport={{ once: true }}
+        >
+          <Image
+            src={Club}
+            alt="UCR Katipunan PSO Text"
+            className="hidden xl:absolute xl:right-0 xl:-bottom-20 xl:block"
+          />
+        </motion.div>
       </div>
     </div>
   );

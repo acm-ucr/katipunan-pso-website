@@ -1,12 +1,12 @@
 "use client";
 import { motion } from "motion/react";
 
-import alumniData from "@/data/Alumni";
+import archiveData from "@/data/PACNArchive";
 import Image from "next/image";
 import React from "react";
 import AlumniCard from "@/components/resources/AlumniCard";
 
-const AlumniGrid = () => {
+const PACNArchive = () => {
   return (
     // flowers
     <div className="relative mx-auto w-full overflow-hidden px-20 py-20">
@@ -36,8 +36,8 @@ const AlumniGrid = () => {
       </div>
 
       <div className="relative z-10">
-        <div className="grid grid-cols-1 justify-items-center lg:grid-cols-2 xl:grid-cols-3">
-          {alumniData.map((alum, index) => (
+        <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3">
+          {archiveData.map((alum, index) => (
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -60,4 +60,4 @@ const AlumniGrid = () => {
   );
 };
 
-export default AlumniGrid;
+export default PACNArchive;
