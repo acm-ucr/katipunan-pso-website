@@ -49,7 +49,7 @@ const PACNArchive = () => {
               <AlumniCard
                 fullName={alum.fullName}
                 gradClass={alum.gradClass}
-                readMoreLink={alum.readMoreLink}
+                readMoreText={alum.readMoreText}
                 image={alum.image}
               />
             </motion.div>
