@@ -1,20 +1,20 @@
 import Header from "@/components/Header";
-import What from "@/components/about/What";
+import webp from "@/components/about/webp";
 import Who from "@/components/about/Who";
 import How from "@/components/about/How";
 import HeaderImg from "@/public/components/HEADER.webp";
 import BlueDual from "@/public/floral/bluedualflowers.webp";
 import Blue from "@/public/floral/blueflower.webp";
-import Vine from "@/public/floral/bluevine.png";
+import Vine from "@/public/floral/bluevine.webp";
 import Image from "next/image";
 
-const Katipunan = () => {
+const webppunan = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="WHAT IS KATIPUNAN?" />
 
       <div className="mb-32"></div>
-      <What />
+      <webp />
       <div className="mb-30"></div>
 
       <div className="flex w-full flex-col items-center justify-center gap-40">
@@ -62,7 +62,7 @@ const Katipunan = () => {
         </div>
 
         <div className="mb-32"></div>
-        <What />
+        <webp />
         <div className="mb-30"></div>
 
         <div className="flex w-full flex-col items-center justify-center gap-40">
@@ -74,4 +74,4 @@ const Katipunan = () => {
   );
 };
 
-export default Katipunan;
+export default webppunan;
