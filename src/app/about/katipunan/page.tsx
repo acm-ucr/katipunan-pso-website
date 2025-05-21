@@ -13,13 +13,6 @@ const Katipunan = () => {
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="WHAT IS KATIPUNAN?" />
 
-      <div className="mb-32"></div>
-      <What />
-      <div className="mb-30"></div>
-
-      <div className="flex w-full flex-col items-center justify-center gap-40">
-        <Who />
-        <How />
       <div className="relative w-full overflow-x-hidden overflow-y-hidden">
         <div className="hidden xl:block">
           <Image
