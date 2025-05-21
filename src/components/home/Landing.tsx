@@ -10,23 +10,29 @@ import Club from "@/public/home/Katipunan PSO.svg";
 const Landing = () => {
   return (
     <div className="relative mx-auto my-40 w-max text-center sm:mt-50 sm:mb-80 sm:text-start">
-      <Image src={Flower} alt="FLOWER" className="absolute -top-25 -right-45" />
-      <Image
-        src={Flower}
-        alt="FLOWER"
-        className="absolute -bottom-55 -left-55"
-      />
-      <Image src={Vine} alt="VINE" className="absolute top-60 -left-35" />
-      <Image
-        src={Vine}
-        alt="VINE"
-        className="absolute -right-24 bottom-50 scale-x-[-1] scale-y-[-1]"
-      />
-      <Image
-        src={Vine}
-        alt="VINE"
-        className="absolute -bottom-62 left-40 scale-x-[-1] rotate-90"
-      />
+      <div className="hidden lg:block">
+        <Image
+          src={Flower}
+          alt="FLOWER"
+          className="absolute -top-25 -right-45"
+        />
+        <Image
+          src={Flower}
+          alt="FLOWER"
+          className="absolute -bottom-55 -left-55"
+        />
+        <Image src={Vine} alt="VINE" className="absolute top-60 -left-35" />
+        <Image
+          src={Vine}
+          alt="VINE"
+          className="absolute -right-24 bottom-50 scale-x-[-1] scale-y-[-1]"
+        />
+        <Image
+          src={Vine}
+          alt="VINE"
+          className="absolute -bottom-62 left-40 scale-x-[-1] rotate-90"
+        />
+      </div>
 
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
