@@ -1,33 +1,33 @@
 import HeaderImg from "@/public/components/HEADER.webp";
+import PamaypayImg from "@/public/suites/Pamaypay.webp";
 import Header from "@/components/Header";
 import Image from "next/image";
 import blueFlower from "@/public/floral/blueflower.webp";
 import blueShortVine from "@/public/floral/blueshortvine.svg";
-import Tinikling_img from "@/public/suites/Tinikling.webp";
 
-const Tinikling = () => {
+const Pamaypay = () => {
   return (
     <>
       <div className="relative overflow-hidden">
-        <Header webp={HeaderImg} alt="Picture of Club" txt="TINIKLING" />
+        <Header webp={HeaderImg} alt="Picture of Club" txt="PAMAYPAY" />
+
         <div className="flex justify-center">
           <Image
-            src={Tinikling_img}
-            alt="Tinikling Image"
-            className="mt-20 mr-80 ml-80 h-[500px] w-full rounded-md"
+            src={PamaypayImg}
+            alt="Pamaypay"
+            className="mt-20 mr-80 ml-80 h-[600px] w-full rounded-md"
           />
         </div>
-
         <p className="font-inria-serif mt-15 mr-100 ml-100 inline-block justify-center text-center text-xl leading-12">
-          <span className="mr-2 text-5xl text-blue-800">TINIKLING</span> is a
-          traditional Philippine folk dance that originated during the Spanish
-          colonial era. The dance involves two people beating, tapping, and
-          sliding bamboo poles on the ground and against each other in
-          coordination with one or more dancers who step over and in between the
-          poles in a dance. It’s meant to imitate the tinkling birds stepping
-          over the bamboo traps that farmers made.
+          The <span className="mr-2 ml-2 text-5xl text-blue-800">PAMAYPAY</span>{" "}
+          was a popular accessory among filipinas, especially during the spanish
+          colonial period. It was not only used for fanning, but also became a
+          tool for discreet communication between women and men. Specific
+          movements and positions of the Pamaypay, such as fangling it from the
+          right side (single) or fanning slowly (disinterest), carried coded
+          messages.
         </p>
-        <div>
+        <div className="">
           <Image
             src={blueFlower}
             alt="FLOWER"
@@ -55,4 +55,4 @@ const Tinikling = () => {
   );
 };
 
-export default Tinikling;
+export default Pamaypay;
