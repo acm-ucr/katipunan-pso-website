@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import RedShortVine from "@/public/floral/redshortvine.svg";
 import RedFlower from "@/public/floral/redflower.webp";
-import OrangeBackground from "@/public/orangebackground.svg";
+import PACNMain from "@/public/pacn/PACNMain.webp";
 import Sponser from "@/components/culture/Sponser";
 
 const Pacn = () => {
@@ -58,12 +58,7 @@ const Pacn = () => {
 
         <div className="z-10 flex w-screen flex-col items-center text-center">
           <div className="">
-            <Image
-              src={OrangeBackground}
-              width={946}
-              height={532}
-              alt="PacnPhoto"
-            />
+            <Image src={PACNMain} width={946} height={532} alt="Pacn Photo" />
           </div>
           <div className="w-2/3">
             <div className="text-kpso-red-primary mt-20 p-10 text-center text-6xl">
