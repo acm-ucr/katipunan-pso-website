@@ -4,11 +4,10 @@ import { motion } from "motion/react";
 import archiveData from "@/data/PACNArchive";
 import Image from "next/image";
 import React from "react";
-import AlumniCard from "@/components/resources/AlumniCard";
+import ArchiveCard from "@/components/culture/ArchiveCard";
 
 const PACNArchive = () => {
   return (
-    // flowers
     <div className="relative mx-auto w-full overflow-hidden px-20 py-20">
       <div className="absolute top-[22%] -right-80 mx-auto flex rotate-40 transform justify-center">
         <Image
@@ -18,7 +17,7 @@ const PACNArchive = () => {
           height={600}
         />
       </div>
-      <div className="absolute top-[40%] -left-180 mx-auto flex -rotate-102 transform justify-center">
+      <div className="absolute -top-50 -left-180 mx-auto flex -rotate-102 transform justify-center">
         <Image
           src="/floral/bluedualflowers.webp"
           alt="Middle left double blue flower"
@@ -26,7 +25,7 @@ const PACNArchive = () => {
           height={1035}
         />
       </div>
-      <div className="absolute top-[90%] -right-1 mx-auto flex -rotate-3 transform justify-center">
+      <div className="absolute -right-1 bottom-0 mx-auto flex -rotate-3 transform justify-center">
         <Image
           src="/floral/blueshortvine.svg"
           alt="bottom right blue vine"
@@ -46,10 +45,10 @@ const PACNArchive = () => {
               key={index}
               className="flex h-[550px] w-[400px] flex-col items-center justify-start px-4 py-6"
             >
-              <AlumniCard
-                fullName={alum.fullName}
-                gradClass={alum.gradClass}
-                readMoreText={alum.readMoreText}
+              <ArchiveCard
+                name={alum.name}
+                number={alum.number}
+                watch={alum.watch}
                 image={alum.image}
               />
             </motion.div>

@@ -54,12 +54,13 @@ const AlumniCard = ({
       <div className="mx-auto flex h-5 w-40 justify-center">
         <div className="font-inria-serif text-center text-lg">{gradClass}</div>
       </div>
-      <div
+      <motion.div
+        whileHover={{ scale: 1.05 }}
         className="bg-kpso-blue font-inria-serif mx-auto mt-2 flex h-7 w-26 cursor-pointer flex-col justify-center rounded-xl"
         onClick={() => setShowModal(true)}
       >
         <div className="text-center text-white">Read More</div>
-      </div>
+      </motion.div>
 
       <AnimatePresence>
         {showModal && (
