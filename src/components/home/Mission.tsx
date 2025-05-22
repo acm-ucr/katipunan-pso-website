@@ -44,9 +44,9 @@ const Mission = () => {
           Mission Statement
         </motion.div>
         <motion.p
-          initial={{ opacity: 0, y: 50 }}
+          initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.6 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="pt-5 text-2xl sm:text-3xl"
         >
@@ -57,16 +57,16 @@ const Mission = () => {
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 1 }}
+          transition={{ duration: 0.4, delay: 0.3 }}
           viewport={{ once: true }}
           className="text-kpso-blue pt-24 text-4xl sm:text-5xl"
         >
           Cabinet Mission Statement
         </motion.div>
         <motion.p
-          initial={{ opacity: 0, y: 50 }}
+          initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 1.2 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="pt-5 text-2xl sm:text-3xl"
         >

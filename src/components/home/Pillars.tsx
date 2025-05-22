@@ -14,7 +14,7 @@ const Pillars = () => {
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="overflow-x-hidden"
         >
@@ -41,7 +41,7 @@ const Pillars = () => {
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="overflow-x-hidden"
         >
@@ -67,7 +67,7 @@ const Pillars = () => {
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="overflow-x-hidden"
         >
@@ -93,7 +93,7 @@ const Pillars = () => {
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="overflow-x-hidden"
         >

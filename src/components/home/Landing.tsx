@@ -35,9 +35,9 @@ const Landing = () => {
       </div>
 
       <motion.h1
-        initial={{ opacity: 0, y: -20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.4, delay: 0.2 }}
         viewport={{ once: true }}
         className="font-inria-serif mb-3 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl"
       >
@@ -52,7 +52,7 @@ const Landing = () => {
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.4 }}
+          transition={{ duration: 0.4, delay: 0.2 }}
           viewport={{ once: true }}
         >
           <Image
