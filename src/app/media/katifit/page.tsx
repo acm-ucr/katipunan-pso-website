@@ -6,9 +6,7 @@ const Katifit = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="KATIFITS" />
-      <div className="item-center flex justify-center">
-        <KatifitGrid />
-      </div>
+      <KatifitGrid />
     </>
   );
 };

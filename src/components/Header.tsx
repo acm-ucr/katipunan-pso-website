@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-
 import Image from "next/image";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
