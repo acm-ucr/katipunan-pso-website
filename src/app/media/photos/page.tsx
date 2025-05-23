@@ -5,10 +5,10 @@ import imageData from "@/data/Images";
 
 const Photos = () => {
   return (
-    <div className="w-full">
+    <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="PHOTOS" />
       <ImageGallery galleryData={imageData} />
-    </div>
+    </>
   );
 };
 
