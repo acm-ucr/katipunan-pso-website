@@ -33,7 +33,12 @@ const Jfav = () => {
           Source="Arturo Garcia"
         />
         <div className="overflow-hiddden relative w-full">
-          <div className="hidden xl:block">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.2 }}
+            viewport={{ once: true }}
+          >
             <Image
               src={Flower}
               alt="Single Red Flower"
@@ -46,7 +51,7 @@ const Jfav = () => {
               width={300}
               className="absolute md:right-0 md:-bottom-20"
             />
-          </div>
+          </motion.div>
           <Contact
             name="jfav_la"
             instagramLink="https://www.instagram.com/jfav_la/"

@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-
 import Image from "next/image";
 import Header from "@/public/components/HEADER.webp";
 import Flower from "@/public/floral/blackflower.webp";
@@ -10,7 +9,13 @@ import Club from "@/public/home/Katipunan PSO.svg";
 const Landing = () => {
   return (
     <div className="relative mx-auto my-40 w-max text-center sm:mt-50 sm:mb-80 sm:text-start">
-      <div className="hidden lg:block">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.2 }}
+        viewport={{ once: true }}
+        className="hidden lg:block"
+      >
         <Image
           src={Flower}
           alt="FLOWER"
@@ -32,7 +37,7 @@ const Landing = () => {
           alt="VINE"
           className="absolute -bottom-62 left-40 scale-x-[-1] rotate-90"
         />
-      </div>
+      </motion.div>
 
       <motion.h1
         initial={{ opacity: 0 }}

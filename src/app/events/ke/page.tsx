@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "motion/react";
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
 import Contact from "@/components/events/Contact";
@@ -15,7 +17,13 @@ const Ke = () => {
         txt="Katipunan Experience (KE)"
       />
       <div className="font-inria-serif mt-30 overflow-x-hidden overflow-y-hidden">
-        <div className="hidden lg:block">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.2 }}
+          viewport={{ once: true }}
+          className="hidden lg:block"
+        >
           <Image
             src={BlueFlower}
             alt="Flower"
@@ -31,7 +39,7 @@ const Ke = () => {
             alt="Vine"
             className="absolute top-65 right-0 z-[-10] mt-60 w-25 md:top-110 md:w-45 lg:top-160 lg:w-70"
           />
-        </div>
+        </motion.div>
 
         <div className="z-0 mr-[18%] ml-[18%] flex flex-col items-center">
           <Image src={KE} alt="Bg" className="w-250" />

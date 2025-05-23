@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
 import EventInfo from "@/components/events/EventInfo";
@@ -17,7 +16,13 @@ const Pamilya = () => {
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="PAMILYA PROGRAM" />
       <div className="relative w-full overflow-hidden">
-        <div className="hidden md:block">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.2 }}
+          viewport={{ once: true }}
+          className="hidden md:block"
+        >
           <Image
             src={OneFlower}
             alt="Single Blue Flower"
@@ -48,7 +53,7 @@ const Pamilya = () => {
             width={725}
             className="absolute bottom-150 md:-right-120 lg:-right-100"
           />
-        </div>
+        </motion.div>
 
         <PamGrid />
         <EventInfo />

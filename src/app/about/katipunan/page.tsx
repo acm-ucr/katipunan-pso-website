@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "motion/react";
 import Header from "@/components/Header";
 import What from "@/components/about/What";
 import Who from "@/components/about/Who";
@@ -14,7 +16,13 @@ const Katipunan = () => {
       <Header webp={HeaderImg} alt="Picture of Club" txt="WHAT IS KATIPUNAN?" />
 
       <div className="relative w-full overflow-x-hidden overflow-y-hidden">
-        <div className="hidden xl:block">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.3 }}
+          viewport={{ once: true }}
+          className="hidden xl:block"
+        >
           <Image
             src={BlueDual}
             alt="Decorative Dual Flower"
@@ -52,7 +60,7 @@ const Katipunan = () => {
             height={200}
             className="absolute top-25 -right-7 z-10 scale-x-[-1] scale-y-[-1] -rotate-45"
           />
-        </div>
+        </motion.div>
 
         <div className="mb-32"></div>
         <What />

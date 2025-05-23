@@ -1,3 +1,5 @@
+"use client";
+import { motion } from "motion/react";
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
 import Chartutor from "@/components/resources/Chartutor";
@@ -12,7 +14,13 @@ const Academics = () => {
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="ACADEMICS" />
       <div className="relative w-full overflow-hidden">
-        <div className="hidden xl:block">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.2 }}
+          viewport={{ once: true }}
+          className="hidden xl:block"
+        >
           <Image
             src={TwoFlower}
             alt="Double Red Flowers"
@@ -37,7 +45,7 @@ const Academics = () => {
             width={725}
             className="absolute bottom-150 md:-right-120 lg:-right-100"
           />
-        </div>
+        </motion.div>
         <Chartutor />
         <AcademicResources />
       </div>
