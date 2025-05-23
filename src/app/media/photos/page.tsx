@@ -7,9 +7,7 @@ const Photos = () => {
   return (
     <div className="w-full">
       <Header webp={HeaderImg} alt="Picture of Club" txt="PHOTOS" />
-      <div className="flex flex-col items-center justify-center">
-        <ImageGallery galleryData={imageData} />
-      </div>
+      <ImageGallery galleryData={imageData} />
     </div>
   );
 };

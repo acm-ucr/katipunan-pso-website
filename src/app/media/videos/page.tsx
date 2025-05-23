@@ -7,9 +7,7 @@ const Videos = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="VIDEOS" />
-      <div className="flex flex-col items-center justify-center">
-        <VideoGallery galleryData={videoData} />
-      </div>
+      <VideoGallery galleryData={videoData} />
     </>
   );
 };
