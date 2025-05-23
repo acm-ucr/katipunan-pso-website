@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-
 import Image from "next/image";
 import PAM1 from "@/public/pam/PAM_1.webp";
 import PAM2 from "@/public/pam/PAM_2.webp";

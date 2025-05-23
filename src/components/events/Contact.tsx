@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-
 import { FaInstagram } from "react-icons/fa6";
 import Link from "next/link";
 
