@@ -1,10 +1,12 @@
 "use client";
 import { motion } from "motion/react";
-
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
 import Contact from "@/components/events/Contact";
 import Quote from "@/components/Quote";
+import Flower from "@/public/floral/redflower.webp";
+import Vine from "@/public/floral/redshortvine.svg";
+import Image from "next/image";
 
 const Jfav = () => {
   return (
@@ -30,10 +32,26 @@ const Jfav = () => {
           Phrase="We want to keep the torch alive."
           Source="Arturo Garcia"
         />
-        <Contact
-          name="jfav_la"
-          instagramLink="https://www.instagram.com/jfav_la/"
-        />
+        <div className="overflow-hiddden relative w-full">
+          <div className="hidden xl:block">
+            <Image
+              src={Flower}
+              alt="Single Red Flower"
+              width={550}
+              className="absolute md:-bottom-50 md:-left-80"
+            />
+            <Image
+              src={Vine}
+              alt="Red Vine"
+              width={300}
+              className="absolute md:right-0 md:-bottom-20"
+            />
+          </div>
+          <Contact
+            name="jfav_la"
+            instagramLink="https://www.instagram.com/jfav_la/"
+          />
+        </div>
       </div>
     </>
   );
