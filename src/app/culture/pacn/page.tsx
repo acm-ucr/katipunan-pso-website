@@ -18,52 +18,42 @@ const Pacn = () => {
       <div className="font-inria-serif z-0 mt-40 w-screen">
         <Image
           src={RedShortVine}
-          className="absolute top-130 -right-20 z-0 rotate-[30deg]"
-          width={300}
-          height={450}
+          className="absolute top-145 -right-20 -z-5 hidden h-[150px] w-[145px] rotate-[30deg] sm:h-[200px] sm:w-[200px] md:block md:h-[200px] md:w-[150px] lg:h-[350px] lg:w-[275px] xl:top-110 xl:h-[450px] xl:w-[400px]"
           alt="vineTop"
         />
 
         <Image
           src={RedFlower}
-          className="absolute top-150 -right-80 z-0 rotate-[360deg]"
-          width={712}
-          height={701}
+          className="absolute top-150 -right-80 z-0 hidden h-[500px] w-[450px] rotate-[360deg] sm:top-165 sm:h-[400px] sm:w-[500px] md:top-175 md:block md:h-[600px] md:w-[450px] lg:top-200 lg:h-[550px] lg:w-[500px] xl:h-[750px] xl:w-[550px]"
           alt="flowerTopRight"
         />
 
         <Image
           src={RedFlower}
-          className="absolute -bottom-20 -left-90 z-0 scale-x-[-1] rotate-[300deg]"
-          width={712}
-          height={701}
+          className="absolute -bottom-20 -left-90 z-0 hidden h-[200px] w-[200px] scale-x-[-1] rotate-[300deg] sm:h-[400px] sm:w-[700px] md:block md:h-[550px] md:w-[500px] lg:-bottom-25 xl:h-[750px] xl:w-[712px]"
           alt="flowerBottomLeft"
         />
 
         <Image
           src={RedShortVine}
-          className="absolute bottom-150 -left-24 z-0 rotate-[130deg]"
-          width={250}
-          height={701}
+          className="absolute bottom-150 -left-24 z-0 hidden h-[150px] w-[190px] rotate-[130deg] sm:h-[200px] sm:w-[200px] md:bottom-140 md:h-[100px] md:w-[300px] lg:block lg:h-[125px] lg:w-[275px] xl:h-[701] xl:w-[270px]"
           alt="vineLeftBottom"
         />
 
         <Image
           src={RedShortVine}
-          className="absolute right-0 -bottom-50 z-0"
-          width={300}
-          height={701}
+          className="absolute right-0 -bottom-0 z-0 hidden h-[600px] w-[150px] sm:h-[200px] sm:w-[200px] md:block md:h-[400px] md:w-[200px] lg:h-[350px] lg:w-[275px] xl:w-[400px]"
           alt="vineRightBottom"
         />
 
-        <div className="z-10 flex w-screen flex-col items-center text-center">
-          <div className="">
-            <Image src={PACNMain} width={946} height={532} alt="Pacn Photo" />
+        <div className="z-10 -mt-20 flex w-screen flex-col items-center text-center">
+          <div className="h-[300px] w-[400px] overflow-hidden sm:h-[350px] sm:w-[500px] md:h-[550px] md:w-[750px] lg:h-[650px] lg:w-[712px] xl:h-[532] xl:w-[946]">
+            <Image src={PACNMain} alt="Pacn Photo" />
           </div>
-          <div className="w-2/3">
-            <div className="text-kpso-red-primary mt-20 p-10 text-center text-6xl">
+          <div className="w-20/21 md:w-6/7 xl:w-2/3">
+            <div className="text-kpso-red-primary mt-20 text-center text-4xl sm:text-5xl md:mt-10 lg:text-6xl">
               Overview
-              <div className="p-4 text-center text-2xl leading-[70px] text-black">
+              <div className="mt-5 text-center text-sm leading-[40px] text-black sm:text-lg sm:leading-[50px] lg:text-2xl lg:leading-[70px] xl:p-4">
                 PILIPINO AMERICAN CULTURE NIGHT (PACN) is one of KATIPUNAN’S
                 longest standing events. Happening in the spring quarter, PACN
                 board and cast members come together to put on a show that aims
@@ -73,9 +63,9 @@ const Pacn = () => {
               </div>
             </div>
 
-            <div className="text-kpso-red-primary p-10 text-center text-6xl">
+            <div className="text-kpso-red-primary mt-10 justify-center text-4xl sm:text-5xl lg:text-6xl">
               Explanation of Title Change
-              <div className="p-4 text-center text-2xl leading-[70px] text-black">
+              <div className="mt-5 text-center text-sm leading-[40px] text-black sm:text-lg sm:leading-[50px] lg:text-2xl lg:leading-[70px] xl:p-4">
                 As of 2020, KATIPUNAN PSO has changed its cultural night title
                 to PILIPINO AMERICAN CULTURE NIGHT, stemming away from PILIPINO
                 CULTURE NIGHT. This title change aims to reflect the current
