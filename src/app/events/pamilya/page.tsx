@@ -8,12 +8,48 @@ import Contact from "@/components/events/Contact";
 import PamGrid from "@/components/events/PamGrid";
 import Image from "next/image";
 import PAMBig from "@/public/pam/PAM_big.webp";
+import OneFlower from "@/public/floral/blueflower.webp";
+import TwoFlower from "@/public/floral/bluedualflowers.webp";
+import Vine from "@/public/floral/bluevine.png";
 
 const Pamilya = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="PAMILYA PROGRAM" />
-      <div>
+      <div className="relative w-full overflow-hidden">
+        <div className="hidden md:block">
+          <Image
+            src={OneFlower}
+            alt="Single Blue Flower"
+            width={725}
+            className="absolute md:-top-50 md:-left-100"
+          />
+          <Image
+            src={TwoFlower}
+            alt="Double Blue Flowers"
+            width={1435}
+            className="absolute bottom-150 -left-190 rotate-90"
+          />
+          <Image
+            src={Vine}
+            alt="Blue Vine"
+            width={300}
+            className="absolute bottom-10 -left-20 hidden -scale-x-100 rotate-40 xl:block"
+          />
+          <Image
+            src={Vine}
+            alt="Blue Vine"
+            width={300}
+            className="absolute top-200 -right-20 hidden -rotate-40 xl:block"
+          />
+          <Image
+            src={OneFlower}
+            alt="Single Blue Flower"
+            width={725}
+            className="absolute bottom-150 md:-right-120 lg:-right-100"
+          />
+        </div>
+
         <PamGrid />
         <EventInfo />
         <motion.div
