@@ -4,7 +4,7 @@ import Image from "next/image";
 import Header from "@/public/components/HEADER.webp";
 import Flower from "@/public/floral/blackflower.webp";
 import Vine from "@/public/floral/blackshortvine.svg";
-import Club from "@/public/home/Katipunan PSO.svg";
+import Club from "@/public/home/webppunan PSO.svg";
 
 const Landing = () => {
   return (
@@ -61,7 +61,7 @@ const Landing = () => {
         >
           <Image
             src={Club}
-            alt="UCR Katipunan PSO Text"
+            alt="UCR webppunan PSO Text"
             className="hidden xl:absolute xl:right-0 xl:-bottom-20 xl:block"
           />
         </motion.div>
