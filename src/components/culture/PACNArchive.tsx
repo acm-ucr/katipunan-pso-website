@@ -10,9 +10,8 @@ const PACNArchive = () => {
     <div className="relative mx-auto w-full overflow-hidden px-20 py-20">
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
-        viewport={{ once: true }}
       >
         <div className="absolute top-[22%] -right-80 mx-auto flex rotate-40 transform justify-center">
           <Image

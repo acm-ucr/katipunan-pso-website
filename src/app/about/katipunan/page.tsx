@@ -18,9 +18,8 @@ const Katipunan = () => {
       <div className="relative w-full overflow-x-hidden overflow-y-hidden">
         <motion.div
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 0.3 }}
-          viewport={{ once: true }}
           className="hidden xl:block"
         >
           <Image

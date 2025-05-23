@@ -18,9 +18,8 @@ const Pamilya = () => {
       <div className="relative w-full overflow-hidden">
         <motion.div
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 0.2 }}
-          viewport={{ once: true }}
           className="hidden md:block"
         >
           <Image

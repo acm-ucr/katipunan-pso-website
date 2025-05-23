@@ -11,9 +11,8 @@ const Landing = () => {
     <div className="relative mx-auto my-40 w-max text-center sm:mt-50 sm:mb-80 sm:text-start">
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
-        viewport={{ once: true }}
         className="hidden lg:block"
       >
         <Image

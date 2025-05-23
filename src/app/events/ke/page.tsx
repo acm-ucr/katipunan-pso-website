@@ -19,9 +19,8 @@ const Ke = () => {
       <div className="font-inria-serif mt-30 overflow-x-hidden overflow-y-hidden">
         <motion.div
           initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+          animate={{ opacity: 1 }}
           transition={{ duration: 0.2 }}
-          viewport={{ once: true }}
           className="hidden lg:block"
         >
           <Image

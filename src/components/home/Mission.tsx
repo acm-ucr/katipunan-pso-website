@@ -10,9 +10,8 @@ const Mission = () => {
     <div className="font-inria-serif relative w-full overflow-x-hidden overflow-y-hidden bg-[#F0EBE5] px-25 sm:mt-50 sm:px-20 md:px-0">
       <motion.div
         initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
-        viewport={{ once: true }}
       >
         <Image
           src={Flower}

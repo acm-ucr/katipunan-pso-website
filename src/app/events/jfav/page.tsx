@@ -19,9 +19,8 @@ const Jfav = () => {
         />
         <motion.p
           initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4 }}
-          viewport={{ once: true }}
           className="font-inria-serif m-20 text-center text-sm sm:text-lg md:text-xl lg:text-2xl xl:mx-60 xl:my-30 xl:text-2xl"
         >
           JFAV is a national alliance of Filipino veterans organizations and
