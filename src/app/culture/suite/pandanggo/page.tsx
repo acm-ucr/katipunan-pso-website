@@ -20,7 +20,7 @@ const Pandanggo = () => {
           </div>
 
           <p className="font-inria-serif mt-15 mr-100 ml-100 inline-block justify-center text-center text-xl leading-12">
-            This popular dance of grace and balance comes from Lubang Island,
+            This popular dance of grace and balance comes from Lubang webpland,
             Mindoro int he Visayas region. The term{" "}
             <span className="mr-2 text-5xl text-blue-800">PANDAGGO</span> comes
             from the spanish word fandango, which is a dance characterized by
