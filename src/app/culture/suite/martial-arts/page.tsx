@@ -8,21 +8,22 @@ import FMA from "@/public/suites/FMA.webp";
 const MartialArts = () => {
   return (
     <>
+      <Header
+        webp={HeaderImg}
+        alt="Picture of Club"
+        txt="FILIPINO MARTIAL ARTS"
+      />
       <div className="relative overflow-hidden">
-        <Header
-          webp={HeaderImg}
-          alt="Picture of Club"
-          txt="FILIPINO MARTIAL ARTS"
-        />
         <div className="flex justify-center">
           <Image
             src={FMA}
             alt="FMA Image"
-            className="mt-20 mr-80 ml-80 h-[500px] w-full rounded-md"
+            className="mx-0 mt-10 h-60 w-auto rounded-md sm:h-80 md:h-100 lg:h-120 xl:mx-80 xl:mt-20 xl:h-130"
           />
         </div>
-        <p className="font-inria-serif mt-15 mr-100 ml-100 inline-block justify-center text-center text-xl leading-12">
-          <span className="mr-2 text-5xl text-blue-800">
+
+        <p className="font-inria-serif text-md mx-10 mt-15 inline-block justify-center text-center leading-12 md:text-lg lg:mx-30 lg:text-xl xl:mx-70">
+          <span className="mr-2 text-4xl text-blue-800 lg:text-5xl">
             FILIPINO MARTIAL ARTS (FMA)
           </span>
           , often referred to as arnis, eskrima, or kali, encompass a diverse
@@ -33,27 +34,28 @@ const MartialArts = () => {
           used interchangeably, although there are some distinctions in their
           historical and regional usage.
         </p>
-        <div className="">
+
+        <div className="hidden xl:block">
           <Image
             src={blueFlower}
             alt="FLOWER"
             width={400}
             height={300}
-            className="absolute top-220 -right-50"
+            className="absolute top-120 -right-50"
           />
           <Image
             src={blueShortVine}
             alt="SHORTVINE"
             width={200}
             height={200}
-            className="absolute top-300 left-0 scale-x-[-1]"
+            className="absolute top-130 left-0 scale-x-[-1]"
           />
           <Image
             src={blueShortVine}
             alt="SHORTVINE"
             width={250}
             height={200}
-            className="absolute top-220 -left-5 scale-x-[-1] -rotate-10"
+            className="absolute top-160 -left-5 scale-x-[-1] -rotate-10"
           />
         </div>
       </div>
