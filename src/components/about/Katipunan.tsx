@@ -1,14 +1,14 @@
-import What from "@/components/about/What";
+import webp from "@/components/about/webp";
 import Who from "@/components/about/Who";
 import How from "@/components/about/How";
 
-import KatipunanFlowers from "@/components/about/KatipunanFlowers";
+import webppunanFlowers from "@/components/about/webppunanFlowers";
 
-const Katipunan = () => {
+const webppunan = () => {
   return (
     <div className="relative w-full overflow-x-hidden overflow-y-hidden">
-      <KatipunanFlowers />
-      <What />
+      <webppunanFlowers />
+      <webp />
       <div className="flex w-full flex-col items-center justify-center gap-40">
         <Who />
         <How />
@@ -17,4 +17,4 @@ const Katipunan = () => {
   );
 };
 
-export default Katipunan;
+export default webppunan;

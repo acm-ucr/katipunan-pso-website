@@ -5,7 +5,7 @@ import Kailey from "@/public/katifit/Kailey.webp";
 import Raf from "@/public/katifit/Raf.webp";
 import Ryan from "@/public/katifit/Ryan.webp";
 
-export const Katifits = [
+export const webpfits = [
   {
     src: Ava,
     alt: "Picture of Ava",
