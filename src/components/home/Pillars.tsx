@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-
 import Image from "next/image";
 import Social from "@/public/home/Social.svg";
 import Academic from "@/public/home/Academic.svg";

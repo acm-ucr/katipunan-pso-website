@@ -5,7 +5,7 @@ import WIKImg3 from "@/public/about/What Is Kati Img3.jpeg";
 
 const What = () => {
   return (
-    <div className="relative flex w-full flex-col overflow-x-hidden lg:flex-row">
+    <div className="relative mb-32 flex w-full flex-col overflow-x-hidden lg:flex-row">
       <div className="font-inria-serif flex w-full flex-col justify-center p-8 xl:w-1/2">
         <p className="-mt-10 text-center text-xl leading-11 tracking-wider sm:mx-20 sm:text-2xl lg:max-w-md xl:ml-40 xl:text-2xl">
           <span className="inline-block text-3xl text-blue-800 sm:text-4xl md:text-5xl">
