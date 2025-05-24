@@ -1,6 +1,6 @@
-import HeaderImg from "@/public/HEADER.webp";
+import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
-import Contact from "@/components/events/Contact";
+import KEComponent from "@/components/events/KE";
 
 const Ke = () => {
   return (
@@ -10,12 +10,7 @@ const Ke = () => {
         alt="Picture of Club"
         txt="Katipunan Experience (KE)"
       />
-      <div>
-        <Contact
-          name="ucrkatipunanoutreach"
-          instagramLink="https://www.instagram.com/ucrkatipunanoutreach/"
-        />
-      </div>
+      <KEComponent />
     </>
   );
 };

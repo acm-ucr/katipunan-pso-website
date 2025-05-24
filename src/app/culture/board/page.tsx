@@ -1,13 +1,12 @@
-import HeaderImg from "@/public/HEADER.webp";
+import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
+import PACNBoardGrid from "@/components/culture/PACNBoardGrid";
 
 const Board = () => {
   return (
     <>
-      <Header webp={HeaderImg} alt="Picture of Club" txt="PACN BOARD" />
-      <div className="flex h-screen w-screen items-center justify-center">
-        Board
-      </div>
+      <Header webp={HeaderImg} alt="Picture of Club" txt="PACN Board" />
+      <PACNBoardGrid />
     </>
   );
 };

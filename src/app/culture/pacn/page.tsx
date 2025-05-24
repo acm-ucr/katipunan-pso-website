@@ -1,5 +1,6 @@
-import HeaderImg from "@/public/HEADER.webp";
+import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
+import PACN from "@/components/culture/PACN";
 
 const Pacn = () => {
   return (
@@ -7,12 +8,9 @@ const Pacn = () => {
       <Header
         webp={HeaderImg}
         alt="Picture of Club"
-        txt="PILIPINO-AMERICAN CULTURE NIGHT
-(PACN)"
+        txt="PILIPINO-AMERICAN CULTURE NIGHT (PACN)"
       />
-      <div className="flex h-screen w-screen items-center justify-center">
-        PACN
-      </div>
+      <PACN />
     </>
   );
 };

@@ -1,24 +1,31 @@
+import FMA from "@/public/suites/FMA.webp";
+import MariaClara from "@/public/suites/MariaClara.webp";
+import Tinikling from "@/public/suites/Tinikling.webp";
+import Pandanggo from "@/public/suites/Pandanggo.webp";
+import Pamaypay from "@/public/suites/Pamaypay.webp";
+import Modern from "@/public/suites/ModernProjectRizzerside.webp";
+
 export const tags = [
-  { name: "RURAL", image: "/HEADER.webp", link: "/culture/suite/rural" },
+  { name: "PANDANGGO", image: Pandanggo, link: "/culture/suite/pandanggo" },
   {
     name: "MARIA CLARA",
-    image: "/HEADER.webp",
+    image: MariaClara,
     link: "/culture/suite/maria-clara",
   },
   {
-    name: "CORDILLERA",
-    image: "/HEADER.webp",
-    link: "/culture/suite/cordillera",
+    name: "PAMAYPAY",
+    image: Pamaypay,
+    link: "/culture/suite/pamaypay",
   },
-  { name: "MODERN", image: "/HEADER.webp", link: "/culture/suite/modern" },
+  { name: "MODERN", image: Modern, link: "/culture/suite/modern" },
   {
     name: "FILIPINO MARTIAL ARTS",
-    image: "/HEADER.webp",
+    image: FMA,
     link: "/culture/suite/martial-arts",
   },
   {
     name: "TINIKLING",
-    image: "/HEADER.webp",
+    image: Tinikling,
     link: "/culture/suite/tinikling",
   },
 ];
