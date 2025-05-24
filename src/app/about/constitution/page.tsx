@@ -4,7 +4,7 @@ import ConstitutionComponent from "@/components/about/Constitution";
 
 const Constitution = () => {
   return (
-    <> 
+    <>
       <Header
         webp={HeaderImg}
         alt="Picture of Club"
