@@ -8,7 +8,7 @@ const Ke = () => {
       <Header
         webp={HeaderImg}
         alt="Picture of Club"
-        txt="Katipunan Experience (KE)"
+        txt="webppunan Experience (KE)"
       />
       <KEComponent />
     </>

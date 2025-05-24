@@ -1,14 +1,14 @@
 import Header from "@/components/Header";
 import HeaderImg from "@/public/components/HEADER.webp";
-import KatipunanComponent from "@/components/about/Katipunan";
+import webppunanComponent from "@/components/about/webppunan";
 
-const Katipunan = () => {
+const webppunan = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="WHAT IS KATIPUNAN?" />
-      <KatipunanComponent />
+      <webppunanComponent />
     </>
   );
 };
 
-export default Katipunan;
+export default webppunan;
