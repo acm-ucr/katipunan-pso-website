@@ -32,6 +32,28 @@ import IMG9473 from "@/public/media/IMG_9473.webp";
 import IMG9474 from "@/public/media/IMG_9474.webp";
 import IMG9631 from "@/public/media/IMG_9631.webp";
 import IMG9650 from "@/public/media/IMG_9650.webp";
+import gallery1 from "@/public/gallery/gallery1.webp";
+import gallery2 from "@/public/gallery/gallery2.webp";
+import gallery3 from "@/public/gallery/gallery3.webp";
+import gallery4 from "@/public/gallery/gallery4.webp";
+import gallery5 from "@/public/gallery/gallery5.webp";
+import gallery6 from "@/public/gallery/gallery6.webp";
+import gallery7 from "@/public/gallery/gallery7.webp";
+import gallery8 from "@/public/gallery/gallery8.webp";
+import gallery9 from "@/public/gallery/gallery9.webp";
+import gallery10 from "@/public/gallery/gallery10.webp";
+import gallery11 from "@/public/gallery/gallery11.webp";
+import gallery12 from "@/public/gallery/gallery12.webp";
+import gallery14 from "@/public/gallery/gallery14.webp";
+import gallery15 from "@/public/gallery/gallery15.webp";
+import gallery17 from "@/public/gallery/gallery17.webp";
+import gallery18 from "@/public/gallery/gallery18.webp";
+import gallery19 from "@/public/gallery/gallery19.webp";
+import gallery20 from "@/public/gallery/gallery20.webp";
+import gallery21 from "@/public/gallery/gallery21.webp";
+import gallery22 from "@/public/gallery/gallery22.webp";
+import gallery23 from "@/public/gallery/gallery23.webp";
+import gallery24 from "@/public/gallery/gallery24.webp";
 
 const imageData = [
   { name: "IMG_1065", src: IMG1065 },
@@ -68,6 +90,28 @@ const imageData = [
   { name: "IMG_9474", src: IMG9474 },
   { name: "IMG_9631", src: IMG9631 },
   { name: "IMG_9650", src: IMG9650 },
+  { name: "gallery1", src: gallery1 },
+  { name: "gallery2", src: gallery2 },
+  { name: "gallery3", src: gallery3 },
+  { name: "gallery4", src: gallery4 },
+  { name: "gallery5", src: gallery5 },
+  { name: "gallery6", src: gallery6 },
+  { name: "gallery7", src: gallery7 },
+  { name: "gallery8", src: gallery8 },
+  { name: "gallery9", src: gallery9 },
+  { name: "gallery10", src: gallery10 },
+  { name: "gallery11", src: gallery11 },
+  { name: "gallery12", src: gallery12 },
+  { name: "gallery14", src: gallery14 },
+  { name: "gallery15", src: gallery15 },
+  { name: "gallery17", src: gallery17 },
+  { name: "gallery18", src: gallery18 },
+  { name: "gallery19", src: gallery19 },
+  { name: "gallery20", src: gallery20 },
+  { name: "gallery21", src: gallery21 },
+  { name: "gallery22", src: gallery22 },
+  { name: "gallery23", src: gallery23 },
+  { name: "gallery24", src: gallery24 },
 ];
 
 export default imageData;
