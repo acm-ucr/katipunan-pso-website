@@ -1,5 +1,6 @@
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
+import ConstitutionComponent from "@/components/about/Constitution";
 
 const Constitution = () => {
   return (
@@ -9,6 +10,7 @@ const Constitution = () => {
         alt="Picture of Club"
         txt="UCR KATIPUNAN CONSTITUTION"
       />
+      <ConstitutionComponent />
       <div className="font-inria-serif mb-20 flex w-screen flex-col text-xl">
         <div className="flex flex-col items-center">
           <div className="mt-10 flex underline">
