@@ -821,6 +821,644 @@ const Constitution = () => {
               </li>
             </ol>
           </div>
+          <div className="pt-10 font-semibold underline">ARTICLE V</div>
+          <div className="font-light italic">Meetings</div>
+          <br />
+          <div className="underline">A. Quorum</div>
+          <div>
+            A quorum defines the minimum number of members that must be present
+            in order to vote and make decisions for the group. The quorum for
+            this organization is 50% of the Active members plus ONE more Active
+            Member (50%+1 of the Active Members).
+          </div>
+          <br />
+          <div>Section 1. First Meeting</div>
+          <div>
+            The first cabinet meeting date of the next academic year shall be
+            decided at the discretion of the newly elected Executive Cabinet
+            members.{" "}
+          </div>
+          <br />
+          <div>Section 2. Regularity</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                The Cabinet shall hold weekly meetings unless otherwise
+                specified.
+              </li>
+              <li>
+                All Cabinet meetings shall be closed to the general public.
+                <ol className="">
+                  <li>
+                    a. The beginning of cabinet meetings including the review of
+                    past events, up until the Cabinet Member reports.
+                    <ol className="ml-5">
+                      <li>
+                        i. The General public must leave before the Cabinet
+                        reports begin.
+                      </li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+              <li>
+                All members of the Cabinet must attend all meetings unless a
+                reasonable excuse is presented to the Secretary twenty-four
+                hours prior to the scheduled meeting concerning absence.
+                <ol>
+                  <li>
+                    a. A reasonable excuse must be presented regarding tardiness
+                    within six hours prior to the scheduled meeting.
+                  </li>
+                  <li className="ml-5">
+                    i. A reasonable excuse is determined by the discretion of
+                    the Secretary.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                All the proceedings shall be carried out under respectable
+                procedures.
+              </li>
+              <li>
+                All the proceedings shall be kept under strict confidentiality
+                during closed sessions.
+              </li>
+              <li>Cabinet Meetings shall only be held if the quorum is met.</li>
+            </ol>
+          </div>
+          <br />
+          <div>Section 3. Organization Governmental Authority</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                The governmental authority of the organization shall be vested
+                in the Cabinet.
+              </li>
+              <li>
+                The Cabinet and organization members shall have the authority to
+                contribute input regarding organizational concerns.
+              </li>
+              <li>
+                The Cabinet shall have the power to enforce all laws passed by
+                the majority vote. The quorum shall be the majority of the
+                Cabinet.
+              </li>
+              <li>
+                The cabinet members must vote regarding Katipunan concerns.
+              </li>
+              <li>
+                The positions of External Vice-President and Internal
+                Vice-President shall serve and be seen as equals.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">D. Meeting minutes and records</div>
+          <div>
+            It shall be the responsibility of the secretary to take meeting
+            minutes and keep related records of all meetings (including special
+            and emergency meetings). Meeting Minutes and other records are vital
+            for an organization’s success. Election results, impeachment of an
+            officer, approval of a budget or expense, and passing of an
+            amendment are just a few of the important items that meeting minutes
+            are used to validate/verify. Additions and corrections are to be
+            made at this time and a final approval of the minutes must be made.
+            For cabinet members who are absent to the meeting, it is their
+            responsibility to read the previous meeting minutes.
+          </div>
+          <br />
+          <div className="pt-10 font-semibold underline">ARTICLE VI</div>
+          <div className="font-light italic">Elections</div>
+          <br />
+          <div className="underline">
+            A. Times and period when elections occur
+          </div>
+          <div>
+            In one general meeting, elections for the Executive Cabinet
+            (President, External Vice-President, Internal Vice-President,
+            Treasurer, and Secretary) shall proceed in the following order
+            during the academic Winter term: Secretary, Treasurer, Internal
+            Vice-President, External Vice-President, and President. For General
+            Cabinet positions, nominations will occur during Spring Quarter.
+          </div>
+          <br />
+          <div className="underline">B. Nominations</div>
+          <div>
+            Only active members are eligible for nomination. Any member can
+            nominate another active member. Any active member can also
+            self-nominate themselves, but must be seconded by another member.
+            Nominations shall be open to the general membership two weeks prior
+            to the respective application deadline. Nominations shall remain
+            open to general membership for one week. To be considered an
+            official candidate, the nominee must be a fully paid member. After
+            the one week nomination period, nominations will be closed and all
+            the nominees will be notified.
+          </div>
+          <br />
+          <div className="underline">
+            C. Notification and posting of elections
+          </div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                Newly Elected Executive Cabinet must notify the newly selected
+                cabinet members within one week after the Interview Day.
+                <ol>
+                  <li className="ml-5">
+                    a. Notification of the newly selected cabinet members shall
+                    occur at the discretion of the newly elected Executive
+                    Cabinet.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                Any newly appointed cabinet member can only hold one Cabinet
+                position at one time unless the current cabinet deems it
+                necessary under unforeseen circumstances.
+              </li>
+              <li>
+                All relinquishing and newly appointed Cabinet members must be
+                present at the Annual Induction Banquet under the discretion of
+                the current Cabinet.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">D. Election procedures</div>
+          <br />
+          <div className="underline">Executive Cabinet</div>
+          <br />
+          <div className="underline">Elections Committee:</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>Shall be organized by the current Executive Cabinet.</li>
+              <ol className="ml-5">
+                <li>
+                  a. Executive Cabinet is responsible for counting ballots
+                  during elections.
+                  <ol className="ml-5">
+                    <li>
+                      i. Participation in vote counting will automatically void
+                      their vote
+                    </li>
+                  </ol>
+                </li>
+                <li>
+                  b. Shall count all ballots for each position individually. In
+                  order for results to be valid, obtained counts must be
+                  identical.
+                </li>
+              </ol>
+              <li>Shall attend all days of the stated elections process.</li>
+              <li>
+                Shall assign a pre-approved time limit for speeches, questions,
+                and answers.
+              </li>
+              <li>
+                Shall pre-approve the number of questions that each candidate
+                must answer as suggested by the membership throughout the
+                elections process.
+              </li>
+              <li>
+                Shall pre-approve any audio and/or visual aids that will be used
+                by the candidate on their respective day of election.
+              </li>
+              <li>
+                Shall enforce all of the rules that are outlined in Article VII.
+              </li>
+              <li>
+                All votes must first satisfy the quorum before an official
+                election.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">Applications</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                Nominations shall be conducted one general meeting prior to the
+                respective elections.
+              </li>
+              <li>
+                Members nominated must submit an application for the position
+                they wish to run for.
+                <ol className="ml-5">
+                  <li>
+                    a. The content of the application will be created by the
+                    current Executive Cabinet.
+                  </li>
+                  <li>
+                    b. Applications shall require fifty signatures of general
+                    members to show the support ofthe applicant. If
+                    complications arise, the Executive cabinet will have
+                    discretion.
+                    <ol className="ml-5">
+                      <li>
+                        i. For a signature to be considered valid, the signer
+                        must be a fully paid member.
+                      </li>
+                    </ol>
+                  </li>
+                  <li>
+                    c. Candidates must submit in their application a description
+                    of their platform to be shared to the rest of the
+                    organization prior to election day.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                Applications must be received by the Cabinet prior to the
+                respective elections. Once received, the applicant becomes an
+                official candidate for the Cabinet position declared in their
+                application.
+              </li>
+              <li>
+                Applications are considered active once received by the current
+                Cabinet and remain active until the respective election day
+                unless conceded by the applicant at any time prior to that day.
+              </li>
+              <li>
+                Members may only have one active application for one Executive
+                Cabinet position at any given period.
+              </li>
+              <li>
+                Only official and paid candidates are allowed to run for the
+                Cabinet position for which they have applied.
+              </li>
+              <li>
+                President applicants must have prior cabinet experience with the
+                discretion of the current Executive Cabinet if issues may arise.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">Elections Regulations</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                Official candidates for any office must be present at the
+                designated elections meeting with the discretion of the current
+                Cabinet if issues may arise.
+              </li>
+              <li>
+                Each candidate is only allowed to present promotional material,
+                such as personal presentations, that has been previously
+                approved by the Elections Committee prior to the election day.
+              </li>
+              <li>
+                No materials shall be distributed by any candidate to
+                individuals on the day of their respective election.
+              </li>
+              <li>
+                Any slander among candidates is not tolerated. This includes,
+                but is not limited to, anything posted on social media.
+              </li>
+              <li>
+                There will be strict enforcement of a time limit for speeches,
+                questions, and answers as directed by the Elections Committee.
+              </li>
+              <li>
+                Each candidate shall abide by the guidelines set forth by the
+                Elections Committee and shall respect these guidelines and the
+                Constitution.
+              </li>
+              <li>
+                A violation of any parts of this Constitution and elections
+                guidelines shall call for an immediate disqualification of the
+                candidate.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">Elections Procedure</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                All elections shall be held by secret ballots unless otherwise
+                stated.
+                <ol className="ml-5">
+                  <li>
+                    a. In the case of multiple candidates, a ⅔ majority of the
+                    votes is needed to be declared elected.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                If there is no ⅔ majority vote, a re-vote shall be casted at the
+                time of elections. If the re-vote does not reflect ⅔ majority of
+                the votes, the candidate with the most number of votes shall be
+                elected. In the event of a tiebreaker, the newly-elected
+                executive cabinet will decide under the guidance of the current
+                executive cabinet.
+              </li>
+              <li>
+                In the case when there is only one candidate for a Cabinet
+                position, a ⅔ majority of the votes is needed to be declared
+                elected.
+                <ol className="ml-5">
+                  <li>
+                    a. If there is no ⅔ majority vote, a re-vote shall be casted
+                    at the time of elections. If the re-vote does not reflect ⅔
+                    majority of the votes, the candidate will not be elected.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                Any newly elected Cabinet member can only hold one Cabinet
+                position at one time.
+              </li>
+              <li>
+                Any newly elected Cabinet member may concede their election at
+                any time prior to their induction thereby conceding their
+                official candidacy for any other cabinet positions thereafter;
+                after which, the vacant position shall be filled in accordance
+                with Article V.
+              </li>
+              <li>
+                All elections shall be conducted in accordance with Article
+                VIII.
+              </li>
+              <li>
+                All previous and newly elected Cabinet members must be present
+                at the Annual Induction Banquet under the discretion of the
+                current Cabinet.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">General Cabinet</div>
+          <br />
+          <div>
+            NOTE: The newly elected Executive Cabinet shall remove and/or add a
+            General Cabinet position when deemed necessary.
+          </div>
+          <br />
+          <div className="underline">Applications:</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                Members who were nominated can choose whether or not to apply
+                for the position(s) they were nominated for.
+              </li>
+              <li>
+                Nominees have one week after being notified to turn in their
+                application.
+              </li>
+              <li>
+                Applications shall require fifty signatures of general members
+                to show the support of the applicant. The new Executive cabinet
+                has discretion if problems arise.
+                <ol className="ml-5">
+                  <li>
+                    a. For a signature to be considered valid, the signer must
+                    be a fully paid member.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                Candidates must submit in their application a description of
+                their platform to be shared to the rest of the organization
+                prior to election day.
+              </li>
+              <li>
+                Applicants can apply for one to two positions. No more than two
+                positions are permitted.
+              </li>
+              <li>
+                Applications must be turned in before the respective application
+                deadline. Any late applications will be discarded unless
+                otherwise stated under the discretion of the Executive Cabinet.
+              </li>
+            </ol>
+          </div>
+          <div className="underline">Procedures</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                Nominees must record a video that is approved by the Executive
+                Cabinet.
+              </li>
+              <li>
+                Election videos will be released throughout an election week.
+                <ol className="ml-5">
+                  <li>
+                    a. Positions released per day will be selected under the
+                    discretion of the executive cabinet.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                Paid general members will have 24 hours to vote on positions
+                released that day.
+                <ol className="ml-5">
+                  <li>
+                    a. Voting shall consist of casting either a “Confidence,”
+                    “No Confidence,” or “Abstain” vote towards each candidate.
+                  </li>
+                  <li>
+                    b. Nominees will be able to advance to the Interview Stage
+                    after receiving ⅔ majority vote of Confidence.
+                  </li>
+                </ol>
+              </li>
+              <li>
+                All procedures may be followed but not limited under the
+                discretion of the newly elected Executive Cabinet.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">Interviews:</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                Nominees will be subjected to an election process, where the
+                candidates who received ⅔ majority confidence votes from paid
+                general members will proceed to the interviews conducted by the
+                newly elected Executive Cabinet.
+              </li>
+              <li>
+                Group and Individual Interviews shall be held on the same day
+                under the scheduling of the most recently elected Executive
+                Cabinet.
+              </li>
+              <li>
+                Applicants must prepare to answer questions prepared by the
+                Executive Cabinet.
+              </li>
+              <li>
+                Interview Day must be within one month after the respective
+                application deadline.
+              </li>
+              <li>
+                Interview Day shall be set according to the availability of the
+                Newly Elected Executive Cabinet. Newly Elected Executive Cabinet
+                shall notify applicants of this day, ten days in advance.
+              </li>
+              <li>
+                All of the Newly Elected Cabinet shall be present during
+                Interview Day.
+                <ol className="ml-5">
+                  <li>
+                    a. Incumbent cabinet members may reside over the interview
+                    of candidates in their respective positions.
+                  </li>
+                </ol>
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">Selection Regulations:</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                Official applicants for any position must be present during the
+                designated Interview Day with the discretion of the Newly
+                Elected Executive Cabinet if issues may arise.
+              </li>
+              <li>
+                Each candidate is only allowed to present promotional material,
+                such as personal presentations, that has been previously
+                approved by the Elections Committee prior to the election day.
+              </li>
+              <li>
+                Any slander among candidates is not tolerated. This includes,
+                but is not limited to, anything posted on social media.
+              </li>
+              <li>
+                Any newly selected Cabinet member may concede their position at
+                any time prior to their induction thereby conceding their
+                official application for any other Cabinet positions thereafter;
+                after which, the vacant position shall be filled in accordance
+                with Article V.
+              </li>
+              <li>
+                There will be strict enforcement of a time limit for speeches,
+                questions, and answers as directed by the Newly Elected
+                Executive Cabinet.
+              </li>
+              <li>
+                Each applicant shall abide by the guidelines set forth by the
+                Newly Elected Executive Cabinet and shall respect these
+                guidelines and the Constitution.
+              </li>
+              <li>
+                A violation of any parts of this Constitution and the selection
+                guidelines shall result in actions determined by the Newly
+                Elected Executive Cabinet.
+              </li>
+              <li>
+                The selection process shall be conducted in accordance with
+                Article VIII.
+              </li>
+              <li>
+                All relinquishing cabinet members may be present during all
+                steps of the selection process.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="pt-10 font-semibold underline">ARTICLE VII</div>
+          <div className="font-light italic">Financial records</div>
+          <br />
+          <div>
+            The University shall have the right to audit the financial records
+            of this organization. If the organization will receive funding from
+            Associated Student at UCR (ASUCR) or the Graduate Student
+            Association (GSA), the organization must comply with all funding
+            policies and procedures issued by the funding authority.
+          </div>
+          <br />
+          <div className="underline">A. Dues/membership fees</div>
+          <div>
+            There will be a yearly due for membership in this organization. The
+            price for the year of 2024-2025 will be $32.
+          </div>
+          <br />
+          <div className="pt-10 font-semibold underline">ARTICLE VIII</div>
+          <div className="font-light italic">Cabinet Involvement</div>
+          <div>
+            Organization involvement and/or participation are required from all
+            Cabinet members for all affiliated organization events and
+            activities unless a reasonable excuse is presented to the Secretary
+            twenty-four hours prior to the scheduled meeting concerning absence
+            or six hours prior concerning tardiness.
+          </div>
+          <div className="pt-10 font-semibold underline">ARTICLE IX</div>
+          <div className="font-light italic">Amendments</div>
+          <br />
+          <div className="underline">A. Proposing amendments</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                Amendments to this Constitution may be proposed by the Cabinet
+                and/or organization members and approved according to Article
+                VIII, Section 4.
+              </li>
+              <li>
+                A proposed amendment must be formally submitted to the
+                organization and Cabinet.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">B. Amendment Ratification</div>
+          <div>
+            <ol className="ml-5 list-decimal">
+              <li>
+                All proposed amendments must be approved by three-fourths
+                majority vote of the Cabinet.
+              </li>
+              <li>
+                If this proposed amendment is approved by three-fourths majority
+                vote by the Cabinet, it must be ratified by three-fourths
+                majority vote of the paid organization members with each member
+                having one vote.
+              </li>
+              <li>
+                Newly Elected Cabinet may amend the constitution under
+                guidelines listed in Article X without formal approval of
+                general membership prior to the upcoming academic school year.
+              </li>
+            </ol>
+          </div>
+          <br />
+          <div className="underline">C. Provisions</div>
+          <div>
+            The Quorum necessary for amendments to the constitution to be voted
+            on shall be no less than 50% +1 of the active members. Amendments to
+            the constitution shall be approved by a 2/3 vote in favor of the
+            amendment. All amendments shall be in agreement with University
+            regulations and policies and are not approved until reviewed by a
+            Student Life official. An updated Constitution must be filed with
+            the Student Life office through the online organization system
+            within one week of adoption. Groups will notify their Organization
+            Advisor in Student Life once the document has been uploaded in the
+            system so that it might be reviewed.
+          </div>
+          <br />
+          <div className="pt-10 font-semibold underline">ARTICLE X</div>
+          <div className="font-light italic">Ratification</div>
+          <br />
+          <div className="underline">Section 1:</div>
+          <div>
+            Upon a three-fourths majority vote of the Cabinet and organization
+            members, this constitution and its By-Laws shall be made effective
+            on the given date.
+          </div>
+          <br />
+          <div className="underline">Section 2:</div>
+          <div>
+            A three-fourths majority vote must be obtained to ratify this
+            Constitution prior to the last day of the academic Fall term.
+          </div>
+          <br />
+          <div className="underline">Section 3:</div>
+          <div>
+            The Constitution shall be accessible to all members and non-members.
+          </div>
         </div>
       </div>
     </>
