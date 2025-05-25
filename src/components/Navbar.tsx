@@ -2,15 +2,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "@/public/components/Katipunan Logo.png";
+import Logo from "@/public/components/webppunan Logo.webp";
 import { useState } from "react";
 
 const Navbar = () => {
   const pathname = usePathname();
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isAboutSubMenuOpen, setIsAboutSubMenuOpen] = useState(false);
-  const [isEventsSubMenuOpen, setIsEventsSubMenuOpen] = useState(false);
-  const [isCultureSubMenuOpen, setIsCultureSubMenuOpen] = useState(false);
+  const [isMobileMenuOpen, setwebpMobileMenuOpen] = useState(false);
+  const [isAboutSubMenuOpen, setwebpAboutSubMenuOpen] = useState(false);
+  const [isEventsSubMenuOpen, setwebpEventsSubMenuOpen] = useState(false);
+  const [isCultureSubMenuOpen, setwebpCultureSubMenuOpen] = useState(false);
   const [isResourcesSubMenuOpen, setResourcesSubMenuOpen] = useState(false);
   const [isMediaSubMenuOpen, setMediaSubMenuOpen] = useState(false);
 
@@ -19,19 +19,19 @@ const Navbar = () => {
   };
 
   const isMobileMenuToggled = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
+    setwebpMobileMenuOpen(!isMobileMenuOpen);
   };
 
   const isAboutSubMenuToggled = () => {
-    setIsAboutSubMenuOpen(!isAboutSubMenuOpen);
+    setwebpAboutSubMenuOpen(!isAboutSubMenuOpen);
   };
 
   const isEventsSubMenuToggled = () => {
-    setIsEventsSubMenuOpen(!isEventsSubMenuOpen);
+    setwebpEventsSubMenuOpen(!isEventsSubMenuOpen);
   };
 
   const isCultureSubMenuToggled = () => {
-    setIsCultureSubMenuOpen(!isCultureSubMenuOpen);
+    setwebpCultureSubMenuOpen(!isCultureSubMenuOpen);
   };
 
   const isResourcesSubMenuToggled = () => {
@@ -150,7 +150,7 @@ const Navbar = () => {
               src={Logo}
               width={175}
               height={60}
-              alt="Kati logo"
+              alt="webp logo"
               className="py-2"
             />
           </Link>
