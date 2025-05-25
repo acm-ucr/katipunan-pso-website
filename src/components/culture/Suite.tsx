@@ -1,4 +1,4 @@
-import { tags } from "@/data/suite";
+import { tags } from "@/data/Suites";
 import Image from "next/image";
 import Link from "next/link";
 
