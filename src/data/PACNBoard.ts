@@ -1,5 +1,5 @@
 import Ren from "@/public/pacn_board/Ren Fang.webp";
-import Isabel from "@/public/pacn_board/Isabel Dela Rama.webp";
+import webpabel from "@/public/pacn_board/webpabel Dela Rama.webp";
 import Jay from "@/public/pacn_board/Jenina (Jay) Fernandez.webp";
 import Patricia from "@/public/pacn_board/Patricia Delfin.webp";
 import Karissa from "@/public/pacn_board/Karissa Francisco.webp";
@@ -31,8 +31,8 @@ export const PACNBoard = [
   },
   {
     position: "Financial Director",
-    name: "Isabel Dela Rama",
-    webp: Isabel,
+    name: "webpabel Dela Rama",
+    webp: webpabel,
     is_apprentice: false,
   },
   {
