@@ -15,6 +15,7 @@ const BoardGrid = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
+        className="hidden lg:block"
       >
         <div className="absolute top-0 -left-50 z-0 -translate-x-1 scale-125 rotate-[270deg]">
           <Image

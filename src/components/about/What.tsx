@@ -1,11 +1,11 @@
 import Image from "next/image";
-import WIKImg1 from "@/public/about/What Is Kati Img1.jpeg";
-import WIKImg2 from "@/public/about/What Is Kati Img2.jpeg";
-import WIKImg3 from "@/public/about/What Is Kati Img3.jpeg";
+import WIKImg1 from "@/public/about/What1.webp";
+import WIKImg2 from "@/public/about/What2.webp";
+import WIKImg3 from "@/public/about/What3.webp";
 
 const What = () => {
   return (
-    <div className="relative mb-32 flex w-full flex-col overflow-x-hidden lg:flex-row">
+    <div className="relative mt-20 mb-32 flex w-full flex-col overflow-x-hidden lg:mt-0 lg:flex-row">
       <div className="font-inria-serif flex w-full flex-col justify-center p-8 xl:w-1/2">
         <p className="-mt-10 text-center text-xl leading-11 tracking-wider sm:mx-20 sm:text-2xl lg:max-w-md xl:ml-40 xl:text-2xl">
           <span className="inline-block text-3xl text-blue-800 sm:text-4xl md:text-5xl">
