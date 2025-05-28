@@ -1,10 +1,10 @@
 const videoData = [
   {
-    name: "UCR Katipunan PSO",
+    name: "UCR webp PSO",
     src: "https://www.youtube.com/embed/u63yBFpMHgY",
   },
   {
-    name: "Katipunan PSO",
+    name: "webp PSO",
     src: "https://www.youtube.com/embed/QwkJqMJRGnI",
   },
   {
@@ -24,15 +24,15 @@ const videoData = [
     src: "https://www.youtube.com/embed/ix-BsREjF2E",
   },
   {
-    name: "Katipunan '23-'24 Apprentice Reveal",
+    name: "webp '23-'24 Apprentice Reveal",
     src: "https://www.youtube.com/embed/8ab-0HLlCBM",
   },
   {
-    name: "Katipunan Gobble Gobble 2022",
+    name: "webp Gobble Gobble 2022",
     src: "https://www.youtube.com/embed/1U7Eo_3Ndfo",
   },
   {
-    name: "2022 UCR Fall Quarter With Katipunan",
+    name: "2022 UCR Fall Quarter With webp",
     src: "https://www.youtube.com/embed/Du_BE4Qqu8I",
   },
 ];

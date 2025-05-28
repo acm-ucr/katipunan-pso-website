@@ -13,9 +13,9 @@ const inria_serif = Inria_Serif({
 });
 
 export const metadata = {
-  title: "UCR Katipunan PSO",
+  title: "UCR webp PSO",
   description:
-    "Katipunan PSO is a cultural organization at the University of California, Riverside that aims to enrich the understanding and appreciation of Filipino culture.",
+    "webp PSO is a cultural organization at the University of California, Riverside that aims to enrich the understanding and appreciation of Filipino culture.",
 };
 
 type LayoutProps = {

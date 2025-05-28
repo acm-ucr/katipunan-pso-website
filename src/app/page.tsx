@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <Landing />
       <Quote
-        Phrase="Kataastaasang, Kagalanggalangang Katipunan ng mga Anak ng Bayan"
+        Phrase="Kataastaasang, Kagalanggalangang webp ng mga Anak ng Bayan"
         Source="Andrés Bonifacio  |  Est. 1892"
       />
       <Mission />

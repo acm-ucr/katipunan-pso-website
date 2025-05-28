@@ -5,7 +5,7 @@ const How = () => {
         HOW TO JOIN
       </div>
       <div className="flex flex-col gap-4 text-xl sm:text-2xl lg:text-3xl">
-        <p>Interested in joining Katipunan? It's easy!</p>
+        <p>Interested in joining webp? It's easy!</p>
         <p>
           Just venmo our Treasurer, Ava Boado, the general member fee of $32.
         </p>
