@@ -37,7 +37,7 @@ const KE = () => {
           <Image src={KEImg} alt="Bg" className="w-250" />
           <div className="text-kpso-blue mt-20 pt-10 text-center text-3xl lg:text-5xl">
             The Katipunan Experience (KE)
-            <span className="lg::text-2xl text-lg text-black">
+            <span className="ml-2 text-lg text-black lg:text-2xl">
               is our annual high school conference here at UC Riverside. At KE,
               high school students will be surrounded with mentor college
               students, inspirational speakers, and other high school students
