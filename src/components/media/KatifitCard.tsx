@@ -18,9 +18,12 @@ const KatifitCard = ({ src, alt, href }: KatifitCardProps) => {
       viewport={{ once: true }}
     >
       <Link href={href} target="_blank">
-        <div className="relative h-80 w-60 cursor-pointer md:h-100 md:w-60 xl:h-120 xl:w-80">
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          className="relative h-80 w-60 cursor-pointer md:h-100 md:w-60 xl:h-120 xl:w-80"
+        >
           <Image src={src} alt={alt} fill className="object-cover" />
-        </div>
+        </motion.div>
       </Link>
     </motion.div>
   );
