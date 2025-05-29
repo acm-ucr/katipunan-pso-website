@@ -29,14 +29,6 @@ const PACNArchive = () => {
             height={1035}
           />
         </div>
-        <div className="absolute -right-1 bottom-0 mx-auto flex -rotate-3 transform justify-center">
-          <Image
-            src="/floral/blueshortvine.svg"
-            alt="bottom right blue vine"
-            width={143}
-            height={336}
-          />
-        </div>
       </motion.div>
 
       <div className="relative z-10">
