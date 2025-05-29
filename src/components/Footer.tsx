@@ -1,7 +1,9 @@
+"use client";
+import { motion } from "motion/react";
 import { FiFacebook } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa6";
 import { AiOutlineYoutube } from "react-icons/ai";
-import Logo from "@/public/components/Katipunan Logo.png";
+import Logo from "@/public/components/Katipunan Logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,24 +11,30 @@ const Footer = () => {
   return (
     <div className="bg-kpso-brown bottom-0 mt-10 w-full overflow-x-hidden py-8 sm:mt-32">
       <div className="flex justify-center space-x-4 py-2 md:space-x-8 lg:space-x-10">
-        <Link
-          href="https://www.facebook.com/groups/676726465688057/"
-          target="_blank"
-        >
-          <FiFacebook className="text-2xl text-gray-700 md:text-3xl lg:text-5xl" />
-        </Link>
-        <Link
-          href="https://www.instagram.com/ucrkatipunan/?hl=en"
-          target="_blank"
-        >
-          <FaInstagram className="text-2xl text-gray-700 md:text-3xl lg:text-5xl" />
-        </Link>
-        <Link
-          href="https://www.youtube.com/channel/UCzyvHMxv71Ihf_BvbOMwhUQ"
-          target="_blank"
-        >
-          <AiOutlineYoutube className="text-2xl text-gray-700 md:text-3xl lg:text-5xl" />
-        </Link>
+        <motion.div whileHover={{ scale: 1.05 }}>
+          <Link
+            href="https://www.facebook.com/groups/676726465688057/"
+            target="_blank"
+          >
+            <FiFacebook className="text-2xl text-gray-700 md:text-3xl lg:text-5xl" />
+          </Link>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.05 }}>
+          <Link
+            href="https://www.instagram.com/ucrkatipunan/?hl=en"
+            target="_blank"
+          >
+            <FaInstagram className="text-2xl text-gray-700 md:text-3xl lg:text-5xl" />
+          </Link>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.05 }}>
+          <Link
+            href="https://www.youtube.com/channel/UCzyvHMxv71Ihf_BvbOMwhUQ"
+            target="_blank"
+          >
+            <AiOutlineYoutube className="text-2xl text-gray-700 md:text-3xl lg:text-5xl" />
+          </Link>
+        </motion.div>
       </div>
       <div className="flex justify-center space-x-4 py-2 sm:space-x-8 lg:space-x-12">
         <div className="font-inria-serif text-sm text-gray-700 sm:text-base md:text-lg">

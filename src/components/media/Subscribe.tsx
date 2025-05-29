@@ -4,8 +4,8 @@ import Link from "next/link";
 
 const Subscribe = ({ NewsLink }: { NewsLink: string }) => {
   return (
-    <div className="mt-5 flex w-full items-center justify-center sm:mt-10 md:mt-15 lg:mt-20 xl:mt-30">
-      <div className="flex flex-col items-center">
+    <div className="mt-5 flex min-h-screen w-full items-start justify-center sm:mt-10 md:mt-15 lg:mt-20 xl:mt-30">
+      <div className="flex cursor-pointer flex-col items-center">
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}

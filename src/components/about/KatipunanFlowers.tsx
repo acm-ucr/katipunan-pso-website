@@ -20,6 +20,7 @@ const KatipunanFlowers = () => {
         height={900}
         className="absolute -right-80 bottom-140 z-10"
       />
+
       <Image
         src={Vine}
         alt="Decorative Vine"

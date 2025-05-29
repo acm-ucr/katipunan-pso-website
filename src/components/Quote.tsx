@@ -2,7 +2,7 @@
 import { motion } from "motion/react";
 import React from "react";
 import Image from "next/image";
-import Sun from "@/public/components/Sun.svg";
+import Sun from "@/public/components/Sun.webp";
 
 const Quote = ({ Phrase, Source }: { Phrase: string; Source: string }) => {
   return (
