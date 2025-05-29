@@ -2,10 +2,10 @@
 import { motion } from "motion/react";
 import BlueDual from "@/public/floral/bluedualflowers.webp";
 import Blue from "@/public/floral/blueflower.webp";
-import Vine from "@/public/floral/bluevine.png";
+import Vine from "@/public/floral/bluevine.webp";
 import Image from "next/image";
 
-const KatipunanFlowers = () => {
+const webpFlowers = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -54,4 +54,4 @@ const KatipunanFlowers = () => {
   );
 };
 
-export default KatipunanFlowers;
+export default webpFlowers;

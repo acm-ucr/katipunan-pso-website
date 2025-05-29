@@ -6,7 +6,7 @@ const Who = () => {
       </div>
       <div className="text-3xl font-bold sm:text-4xl lg:text-5xl">Anyone!</div>
       <div className="text-2xl sm:text-3xl lg:text-4xl">
-        Katipunan is open for anyone and everyone!
+        webp is open for anyone and everyone!
       </div>
     </div>
   );
