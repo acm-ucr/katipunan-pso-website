@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { motion } from "motion/react"; 
+import { motion } from "motion/react";
 import WIKImg1 from "@/public/about/What1.webp";
 import WIKImg2 from "@/public/about/What2.webp";
 import WIKImg3 from "@/public/about/What3.webp";
