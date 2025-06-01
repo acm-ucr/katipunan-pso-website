@@ -7,6 +7,7 @@ import Image from "next/image";
 import BlueFlower from "@/public/floral/blueflower.webp";
 import BlueVine from "@/public/floral/blueshortvine.svg";
 import { motion } from "motion/react";
+import KEComponent from "@/components/events/KE";
 
 const Ke = () => {
   return (
@@ -102,6 +103,7 @@ const Ke = () => {
           instagramLink="https://www.instagram.com/ucrkatipunanoutreach/"
         />
       </div>
+      <KEComponent />
     </>
   );
 };

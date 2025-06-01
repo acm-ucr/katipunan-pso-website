@@ -1,11 +1,10 @@
 "use client";
 import { motion } from "motion/react";
-
 import Image from "next/image";
-import Social from "@/public/home/Social.svg";
-import Academic from "@/public/home/Academic.svg";
-import Cultural from "@/public/home/Cultural.svg";
-import Community from "@/public/home/Community.svg";
+import Social from "@/public/home/social.webp";
+import Academic from "@/public/home/academic.webp";
+import Cultural from "@/public/home/cultural.webp";
+import Community from "@/public/home/community.webp";
 
 const Pillars = () => {
   return (
@@ -14,7 +13,7 @@ const Pillars = () => {
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="overflow-x-hidden"
         >
@@ -41,7 +40,7 @@ const Pillars = () => {
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="overflow-x-hidden"
         >
@@ -67,7 +66,7 @@ const Pillars = () => {
         <motion.div
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="overflow-x-hidden"
         >
@@ -93,7 +92,7 @@ const Pillars = () => {
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
+          transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
           className="overflow-x-hidden"
         >

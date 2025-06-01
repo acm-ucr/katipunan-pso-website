@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-
 import React from "react";
 import BoardCard from "@/components/about/BoardCard";
 import { PACNBoard } from "@/data/PACNBoard";
@@ -9,22 +8,28 @@ import Image from "next/image";
 const PACNBoardGrid = () => {
   return (
     <div className="relative flex w-full overflow-x-hidden overflow-y-hidden px-6 py-16">
-      <div className="absolute top-0 -left-50 z-0 -translate-x-1 scale-125 rotate-[270deg]">
-        <Image
-          src="/floral/blackflower.webp"
-          alt="Decorative Flow"
-          width={500}
-          height={500}
-        />
-      </div>
-      <div className="absolute -right-90 bottom-0 z-0 -translate-x-1 scale-125 rotate-[270deg]">
-        <Image
-          src="/floral/blackdualflowers.webp"
-          alt="Side Flower"
-          width={800}
-          height={800}
-        />
-      </div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.2 }}
+      >
+        <div className="absolute top-0 -left-50 z-0 -translate-x-1 scale-125 rotate-[270deg]">
+          <Image
+            src="/floral/blackflower.webp"
+            alt="Decorative Flow"
+            width={500}
+            height={500}
+          />
+        </div>
+        <div className="absolute -right-90 bottom-0 z-0 -translate-x-1 scale-125 rotate-[270deg]">
+          <Image
+            src="/floral/blackdualflowers.webp"
+            alt="Side Flower"
+            width={800}
+            height={800}
+          />
+        </div>
+      </motion.div>
 
       <div className="w-full flex-col">
         <div className="relative mb-10">
