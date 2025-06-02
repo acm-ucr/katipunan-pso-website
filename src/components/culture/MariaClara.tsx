@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "motion/react";
 import Image from "next/image";
 import blueFlower from "@/public/floral/blueflower.webp";

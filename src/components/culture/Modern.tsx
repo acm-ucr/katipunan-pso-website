@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "motion/react";
 import Kuties from "@/public/suites/ModernKuties.webp";
 import PACKN from "@/public/suites/ModernPACKN.webp";

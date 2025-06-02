@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "motion/react";
 import PandanggoImg from "@/public/suites/Pandanggo.webp";
 import Image from "next/image";

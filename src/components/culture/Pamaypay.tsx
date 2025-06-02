@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "motion/react";
 import PamaypayImg from "@/public/suites/Pamaypay.webp";
 import Image from "next/image";
