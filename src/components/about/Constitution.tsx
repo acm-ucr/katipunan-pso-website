@@ -1,6 +1,6 @@
 const Constitution = () => {
   return (
-    <div className="font-inria-serif mb-20 flex w-screen flex-col text-base sm:text-lg md:text-xl">
+    <div className="font-inria-serif mb-20 flex w-full flex-col text-base sm:text-lg md:text-xl">
       <div className="flex flex-col items-center">
         <div className="mt-10 flex underline">
           Katipunan Pilipino Student Organization
