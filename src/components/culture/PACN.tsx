@@ -43,32 +43,61 @@ const PACN = () => {
         </motion.div>
 
         <div className="z-10 -mt-20 flex w-screen flex-col items-center text-center">
-          <div className="h-[300px] w-[400px] overflow-hidden sm:h-[350px] sm:w-[500px] md:h-[550px] md:w-[750px] lg:h-[650px] lg:w-[712px] xl:h-[532] xl:w-[946]">
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="h-[300px] w-[400px] overflow-hidden sm:h-[350px] sm:w-[500px] md:h-[550px] md:w-[750px] lg:h-[650px] lg:w-[712px] xl:h-[532] xl:w-[946]"
+          >
             <Image src={PACNMain} alt="Pacn Photo" />
-          </div>
+          </motion.div>
           <div className="w-20/21 md:w-6/7 xl:w-2/3">
             <div className="text-kpso-red-primary mt-20 text-center text-4xl sm:text-5xl md:mt-10 lg:text-6xl">
-              Overview
-              <div className="mt-5 text-center text-sm leading-[40px] text-black sm:text-lg sm:leading-[50px] lg:text-2xl lg:leading-[70px] xl:p-4">
+              <motion.div
+                initial={{ opacity: 0, y: -20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: 0.2 }}
+                viewport={{ once: true }}
+              >
+                Overview
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: -20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: 0.4 }}
+                className="mt-5 text-center text-sm leading-[40px] text-black sm:text-lg sm:leading-[50px] lg:text-2xl lg:leading-[70px] xl:p-4"
+              >
                 PILIPINO AMERICAN CULTURE NIGHT (PACN) is one of KATIPUNAN’S
                 longest standing events. Happening in the spring quarter, PACN
                 board and cast members come together to put on a show that aims
                 to present PILIPINO AMERICAN CULTURE through acting, singing,
                 dancing, and more. The show consists of a play centered around
                 current Pilipino-American issues along with traditional dances.
-              </div>
+              </motion.div>
             </div>
 
             <div className="text-kpso-red-primary mt-10 justify-center text-4xl sm:text-5xl lg:text-6xl">
-              Explanation of Title Change
-              <div className="mt-5 text-center text-sm leading-[40px] text-black sm:text-lg sm:leading-[50px] lg:text-2xl lg:leading-[70px] xl:p-4">
+              <motion.div
+                initial={{ opacity: 0, y: -20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: 0.2 }}
+              >
+                Explanation of Title Change
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: -20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, delay: 0.4 }}
+                className="mt-5 text-center text-sm leading-[40px] text-black sm:text-lg sm:leading-[50px] lg:text-2xl lg:leading-[70px] xl:p-4"
+              >
                 As of 2020, KATIPUNAN PSO has changed its cultural night title
                 to PILIPINO AMERICAN CULTURE NIGHT, stemming away from PILIPINO
                 CULTURE NIGHT. This title change aims to reflect the current
                 members of the organization along with the position we hold as
                 an American university delivering a production based around
                 Pilipino culture.
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>

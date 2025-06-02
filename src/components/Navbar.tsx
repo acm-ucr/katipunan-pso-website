@@ -3,7 +3,7 @@ import Image from "next/image";
 import { AnimatePresence, motion } from "motion/react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import Logo from "@/public/components/Katipunan Logo.png";
+import Logo from "@/public/components/Katipunan Logo.webp";
 import { useState } from "react";
 
 const Navbar = () => {
