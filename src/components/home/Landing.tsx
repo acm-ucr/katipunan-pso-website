@@ -48,11 +48,18 @@ const Landing = () => {
         University of California, Riverside
       </motion.h1>
       <div className="relative w-max">
-        <Image
-          src={Header}
-          alt="Group"
-          className="w-80 rounded-lg shadow-lg sm:w-120 md:w-150 lg:w-200 xl:w-250"
-        />
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+        >
+          <Image
+            src={Header}
+            alt="Group"
+            className="w-80 rounded-lg shadow-lg sm:w-120 md:w-150 lg:w-200 xl:w-250"
+          />
+        </motion.div>
         <motion.div
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
