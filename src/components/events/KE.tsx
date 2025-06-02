@@ -34,8 +34,21 @@ const KE = () => {
         </motion.div>
 
         <div className="z-0 mr-[18%] ml-[18%] flex flex-col items-center">
-          <Image src={KEImg} alt="Bg" className="w-250" />
-          <div className="text-kpso-blue mt-20 pt-10 text-center text-3xl lg:text-5xl">
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3 }}
+            viewport={{ once: true }}
+          >
+            <Image src={KEImg} alt="Bg" className="w-250" />
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: -100 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: 0.2 }}
+            viewport={{ once: true }}
+            className="text-kpso-blue mt-20 pt-10 text-center text-3xl lg:text-5xl"
+          >
             The Katipunan Experience (KE)
             <span className="ml-2 text-lg text-black lg:text-2xl">
               is our annual high school conference here at UC Riverside. At KE,
@@ -46,11 +59,17 @@ const KE = () => {
               from Academics to Mental Health to Arts Expression, and fun
               activities for the high schoolers and college students
             </span>
-          </div>
-          <div className="pt-40 text-center text-lg lg:text-2xl">
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.3, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="pt-40 text-center text-lg lg:text-2xl"
+          >
             Contact our Outreach Director, Lovel Cruz, with any questions,
             comments or concerns.
-          </div>
+          </motion.div>
         </div>
       </div>
       <div className="">
