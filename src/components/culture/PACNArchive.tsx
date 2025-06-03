@@ -2,7 +2,6 @@
 import { motion } from "motion/react";
 import archiveData from "@/data/PACNArchive";
 import Image from "next/image";
-import React from "react";
 import ArchiveCard from "@/components/culture/ArchiveCard";
 
 const PACNArchive = () => {

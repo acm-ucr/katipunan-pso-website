@@ -1,8 +1,7 @@
 "use client";
 import { motion } from "motion/react";
-import React from "react";
 import BoardCard from "@/components/about/BoardCard";
-import { PACNBoard } from "@/data/PACNBoard";
+import PACNBoard from "@/data/PACNBoard";
 import Image from "next/image";
 
 const PACNBoardGrid = () => {

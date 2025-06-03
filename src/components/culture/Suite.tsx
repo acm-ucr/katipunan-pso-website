@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "motion/react";
-import { tags } from "@/data/Suites";
+import tags from "@/data/Suites";
 import Image from "next/image";
 import Link from "next/link";
 

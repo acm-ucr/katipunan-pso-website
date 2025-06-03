@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-import React from "react";
 import Image from "next/image";
 import Sun from "@/public/components/Sun.webp";
 

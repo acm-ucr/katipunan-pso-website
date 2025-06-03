@@ -2,7 +2,6 @@
 import { motion } from "motion/react";
 import alumniData from "@/data/Alumni";
 import Image from "next/image";
-import React from "react";
 import AlumniCard from "@/components/resources/AlumniCard";
 
 const AlumniGrid = () => {

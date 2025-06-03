@@ -1,5 +1,5 @@
 import KatifitCard from "@/components/media/KatifitCard";
-import { Katifits } from "@/data/Katifits";
+import Katifits from "@/data/Katifits";
 
 const KatifitGrid = () => {
   return (
