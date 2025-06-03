@@ -5,7 +5,7 @@ import Pandanggo from "@/public/suites/Pandanggo.webp";
 import Pamaypay from "@/public/suites/Pamaypay.webp";
 import Modern from "@/public/suites/ModernProjectRizzerside.webp";
 
-export const tags = [
+const tags = [
   { name: "PANDANGGO", image: Pandanggo, link: "/culture/suite/pandanggo" },
   {
     name: "MARIA CLARA",
@@ -29,3 +29,5 @@ export const tags = [
     link: "/culture/suite/tinikling",
   },
 ];
+
+export default tags;

@@ -72,12 +72,10 @@ const KE = () => {
           </motion.div>
         </div>
       </div>
-      <div className="">
-        <Contact
-          name="ucrkatipunanoutreach"
-          instagramLink="https://www.instagram.com/ucrkatipunanoutreach/"
-        />
-      </div>
+      <Contact
+        name="ucrkatipunanoutreach"
+        instagramLink="https://www.instagram.com/ucrkatipunanoutreach/"
+      />
     </>
   );
 };

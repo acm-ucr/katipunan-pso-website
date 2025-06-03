@@ -22,7 +22,7 @@ import Zion from "@/public/pacn_board/Zion Abendano.webp";
 import Abby from "@/public/pacn_board/Abby Obra.webp";
 import Charlize from "@/public/pacn_board/Charlize Munar.webp";
 
-export const PACNBoard = [
+const PACNBoard = [
   {
     position: "PACN Coordinator",
     name: "Ren Fang",
@@ -162,3 +162,5 @@ export const PACNBoard = [
     is_apprentice: false,
   },
 ];
+
+export default PACNBoard;
