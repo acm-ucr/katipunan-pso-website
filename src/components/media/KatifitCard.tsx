@@ -3,11 +3,11 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
 
-type KatifitCardProps = {
+interface KatifitCardProps {
   src: StaticImageData;
   alt: string;
   href: string;
-};
+}
 
 const KatifitCard = ({ src, alt, href }: KatifitCardProps) => {
   return (

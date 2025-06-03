@@ -18,9 +18,9 @@ export const metadata = {
     "Katipunan PSO is a cultural organization at the University of California, Riverside that aims to enrich the understanding and appreciation of Filipino culture.",
 };
 
-type LayoutProps = {
+interface LayoutProps {
   children: React.ReactNode;
-};
+}
 
 export default function RootLayout({ children }: LayoutProps) {
   return (

@@ -1,11 +1,11 @@
 import Image, { StaticImageData } from "next/image";
 
-type BoardCardProps = {
+interface BoardCardProps {
   position: string;
   name: string;
   webp: StaticImageData;
   is_apprentice: boolean;
-};
+}
 
 const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
   return (

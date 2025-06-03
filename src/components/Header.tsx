@@ -2,11 +2,11 @@
 import { motion } from "motion/react";
 import Image, { StaticImageData } from "next/image";
 
-type photoProps = {
+interface photoProps {
   webp: StaticImageData;
   alt: string;
   txt: string;
-};
+}
 
 const Header = ({ webp, alt, txt }: photoProps) => {
   return (
