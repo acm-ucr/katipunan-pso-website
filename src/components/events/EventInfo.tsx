@@ -18,7 +18,7 @@ const EventInfo = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3, delay: 0.5 }}
         viewport={{ once: true }}
-        className="text-md text-center sm:text-xl sm:leading-[50px] xl:text-2xl xl:leading-[70px]"
+        className="text-md text-center leading-[60px] sm:text-xl xl:text-2xl"
       >
         KATIPUNAN prides itself on its robust mentorship program, designed to
         empower and guide our students towards personal and professional growth.

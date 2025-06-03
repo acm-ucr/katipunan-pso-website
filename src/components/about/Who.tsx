@@ -3,13 +3,7 @@ import { motion } from "motion/react";
 
 const Who = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 30 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3 }}
-      viewport={{ once: true }}
-      className="font-inria-serif flex w-full max-w-[700px] flex-col items-center justify-center gap-6 px-6 text-center"
-    >
+    <div className="font-inria-serif flex w-full max-w-[700px] flex-col items-center justify-center gap-6 px-6 text-center">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -39,7 +33,7 @@ const Who = () => {
       >
         Katipunan is open for anyone and everyone!
       </motion.div>
-    </motion.div>
+    </div>
   );
 };
 

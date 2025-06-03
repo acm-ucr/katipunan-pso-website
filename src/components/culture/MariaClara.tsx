@@ -7,7 +7,7 @@ import Maria from "@/public/suites/MariaClara.webp";
 
 const MariaClara = () => {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center gap-8 overflow-hidden">
       <motion.div
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -26,7 +26,7 @@ const MariaClara = () => {
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.4, delay: 0.2 }}
         viewport={{ once: true }}
-        className="font-inria-serif text-md mx-10 mt-15 inline-block justify-center text-center leading-12 md:text-lg lg:mx-30 lg:text-xl xl:mx-70"
+        className="font-inria-serif text-md inline-block w-11/12 justify-center text-center leading-12 md:w-3/4 md:text-lg lg:text-xl"
       >
         <span className="mr-2 text-4xl text-blue-800 lg:text-5xl">
           MARIA CLARA
