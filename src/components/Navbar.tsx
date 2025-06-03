@@ -28,20 +28,20 @@ const Navbar = () => {
     <div className="bg-kpso-brown fixed top-0 z-100 w-full px-6 py-4 text-black">
       <div className="mx-auto flex max-w-screen-xl items-center justify-between">
         <div className="hidden items-center gap-6 lg:flex xl:gap-12">
-          {NavData.map((item, index) => {
+          {NavData.map(({ name, link, sub }, index) => {
             if (index < Math.floor(NavData.length / 2)) {
-              if (item.link) {
+              if (link) {
                 return (
                   <Link
                     key={index}
-                    href={item.link}
+                    href={link}
                     className={`md:text-md px-4 py-2 uppercase transition-colors duration-300 md:text-sm lg:text-lg ${
-                      pathname === item.link
+                      pathname === link
                         ? "text-kpso-blue"
                         : "hover:text-kpso-blue"
                     }`}
                   >
-                    {item.name}
+                    {name}
                   </Link>
                 );
               } else {
@@ -49,26 +49,26 @@ const Navbar = () => {
                   <div className="group relative" key={index}>
                     <button
                       className={`md:text-md px-6 py-2 uppercase transition-colors duration-300 hover:cursor-pointer md:text-sm lg:text-lg ${
-                        pathname.startsWith("/" + item.name.toLowerCase())
+                        pathname.startsWith("/" + name.toLowerCase())
                           ? "text-kpso-blue"
                           : "hover:text-kpso-blue"
                       }`}
                     >
-                      {item.name}
+                      {name}
                     </button>
                     <div className="bg-kpso-red-secondary invisible absolute top-full left-0 -translate-y-2 transform rounded text-black opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                      {item.sub &&
-                        item.sub.map((subitem, subindex) => (
+                      {sub &&
+                        sub.map(({ subname, sublink }, subindex) => (
                           <Link
                             key={subindex}
-                            href={subitem.link}
+                            href={sublink}
                             className={`block px-4 py-4 text-sm uppercase transition-colors duration-300 ${
-                              pathname === subitem.link
+                              pathname === sublink
                                 ? "text-kpso-blue"
                                 : "hover:text-kpso-blue"
                             }`}
                           >
-                            {subitem.name}
+                            {subname}
                           </Link>
                         ))}
                     </div>
@@ -87,32 +87,32 @@ const Navbar = () => {
             />
           </Link>
 
-          {NavData.map((item, index) => {
+          {NavData.map(({ name, sub }, index) => {
             if (index >= Math.floor(NavData.length / 2)) {
               return (
                 <div className="group relative" key={index}>
                   <button
                     className={`md:text-md px-6 py-2 uppercase transition-colors duration-300 hover:cursor-pointer md:text-sm lg:text-lg ${
-                      pathname.startsWith("/" + item.name.toLowerCase())
+                      pathname.startsWith("/" + name.toLowerCase())
                         ? "text-kpso-blue"
                         : "hover:text-kpso-blue"
                     }`}
                   >
-                    {item.name}
+                    {name}
                   </button>
                   <div className="bg-kpso-red-secondary invisible absolute top-full left-0 -translate-y-2 transform rounded text-black opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                    {item.sub &&
-                      item.sub.map((subitem, subindex) => (
+                    {sub &&
+                      sub.map(({ subname, sublink }, subindex) => (
                         <Link
                           key={subindex}
-                          href={subitem.link}
+                          href={sublink}
                           className={`block px-4 py-4 text-sm uppercase transition-colors duration-300 ${
-                            pathname === subitem.link
+                            pathname === sublink
                               ? "text-kpso-blue"
                               : "hover:text-kpso-blue"
                           }`}
                         >
-                          {subitem.name}
+                          {subname}
                         </Link>
                       ))}
                   </div>
@@ -158,47 +158,47 @@ const Navbar = () => {
               exit={{ opacity: 0 }}
               className="bg-kpso-red-secondary absolute top-full right-6 z-50 mt-2 w-56 rounded text-black shadow-lg"
             >
-              {NavData.map((item, index) => {
-                if (item.link) {
+              {NavData.map(({ name, link, sub }, index) => {
+                if (link) {
                   return (
                     <Link
                       key={index}
-                      href={item.link}
+                      href={link}
                       onClick={isMobileMenuToggled}
                       className="block px-6 py-3 uppercase"
                     >
-                      {item.name}
+                      {name}
                     </Link>
                   );
                 } else {
                   return (
                     <div key={index}>
                       <button
-                        onClick={() => toggleMenu(item.name)}
+                        onClick={() => toggleMenu(name)}
                         className="w-full px-6 py-3 text-left uppercase"
                       >
-                        {item.name}
+                        {name}
                       </button>
                       <AnimatePresence>
-                        {whichMenuOpen === item.name && (
+                        {whichMenuOpen === name && (
                           <motion.div
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
                             className="ml-4 border-l border-black pl-4"
                           >
-                            {item.sub &&
-                              item.sub.map((subitem, subindex) => (
+                            {sub &&
+                              sub.map(({ subname, sublink }, subindex) => (
                                 <Link
                                   key={subindex}
-                                  href={subitem.link}
+                                  href={sublink}
                                   onClick={() => {
                                     isMobileMenuToggled();
-                                    toggleMenu(item.name);
+                                    toggleMenu(name);
                                   }}
                                   className="hover:text-kpso-blue block px-2 py-2 text-sm"
                                 >
-                                  {subitem.name}
+                                  {subname}
                                 </Link>
                               ))}
                           </motion.div>

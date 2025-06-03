@@ -7,16 +7,16 @@ const NavData = [
     name: "ABOUT",
     sub: [
       {
-        name: "WHAT IS KATIPUNAN",
-        link: "/about/katipunan",
+        subname: "WHAT IS KATIPUNAN",
+        sublink: "/about/katipunan",
       },
       {
-        name: "MEET THE CABINET",
-        link: "/about/cabinet",
+        subname: "MEET THE CABINET",
+        sublink: "/about/cabinet",
       },
       {
-        name: "CONSTITUTION",
-        link: "/about/constitution",
+        subname: "CONSTITUTION",
+        sublink: "/about/constitution",
       },
     ],
   },
@@ -24,16 +24,16 @@ const NavData = [
     name: "EVENTS",
     sub: [
       {
-        name: "PAMILYA PROGRAM",
-        link: "/events/pamilya",
+        subname: "PAMILYA PROGRAM",
+        sublink: "/events/pamilya",
       },
       {
-        name: "JFAV",
-        link: "/events/jfav",
+        subname: "JFAV",
+        sublink: "/events/jfav",
       },
       {
-        name: "KATIPUNAN EXPERIENCE",
-        link: "/events/ke",
+        subname: "KATIPUNAN EXPERIENCE",
+        sublink: "/events/ke",
       },
     ],
   },
@@ -41,20 +41,20 @@ const NavData = [
     name: "CULTURE",
     sub: [
       {
-        name: "PACN",
-        link: "/culture/pacn",
+        subname: "PACN",
+        sublink: "/culture/pacn",
       },
       {
-        name: "SUITE OVERVIEW",
-        link: "/culture/suite",
+        subname: "SUITE OVERVIEW",
+        sublink: "/culture/suite",
       },
       {
-        name: "BOARD",
-        link: "/culture/board",
+        subname: "BOARD",
+        sublink: "/culture/board",
       },
       {
-        name: "ARCHIVE",
-        link: "/culture/archive",
+        subname: "ARCHIVE",
+        sublink: "/culture/archive",
       },
     ],
   },
@@ -62,12 +62,12 @@ const NavData = [
     name: "RESOURCES",
     sub: [
       {
-        name: "ALUMNI",
-        link: "/resources/alumni",
+        subname: "ALUMNI",
+        sublink: "/resources/alumni",
       },
       {
-        name: "ACADEMICS",
-        link: "/resources/academics",
+        subname: "ACADEMICS",
+        sublink: "/resources/academics",
       },
     ],
   },
@@ -75,20 +75,20 @@ const NavData = [
     name: "MEDIA",
     sub: [
       {
-        name: "PHOTOS",
-        link: "/media/photos",
+        subname: "PHOTOS",
+        sublink: "/media/photos",
       },
       {
-        name: "VIDEOS",
-        link: "/media/videos",
+        subname: "VIDEOS",
+        sublink: "/media/videos",
       },
       {
-        name: "KATIWEEKLY",
-        link: "/media/katiweekly",
+        subname: "KATIWEEKLY",
+        sublink: "/media/katiweekly",
       },
       {
-        name: "KATIFITS",
-        link: "/media/katifit",
+        subname: "KATIFITS",
+        sublink: "/media/katifit",
       },
     ],
   },
