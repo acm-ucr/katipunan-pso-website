@@ -5,7 +5,7 @@ import Sun from "@/public/components/Sun.webp";
 
 const Quote = ({ Phrase, Source }: { Phrase: string; Source: string }) => {
   return (
-    <div className="font-inria-serif flex flex-row overflow-x-hidden bg-gradient-to-b from-transparent via-[#51578160] to-[#2A3993]">
+    <div className="font-inria-serif flex overflow-x-hidden bg-gradient-to-b from-transparent via-[#51578160] to-[#2A3993]">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
