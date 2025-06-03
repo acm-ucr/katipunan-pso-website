@@ -1,8 +1,7 @@
 "use client";
 import { AnimatePresence, motion } from "motion/react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { useState, useRef, useEffect } from "react";
-import { StaticImageData } from "next/image";
 
 interface AlumniCardProps {
   fullName: string;
