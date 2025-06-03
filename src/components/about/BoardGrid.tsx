@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-import React from "react";
 import BoardCard from "@/components/about/BoardCard";
 import { cabData } from "@/data/Cab";
 import Image from "next/image";

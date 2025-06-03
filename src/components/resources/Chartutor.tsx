@@ -28,7 +28,7 @@ const Chartutor = () => {
           className="text-kpso-red-primary w-170 pt-5"
         />
       </motion.div>
-      <div className="flex flex-row self-start pt-5 md:mx-10 md:gap-50 xl:mx-0 2xl:gap-100">
+      <div className="flex self-start pt-5 md:mx-10 md:gap-50 xl:mx-0 2xl:gap-100">
         <div className="flex flex-col">
           <motion.div
             initial={{ opacity: 0, y: -20 }}

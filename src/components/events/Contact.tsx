@@ -3,13 +3,12 @@ import { motion } from "motion/react";
 import { FaInstagram } from "react-icons/fa6";
 import Link from "next/link";
 
-const Contact = ({
-  name,
-  instagramLink,
-}: {
+interface ContactProps {
   name: string;
   instagramLink: string;
-}) => {
+}
+
+const Contact = ({ name, instagramLink }: ContactProps) => {
   return (
     <div className="m-10 flex flex-col items-center xl:m-30">
       <motion.div
@@ -23,7 +22,7 @@ const Contact = ({
       </motion.div>
       <motion.div whileHover={{ scale: 1.05 }}>
         <Link
-          className="bg-kpso-blue mt-2 flex max-w-fit justify-center rounded-full p-5 xl:p-12"
+          className="bg-kpso-blue mt-2 flex max-w-fit justify-center rounded-full p-4 lg:p-8"
           href={instagramLink}
           target="_blank"
         >
@@ -33,7 +32,7 @@ const Contact = ({
             transition={{ duration: 0.4, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <FaInstagram className="flex h-10 w-10 justify-center text-neutral-50 sm:h-15 sm:w-15 xl:h-20 xl:w-20" />
+            <FaInstagram className="flex justify-center text-6xl text-neutral-50 lg:text-7xl" />
           </motion.div>
         </Link>
       </motion.div>

@@ -1,15 +1,9 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 const How = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5 }}
-      viewport={{ once: true }}
-      className="font-inria-serif flex w-full max-w-[700px] flex-col items-center justify-center gap-6 px-6 text-center"
-    >
+    <div className="font-inria-serif flex w-full max-w-[700px] flex-col items-center justify-center gap-6 px-6 text-center">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -33,7 +27,7 @@ const How = () => {
         <p>And just like that, you're now an official Katipunero!</p>
         <p>Ava's Venmo: @pompu</p>
       </motion.div>
-    </motion.div>
+    </div>
   );
 };
 
