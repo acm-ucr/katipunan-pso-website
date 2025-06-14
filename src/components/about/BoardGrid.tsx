@@ -48,13 +48,13 @@ const BoardGrid = () => {
         </div>
 
         {apprentices.length > 0 && (
-          <div className="mt-50 mb-20 w-full">
-            <motion.h2
+          <div className="my-20 w-full">
+            <motion.p
               initial={{ opacity: 0, y: -50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
               viewport={{ once: true }}
-              className="font-inria-serif relative mb-70 text-center text-6xl"
+              className="font-inria-serif relative mb-30 text-center text-6xl"
             >
               APPRENTICES
               <Image
@@ -64,9 +64,9 @@ const BoardGrid = () => {
                 width={200}
                 height={40}
               />
-            </motion.h2>
+            </motion.p>
 
-            <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-50">
+            <div className="grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-50">
               {apprentices.map((member, index) => (
                 <motion.div
                   key={index}
