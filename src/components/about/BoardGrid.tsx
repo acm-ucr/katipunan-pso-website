@@ -3,6 +3,9 @@ import { motion } from "motion/react";
 import BoardCard from "@/components/about/BoardCard";
 import { cabData } from "@/data/Cab";
 import Image from "next/image";
+import BlackFlower from "@/public/floral/blackflower.webp";
+import BlackDual from "@/public/floral/blackdualflowers.webp";
+import Vine from "@/public/floral/longvine.svg";
 
 const BoardGrid = () => {
   const cabinetMembers = cabData.filter((member) => !member.is_apprentice);
@@ -18,19 +21,14 @@ const BoardGrid = () => {
       >
         <div className="absolute top-0 -left-50 z-0 -translate-x-1 scale-125 rotate-[270deg]">
           <Image
-            src="/floral/blackflower.webp"
+            src={BlackFlower}
             alt="Decorative Flow"
             width={500}
             height={500}
           />
         </div>
         <div className="absolute -right-90 bottom-0 z-0 -translate-x-1 scale-125 rotate-[270deg]">
-          <Image
-            src="/floral/blackdualflowers.webp"
-            alt="Side Flower"
-            width={800}
-            height={800}
-          />
+          <Image src={BlackDual} alt="Side Flower" width={800} height={800} />
         </div>
       </motion.div>
 
@@ -67,7 +65,7 @@ const BoardGrid = () => {
             >
               APPRENTICES
               <Image
-                src="/floral/longvine.svg"
+                src={Vine}
                 alt="Vine"
                 className="absolute -bottom-20 left-1/2 w-200 -translate-x-1/2 transform object-center"
                 width={200}
