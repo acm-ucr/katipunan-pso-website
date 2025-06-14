@@ -1,14 +1,14 @@
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
-import ModernComponent from "@/components/culture/Modern";
+import Modern from "@/components/culture/Modern";
 
-const Modern = () => {
+const Page = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="MODERN" />
-      <ModernComponent />
+      <Modern />
     </>
   );
 };
 
-export default Modern;
+export default Page;
