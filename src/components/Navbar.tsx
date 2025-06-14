@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <div className="bg-kpso-brown fixed top-0 z-100 w-full px-6 py-4 text-black">
       <div className="mx-auto flex max-w-screen-xl items-center justify-between">
-        <div className="hidden items-center gap-6 lg:flex xl:gap-12">
+        <div className="hidden w-full items-center justify-center gap-6 lg:flex xl:gap-12">
           {NavData.map(({ name, link, sub }, index) => {
             if (index < Math.floor(NavData.length / 2)) {
               if (link) {
