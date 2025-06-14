@@ -55,7 +55,7 @@ const What = () => {
             width={420}
             height={320}
             alt="Kati image 2"
-            className="-z-10 rounded-xl xl:translate-x-10 xl:-translate-y-4"
+            className="-z-10 rounded-xl xl:-translate-y-4 xl:translate-x-10"
           />
         </motion.div>
 

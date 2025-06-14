@@ -22,7 +22,7 @@ const BoardGrid = () => {
         <div className="absolute top-0 -left-50 z-0 -translate-x-1 scale-125 rotate-[270deg]">
           <Image
             src={BlackFlower}
-            alt="Decorative Flow"
+            alt="Decorative Flower"
             width={500}
             height={500}
           />
@@ -32,26 +32,19 @@ const BoardGrid = () => {
         </div>
       </motion.div>
 
-      <div className="w-full flex-col">
-        <div className="relative mb-10">
-          <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 md:gap-x-0 lg:grid-cols-3 lg:gap-x-0 lg:gap-y-20">
-            {cabinetMembers.map((member, index) => (
-              <motion.div
-                initial={{ opacity: 0, y: -20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3, delay: (index % 3) * 0.2 }}
-                viewport={{ once: true }}
-                key={index}
-              >
-                <BoardCard
-                  position={member.position}
-                  name={member.name}
-                  webp={member.webp}
-                  is_apprentice={member.is_apprentice}
-                />
-              </motion.div>
-            ))}
-          </div>
+      <div className="w-full">
+        <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-20">
+          {cabinetMembers.map((member, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: -20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, delay: (index % 3) * 0.2 }}
+              viewport={{ once: true }}
+            >
+              <BoardCard {...member} />
+            </motion.div>
+          ))}
         </div>
 
         {apprentices.length > 0 && (
@@ -73,22 +66,16 @@ const BoardGrid = () => {
               />
             </motion.h2>
 
-            <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 md:gap-x-0 lg:grid-cols-3 lg:gap-x-0 lg:gap-y-50">
+            <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-50">
               {apprentices.map((member, index) => (
                 <motion.div
+                  key={index}
                   initial={{ opacity: 0, y: -20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.3, delay: (index % 3) * 0.2 }}
                   viewport={{ once: true }}
-                  key={index}
                 >
-                  <BoardCard
-                    key={index}
-                    position={member.position}
-                    name={member.name}
-                    webp={member.webp}
-                    is_apprentice={member.is_apprentice}
-                  />
+                  <BoardCard {...member} />
                 </motion.div>
               ))}
             </div>
