@@ -1,14 +1,14 @@
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
-import AcademicsComponent from "@/components/resources/Academics";
+import Academics from "@/components/resources/Academics";
 
-const Academics = () => {
+const Page = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="ACADEMICS" />
-      <AcademicsComponent />
+      <Academics />
     </>
   );
 };
 
-export default Academics;
+export default Page;

@@ -5,7 +5,7 @@ import Kailey from "@/public/katifit/Kailey.webp";
 import Raf from "@/public/katifit/Raf.webp";
 import Ryan from "@/public/katifit/Ryan.webp";
 
-export const Katifits = [
+const Katifits = [
   {
     src: Ava,
     alt: "Picture of Ava",
@@ -37,3 +37,5 @@ export const Katifits = [
     href: "https://www.instagram.com/p/DIcIrf5x-8n/?igsh=NTc4MTIwNjQ2YQ==",
   },
 ];
+
+export default Katifits;

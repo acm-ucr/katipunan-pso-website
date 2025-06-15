@@ -1,14 +1,14 @@
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
-import MariaClaraComponent from "@/components/culture/MariaClara";
+import MariaClara from "@/components/culture/MariaClara";
 
-const MariaClara = () => {
+const Page = () => {
   return (
     <>
       <Header webp={HeaderImg} alt="Picture of Club" txt="MARIA CLARA" />
-      <MariaClaraComponent />
+      <MariaClara />
     </>
   );
 };
 
-export default MariaClara;
+export default Page;

@@ -1,3 +1,13 @@
 @import "tailwindcss";
 
-@config '../../tailwind.config.ts';
+@theme {
+  --color-kpso-white: #f0ebe5;
+  --color-kpso-brown: #ded0bf;
+  --color-kpso-blue: #2a3993;
+  --color-kpso-blue-secondary: #9ab4d6;
+  --color-kpso-red-primary: #964b48;
+  --color-kpso-red-secondary: #a69494;
+
+  --font-inter: "Inter";
+  --font-inria-serif: "Inria_Serif";
+}

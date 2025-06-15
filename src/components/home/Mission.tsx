@@ -1,13 +1,12 @@
 "use client";
 import { motion } from "motion/react";
-import React from "react";
 import Image from "next/image";
 import Flower from "@/public/floral/blueflower.webp";
 import Vine from "@/public/floral/cornervines.svg";
 
 const Mission = () => {
   return (
-    <div className="font-inria-serif relative w-full overflow-x-hidden overflow-y-hidden bg-[#F0EBE5] px-25 sm:mt-50 sm:px-20 md:px-0">
+    <div className="font-inria-serif relative flex w-full justify-center overflow-x-hidden overflow-y-hidden bg-[#F0EBE5]">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -35,8 +34,8 @@ const Mission = () => {
         />
       </motion.div>
 
-      <div className="relative z-10 mx-auto max-w-3xl py-40 text-center">
-        <motion.div
+      <div className="relative z-10 m-8 max-w-3xl py-40 text-center">
+        <motion.p
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.3 }}
@@ -44,7 +43,7 @@ const Mission = () => {
           className="text-kpso-blue text-4xl sm:text-6xl"
         >
           Mission Statement
-        </motion.div>
+        </motion.p>
         <motion.p
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -56,7 +55,7 @@ const Mission = () => {
           Katipunan PSO strive to empower & unify individuals from diverse
           backgrounds emphasizing inclusivity, respect, & growth.
         </motion.p>
-        <motion.div
+        <motion.p
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.3 }}
@@ -64,7 +63,7 @@ const Mission = () => {
           className="text-kpso-blue pt-24 text-4xl sm:text-5xl"
         >
           Cabinet Mission Statement
-        </motion.div>
+        </motion.p>
         <motion.p
           initial={{ opacity: 0, y: -50 }}
           whileInView={{ opacity: 1, y: 0 }}

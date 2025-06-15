@@ -20,31 +20,30 @@ const JFAV = () => {
         sacrifices made by Filipinos during World War II aren't forgotten.
       </motion.p>
       <Quote Phrase="We want to keep the torch alive." Source="Arturo Garcia" />
-      <div className="overflow-hiddden relative hidden w-full xl:block">
-        <motion.div
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.2 }}
-          viewport={{ once: true }}
-        >
-          <Image
-            src={Flower}
-            alt="Single Red Flower"
-            width={550}
-            className="absolute md:-bottom-50 md:-left-80"
-          />
-          <Image
-            src={Vine}
-            alt="Red Vine"
-            width={300}
-            className="absolute md:right-0 md:-bottom-20"
-          />
-        </motion.div>
-        <Contact
-          name="jfav_la"
-          instagramLink="https://www.instagram.com/jfav_la/"
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.2 }}
+        viewport={{ once: true }}
+        className="relative hidden w-full xl:block"
+      >
+        <Image
+          src={Flower}
+          alt="Single Red Flower"
+          width={550}
+          className="absolute md:-bottom-50 md:-left-80"
         />
-      </div>
+        <Image
+          src={Vine}
+          alt="Red Vine"
+          width={300}
+          className="absolute md:right-0 md:-bottom-20"
+        />
+      </motion.div>
+      <Contact
+        name="jfav_la"
+        instagramLink="https://www.instagram.com/jfav_la/"
+      />
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import HeaderImg from "@/public/components/HEADER.webp";
 import Header from "@/components/Header";
-import ConstitutionComponent from "@/components/about/Constitution";
+import Constitution from "@/components/about/Constitution";
 
-const Constitution = () => {
+const Page = () => {
   return (
     <>
       <Header
@@ -10,9 +10,9 @@ const Constitution = () => {
         alt="Picture of Club"
         txt="UCR KATIPUNAN CONSTITUTION"
       />
-      <ConstitutionComponent />
+      <Constitution />
     </>
   );
 };
 
-export default Constitution;
+export default Page;

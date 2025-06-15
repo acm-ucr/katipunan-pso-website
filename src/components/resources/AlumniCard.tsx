@@ -1,8 +1,7 @@
 "use client";
 import { AnimatePresence, motion } from "motion/react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { useState, useRef, useEffect } from "react";
-import { StaticImageData } from "next/image";
 
 interface AlumniCardProps {
   fullName: string;
@@ -37,21 +36,17 @@ const AlumniCard = ({
   }, [showModal]);
 
   return (
-    <div className="flex h-127 w-sm flex-col justify-center">
-      <div className="flex h-100 w-sm justify-center">
-        <Image
-          src={image}
-          alt="Photo of alumni"
-          width={400}
-          height={400}
-          className="object-cover"
-        />
-      </div>
-      <div className="w-sx flex h-9 flex-col justify-center">
-        <div className="font-inria-serif text-center text-3xl">{fullName}</div>
-      </div>
-      <div className="mx-auto flex h-5 w-40 justify-center">
-        <div className="font-inria-serif text-center text-lg">{gradClass}</div>
+    <div className="flex flex-col justify-center">
+      <Image
+        src={image}
+        alt="Photo of alumni"
+        width={400}
+        height={400}
+        className="h-100 object-cover"
+      />
+      <div className="font-inria-serif text-center text-3xl">{fullName}</div>
+      <div className="font-inria-serif -my-1 text-center text-lg">
+        {gradClass}
       </div>
       <motion.div
         whileHover={{ scale: 1.05 }}
@@ -74,7 +69,7 @@ const AlumniCard = ({
               ref={modalRef}
               className="relative max-h-[80vh] w-full max-w-2xl overflow-y-auto rounded-lg bg-white p-6 shadow-xl"
             >
-              <motion.h2
+              <motion.p
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4 }}
@@ -82,7 +77,7 @@ const AlumniCard = ({
                 className="mb-4 text-2xl font-bold"
               >
                 {fullName}
-              </motion.h2>
+              </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
