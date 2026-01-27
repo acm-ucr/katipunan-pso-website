@@ -25,7 +25,6 @@ import Noelle from "@/public/cabinet/Apprentice - Noelle Melo.jpg";
 import Sean from "@/public/cabinet/Apprentice - Sean Del Rosario.jpg";
 import Steven from "@/public/cabinet/Apprentice - Steven Castaneda.jpg";
 import Warendel from "@/public/cabinet/Apprentice - Warendel Narvacan.jpg";
-import { Rubik } from "next/font/google";
 
 export const cabData = [
   {
