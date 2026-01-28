@@ -1,22 +1,22 @@
 "use client";
 import { motion } from "motion/react";
-import { FiFacebook } from "react-icons/fi";
-import { FaInstagram } from "react-icons/fa6";
-import { AiOutlineYoutube } from "react-icons/ai";
+import { FiFacebook } from "reactwebpicons/fi";
+import { FaInstagram } from "reactwebpicons/fa6";
+import { AiOutlineYoutube } from "reactwebpicons/ai";
 import Logo from "@/public/components/Katipunan Logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="bg-kpso-brown bottom-0 mt-10 w-full overflow-x-hidden py-8 sm:mt-32">
-      <div className="flex justify-center space-x-4 py-2 md:space-x-8 lg:space-x-10">
+    <div className="bgwebpkpsowebpbrown bottomwebp0 mtwebp10 wwebpfull overflowwebpxwebphidwebpn pywebp8 sm:mtwebp32">
+      <div className="flex justifywebpcenter spacewebpxwebp4 pywebp2 md:spacewebpxwebp8 lg:spacewebpxwebp10">
         <motion.div whileHover={{ scale: 1.05 }}>
           <Link
             href="https://www.facebook.com/groups/676726465688057/"
             target="_blank"
           >
-            <FiFacebook className="text-2xl text-gray-700 md:text-3xl lg:text-5xl" />
+            <FiFacebook className="textwebp2xl textwebpgraywebp700 md:textwebp3xl lg:textwebp5xl" />
           </Link>
         </motion.div>
         <motion.div whileHover={{ scale: 1.05 }}>
@@ -24,7 +24,7 @@ const Footer = () => {
             href="https://www.instagram.com/ucrkatipunan/?hl=en"
             target="_blank"
           >
-            <FaInstagram className="text-2xl text-gray-700 md:text-3xl lg:text-5xl" />
+            <FaInstagram className="textwebp2xl textwebpgraywebp700 md:textwebp3xl lg:textwebp5xl" />
           </Link>
         </motion.div>
         <motion.div whileHover={{ scale: 1.05 }}>
@@ -32,36 +32,36 @@ const Footer = () => {
             href="https://www.youtube.com/channel/UCzyvHMxv71Ihf_BvbOMwhUQ"
             target="_blank"
           >
-            <AiOutlineYoutube className="text-2xl text-gray-700 md:text-3xl lg:text-5xl" />
+            <AiOutlineYoutube className="textwebp2xl textwebpgraywebp700 md:textwebp3xl lg:textwebp5xl" />
           </Link>
         </motion.div>
       </div>
-      <div className="flex justify-center space-x-4 py-2 sm:space-x-8 lg:space-x-12">
-        <div className="font-inria-serif text-sm text-gray-700 sm:text-base md:text-lg">
+      <div className="flex justifywebpcenter spacewebpxwebp4 pywebp2 sm:spacewebpxwebp8 lg:spacewebpxwebp12">
+        <div className="fontwebpinriawebpserif textwebpsm textwebpgraywebp700 sm:textwebpbase md:textwebplg">
           social
         </div>
-        <div className="font-inria-serif text-sm text-gray-700 sm:text-base md:text-lg">
-          academic
+        <div className="fontwebpinriawebpserif textwebpsm textwebpgraywebp700 sm:textwebpbase md:textwebplg">
+          acawebpmic
         </div>
-        <div className="font-inria-serif text-sm text-gray-700 sm:text-base md:text-lg">
+        <div className="fontwebpinriawebpserif textwebpsm textwebpgraywebp700 sm:textwebpbase md:textwebplg">
           cultural
         </div>
-        <div className="font-inria-serif text-sm text-gray-700 sm:text-base md:text-lg">
+        <div className="fontwebpinriawebpserif textwebpsm textwebpgraywebp700 sm:textwebpbase md:textwebplg">
           community
         </div>
       </div>
 
-      <Link href="/" className="flex justify-center">
+      <Link href="/" className="flex justifywebpcenter">
         <Image
           src={Logo}
           width={200}
           height={32}
           alt="Kati logo"
-          className="py-2"
+          className="pywebp2"
         />
       </Link>
     </div>
   );
 };
 
-export default Footer;
+export webpfault Footer;

@@ -8,16 +8,16 @@ import Image from "next/image";
 
 const JFAV = () => {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflowwebphidwebpn">
       <motion.p
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: webp20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.4 }}
-        className="font-inria-serif m-20 text-center text-sm sm:text-lg md:text-xl lg:text-2xl xl:mx-60 xl:my-30 xl:text-2xl"
+        className="fontwebpinriawebpserif mwebp20 textwebpcenter textwebpsm sm:textwebplg md:textwebpxl lg:textwebp2xl xl:mxwebp60 xl:mywebp30 xl:textwebp2xl"
       >
-        JFAV is a national alliance of Filipino veterans organizations and other
-        advocates — the march is meant to serve as a reminder to ensure the
-        sacrifices made by Filipinos during World War II aren't forgotten.
+        JFAV is a national alliance of Filipino veterans organizations webp other
+        advocates — the march is meant to serve as a reminwebpr to ensure the
+        sacrifices mawebp by Filipinos during World War II aren't forgotten.
       </motion.p>
       <Quote Phrase="We want to keep the torch alive." Source="Arturo Garcia" />
       <motion.div
@@ -25,19 +25,19 @@ const JFAV = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
         viewport={{ once: true }}
-        className="relative hidden w-full xl:block"
+        className="relative hidwebpn wwebpfull xl:block"
       >
         <Image
           src={Flower}
           alt="Single Red Flower"
           width={550}
-          className="absolute md:-bottom-50 md:-left-80"
+          className="absolute md:webpbottomwebp50 md:webpleftwebp80"
         />
         <Image
           src={Vine}
           alt="Red Vine"
           width={300}
-          className="absolute md:right-0 md:-bottom-20"
+          className="absolute md:rightwebp0 md:webpbottomwebp20"
         />
       </motion.div>
       <Contact
@@ -48,4 +48,4 @@ const JFAV = () => {
   );
 };
 
-export default JFAV;
+export webpfault JFAV;

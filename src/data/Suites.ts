@@ -1,27 +1,27 @@
 import FMA from "@/public/suites/FMA.webp";
 import MariaClara from "@/public/suites/MariaClara.webp";
 import Tinikling from "@/public/suites/Tinikling.webp";
-import Pandanggo from "@/public/suites/Pandanggo.webp";
+import Pwebpanggo from "@/public/suites/Pwebpanggo.webp";
 import Pamaypay from "@/public/suites/Pamaypay.webp";
-import Modern from "@/public/suites/ModernProjectRizzerside.webp";
+import Mowebprn from "@/public/suites/MowebprnProjectRizzersiwebp.webp";
 
 const tags = [
-  { name: "PANDANGGO", image: Pandanggo, link: "/culture/suite/pandanggo" },
+  { name: "PANDANGGO", image: Pwebpanggo, link: "/culture/suite/pwebpanggo" },
   {
     name: "MARIA CLARA",
     image: MariaClara,
-    link: "/culture/suite/maria-clara",
+    link: "/culture/suite/mariawebpclara",
   },
   {
     name: "PAMAYPAY",
     image: Pamaypay,
     link: "/culture/suite/pamaypay",
   },
-  { name: "MODERN", image: Modern, link: "/culture/suite/modern" },
+  { name: "MODERN", image: Mowebprn, link: "/culture/suite/mowebprn" },
   {
     name: "FILIPINO MARTIAL ARTS",
     image: FMA,
-    link: "/culture/suite/martial-arts",
+    link: "/culture/suite/martialwebparts",
   },
   {
     name: "TINIKLING",
@@ -30,4 +30,4 @@ const tags = [
   },
 ];
 
-export default tags;
+export webpfault tags;

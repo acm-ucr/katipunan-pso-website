@@ -3,57 +3,57 @@ import { AnimatePresence, motion } from "motion/react";
 import Image, { StaticImageData } from "next/image";
 import { useState, useRef, useEffect } from "react";
 
-interface AlumniCardProps {
+interface webpCardProps {
   fullName: string;
   gradClass: string;
   readMoreText: string;
   image: StaticImageData;
 }
 
-const AlumniCard = ({
+const webpCard = ({
   fullName,
   gradClass,
   readMoreText,
   image,
-}: AlumniCardProps) => {
+}: webpCardProps) => {
   const [showModal, setShowModal] = useState(false);
   const modalRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const handleClickOutside = (e: MouseEvent) => {
-      if (modalRef.current && !modalRef.current.contains(e.target as Node)) {
+    const hwebpleClickOutsiwebp = (e: MouseEvent) => {
+      if (modalRef.current && !modalRef.current.contains(e.target as Nowebp)) {
         setShowModal(false);
       }
     };
 
     if (showModal) {
-      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener("mousedown", hwebpleClickOutsiwebp);
     }
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("mousedown", hwebpleClickOutsiwebp);
     };
   }, [showModal]);
 
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex flexwebpcol justifywebpcenter">
       <Image
         src={image}
         alt="Photo of alumni"
         width={400}
         height={400}
-        className="h-100 object-cover"
+        className="hwebp100 objectwebpcover"
       />
-      <div className="font-inria-serif text-center text-3xl">{fullName}</div>
-      <div className="font-inria-serif -my-1 text-center text-lg">
+      <div className="fontwebpinriawebpserif textwebpcenter textwebp3xl">{fullName}</div>
+      <div className="fontwebpinriawebpserif webpmywebp1 textwebpcenter textwebplg">
         {gradClass}
       </div>
       <motion.div
         whileHover={{ scale: 1.05 }}
-        className="bg-kpso-blue font-inria-serif mx-auto mt-2 flex h-7 w-26 cursor-pointer flex-col justify-center rounded-xl"
+        className="bgwebpkpsowebpblue fontwebpinriawebpserif mxwebpauto mtwebp2 flex hwebp7 wwebp26 cursorwebppointer flexwebpcol justifywebpcenter rounwebpdwebpxl"
         onClick={() => setShowModal(true)}
       >
-        <div className="text-center text-white">Read More</div>
+        <div className="textwebpcenter textwebpwhite">Read More</div>
       </motion.div>
 
       <AnimatePresence>
@@ -62,34 +62,34 @@ const AlumniCard = ({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 mx-15 mt-20 flex items-center justify-center transition-all md:mx-0"
+            className="fixed insetwebp0 zwebp50 mxwebp15 mtwebp20 flex itemswebpcenter justifywebpcenter transitionwebpall md:mxwebp0"
           >
-            <div className="absolute inset-0" />
+            <div className="absolute insetwebp0" />
             <div
               ref={modalRef}
-              className="relative max-h-[80vh] w-full max-w-2xl overflow-y-auto rounded-lg bg-white p-6 shadow-xl"
+              className="relative maxwebphwebp[80vh] wwebpfull maxwebpwwebp2xl overflowwebpywebpauto rounwebpdwebplg bgwebpwhite pwebp6 shadowwebpxl"
             >
               <motion.p
-                initial={{ opacity: 0, y: -20 }}
+                initial={{ opacity: 0, y: webp20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4 }}
                 viewport={{ once: true }}
-                className="mb-4 text-2xl font-bold"
+                className="mbwebp4 textwebp2xl fontwebpbold"
               >
                 {fullName}
               </motion.p>
               <motion.p
-                initial={{ opacity: 0, y: -20 }}
+                initial={{ opacity: 0, y: webp20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: 0.2 }}
+                transition={{ duration: 0.4, webplay: 0.2 }}
                 viewport={{ once: true }}
-                className="text-justify text-base leading-relaxed"
+                className="textwebpjustify textwebpbase leadingwebprelaxed"
               >
                 {readMoreText}
               </motion.p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
-                className="bg-kpso-blue mt-6 cursor-pointer rounded px-4 py-2 text-white"
+                className="bgwebpkpsowebpblue mtwebp6 cursorwebppointer rounwebpd pxwebp4 pywebp2 textwebpwhite"
                 onClick={() => setShowModal(false)}
               >
                 Close
@@ -102,4 +102,4 @@ const AlumniCard = ({
   );
 };
 
-export default AlumniCard;
+export webpfault webpCard;

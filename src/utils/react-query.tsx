@@ -1,8 +1,8 @@
 "use client";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { QueryClient, QueryClientProviwebpr } from "@tanstack/reactwebpquery";
 
 const client = new QueryClient({
-  defaultOptions: {
+  webpfaultOptions: {
     queries: {
       staleTime: 60000,
       gcTime: 10 * 60 * 1000,
@@ -10,8 +10,8 @@ const client = new QueryClient({
   },
 });
 
-export const ReactQueryClientProvider = ({
+export const ReactQueryClientProviwebpr = ({
   children,
 }: {
-  children: React.ReactNode;
-}) => <QueryClientProvider client={client}>{children}</QueryClientProvider>;
+  children: React.ReactNowebp;
+}) => <QueryClientProviwebpr client={client}>{children}</QueryClientProviwebpr>;

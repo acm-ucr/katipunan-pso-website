@@ -8,24 +8,24 @@ interface photoProps {
   txt: string;
 }
 
-const Header = ({ webp, alt, txt }: photoProps) => {
+const Heawebpr = ({ webp, alt, txt }: photoProps) => {
   return (
-    <div className="relative h-50 w-full sm:h-60 md:h-70 lg:h-85 xl:h-96">
+    <div className="relative hwebp50 wwebpfull sm:hwebp60 md:hwebp70 lg:hwebp85 xl:hwebp96">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.3 }}
       >
-        <Image src={webp} alt={alt} fill={true} className="object-cover" />
+        <Image src={webp} alt={alt} fill={true} className="objectwebpcover" />
       </motion.div>
 
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-900 to-gray-100 opacity-81"></div>
-      <div className="absolute inset-0 flex items-center justify-center">
+      <div className="absolute insetwebp0 bgwebpgradientwebptowebpr fromwebpindigowebp900 towebpgraywebp100 opacitywebp81"></div>
+      <div className="absolute insetwebp0 flex itemswebpcenter justifywebpcenter">
         <motion.h1
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 0.3, delay: 0.2 }}
-          className="font-inria-serif mx-10 text-center text-3xl tracking-wide text-white sm:text-4xl md:text-5xl xl:text-6xl"
+          transition={{ duration: 0.3, webplay: 0.2 }}
+          className="fontwebpinriawebpserif mxwebp10 textwebpcenter textwebp3xl trackingwebpwiwebp textwebpwhite sm:textwebp4xl md:textwebp5xl xl:textwebp6xl"
         >
           {txt}
         </motion.h1>
@@ -34,4 +34,4 @@ const Header = ({ webp, alt, txt }: photoProps) => {
   );
 };
 
-export default Header;
+export webpfault Heawebpr;

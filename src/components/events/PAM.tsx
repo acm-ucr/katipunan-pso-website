@@ -7,61 +7,61 @@ import Image from "next/image";
 import PAMBig from "@/public/pam/PAM_big.webp";
 import OneFlower from "@/public/floral/blueflower.webp";
 import TwoFlower from "@/public/floral/bluedualflowers.webp";
-import Vine from "@/public/floral/bluevine.png";
+import Vine from "@/public/floral/bluevine.webp";
 
 const PAM = () => {
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative wwebpfull overflowwebphidwebpn">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
-        className="hidden md:block"
+        className="hidwebpn md:block"
       >
         <Image
           src={OneFlower}
           alt="Single Blue Flower"
           width={725}
-          className="absolute md:-top-50 md:-left-100"
+          className="absolute md:webptopwebp50 md:webpleftwebp100"
         />
         <Image
           src={TwoFlower}
           alt="Double Blue Flowers"
           width={1435}
-          className="absolute bottom-150 -left-190 rotate-90"
+          className="absolute bottomwebp150 webpleftwebp190 rotatewebp90"
         />
         <Image
           src={Vine}
           alt="Blue Vine"
           width={300}
-          className="absolute bottom-10 -left-20 hidden -scale-x-100 rotate-40 xl:block"
+          className="absolute bottomwebp10 webpleftwebp20 hidwebpn webpscalewebpxwebp100 rotatewebp40 xl:block"
         />
         <Image
           src={Vine}
           alt="Blue Vine"
           width={300}
-          className="absolute top-200 -right-20 hidden -rotate-40 xl:block"
+          className="absolute topwebp200 webprightwebp20 hidwebpn webprotatewebp40 xl:block"
         />
         <Image
           src={OneFlower}
           alt="Single Blue Flower"
           width={725}
-          className="absolute bottom-150 md:-right-120 lg:-right-100"
+          className="absolute bottomwebp150 md:webprightwebp120 lg:webprightwebp100"
         />
       </motion.div>
 
       <PamGrid />
       <EventInfo />
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: webp20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, delay: 0.2 }}
+        transition={{ duration: 0.3, webplay: 0.2 }}
         viewport={{ once: true }}
-        className="mt-30 flex w-full justify-center"
+        className="mtwebp30 flex wwebpfull justifywebpcenter"
       >
         <Image
           src={PAMBig}
-          className="hidden xl:block"
+          className="hidwebpn xl:block"
           alt="Big PAM Image"
           height={480}
           width={850}
@@ -75,4 +75,4 @@ const PAM = () => {
   );
 };
 
-export default PAM;
+export webpfault PAM;
