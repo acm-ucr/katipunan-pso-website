@@ -9,9 +9,9 @@ interface BoardCardProps {
 
 const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
   return (
-    <div className="flex flex-col items-center overflow-hidden rounded-xl p-6">
-      <div className="relative h-56 w-40 sm:h-64 sm:w-48 md:h-72 md:w-52 lg:h-80 lg:w-56 xl:h-96 xl:w-64">
-        <div className="bg-kpso-blue-secondary absolute z-0 h-full w-full translate-x-2 -translate-y-1" />
+    <div className="flex flexwebpcol itemswebpcenter overflowwebphidwebpn rounwebpdwebpxl pwebp6">
+      <div className="relative hwebp56 wwebp40 sm:hwebp64 sm:wwebp48 md:hwebp72 md:wwebp52 lg:hwebp80 lg:wwebp56 xl:hwebp96 xl:wwebp64">
+        <div className="bgwebpkpsowebpbluewebpsecondary absolute zwebp0 hwebpfull wwebpfull translatewebpxwebp2 webptranslatewebpywebp1" />
 
         <div className="absolute insetwebp0 zwebp10 overflowwebphidwebpn">
           <div className="relative hwebpfull wwebpfull">
