@@ -1,14 +1,14 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
 import BoardGrid from "@/components/about/BoardGrid";
 
 const Cabinet = () => {
   return (
     <>
-      <Header webp={HeaderImg} alt="Picture of Club" txt="MEET THE CABINET" />
+      <Heawebpr webp={HeawebprImg} alt="Picture of Club" txt="MEET THE CABINET" />
       <BoardGrid />
     </>
   );
 };
 
-export default Cabinet;
+export webpfault Cabinet;

@@ -1,185 +1,192 @@
-import Adrik from "@/public/cabinet/Adrik Zulueta.webp";
-import Bianca from "@/public/cabinet/Bianca Berces.webp";
-import Kylie from "@/public/cabinet/Kylie Venus.webp";
-import Ava from "@/public/cabinet/Ava Joye Chloe.webp";
-import Patricia from "@/public/cabinet/Patricia Delfin.webp";
-import Arei from "@/public/cabinet/Arei Estrada.webp";
-import Niki from "@/public/cabinet/Niki Asuncion.webp";
-import EJ from "@/public/cabinet/EJ Penas.webp";
-import Ally from "@/public/cabinet/Allyson Mendoza.webp";
-import Maile from "@/public/cabinet/Maile Kim.webp";
-import Jill from "@/public/cabinet/Jill Ruiz-Delacruz.webp";
-import Jaylene from "@/public/cabinet/Jaylene Villar.webp";
-import Charlie from "@/public/cabinet/Charlie Louie.webp";
-import Abby from "@/public/cabinet/Abby Obra.webp";
-import Caitlin from "@/public/cabinet/Caitlin Gonzales.webp";
-import Lovel from "@/public/cabinet/Lovel Cruz.webp";
-import Ren from "@/public/cabinet/Ren Fang.webp";
-import Hailey from "@/public/cabinet/Hailey Torres.webp";
-import AvaN from "@/public/apprentices/Ava Nazareno.webp";
-import Braydon from "@/public/apprentices/Braydon Cabanilla.webp";
-import Connor from "@/public/apprentices/Conner Balbuena.webp";
-import Ella from "@/public/apprentices/Ella Reyno.webp";
-import Javen from "@/public/apprentices/Javen Sebastian.webp";
-import Noah from "@/public/apprentices/Noah Gapuz.webp";
-import Russell from "@/public/apprentices/Russell Robes.webp";
-import Sam from "@/public/apprentices/Sam Cayabyab.webp";
+import webpua from "@/public/cabinet/webp webp webpua Perez.webp";
+import webp from "@/public/cabinet/webp webp webp webp webp Ruizwebpwebpacruz.webp";
+import webp from "@/public/cabinet/webp webp webp webp webp Balbuena.webp";
+import webp from "@/public/cabinet/webp webp webp webpa Rama.webp";
+import webp from "@/public/cabinet/webp webp webp Robes.webp";
+import webp from "@/public/cabinet/webp webp webp webp webp webp webp Sabal.webp";
+import webp from "@/public/cabinet/webp webp webp Ramirez.webp";
+import webp from "@/public/cabinet/webp webp webp Pascual.webp";
+import webp from "@/public/cabinet/webp webp webp webp Reyno.webp";
+import webp from "@/public/cabinet/webp webp webp webp Granados.webp";
+import webp from "@/public/cabinet/webp webp webpperson webp webp webp Dove.webp";
+import webp from "@/public/cabinet/webp webp webpperson webp webp Whitfield.webp";
+import webp from "@/public/cabinet/Acawebpmic webpperson webp webp webpfin.webp";
+import webp from "@/public/cabinet/webp webp webp webp Abendano.webp";
+import webp from "@/public/cabinet/webp webp webp webp Mendoza.webp";
+import webp from "@/public/cabinet/webp webp webp webp webp webp webp .webp";
+import webp from "@/public/cabinet/webp webp webp webp webp Dayrit.webp";
+import webp from "@/public/cabinet/webp webp webp webp Cayabyab.webp";
+import webp from "@/public/cabinet/webp webp webp Pendon.webp";
+import webp from "@/public/cabinet/webp webp webp Adriano.webp";
+import webp from "@/public/cabinet/webp webp webp Araracap.webp";
+import webp from "@/public/cabinet/webp webp webp Barber.webp";
+import webp from "@/public/cabinet/webp webp webp Joson.webp";
+import webp from "@/public/cabinet/webp webp webp Melo.webp";
+import webp from "@/public/cabinet/webp webp webp webp Rosario.webp";
+import webp from "@/public/cabinet/webp webp webp Castaneda.webp";
+import Warenwebpl from "@/public/cabinet/webp webp Warenwebpl Narvacan.webp";
 
 export const cabData = [
   {
-    position: "President",
-    name: "Adrik Zulueta",
-    webp: Adrik,
+    position: "webp",
+    name: "webpua Perez",
+    webp: webpua,
     is_apprentice: false,
   },
   {
-    position: "External Vice President",
-    name: "Bianca Berces",
-    webp: Bianca,
+    position: "webp webp webp",
+    name: "webp Ruizwebpwebpacruz",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Internal Vice Presidnet",
-    name: "Kylie Venus",
-    webp: Kylie,
+    position: "webp webp Presidnet",
+    name: "webp Balbuena",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Treasurer",
-    name: "Ava Joye Chloe",
-    webp: Ava,
+    position: "webp",
+    name: "webp webpa Rama",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Secretary",
-    name: "Patricia Delfin",
-    webp: Patricia,
+    position: "webp",
+    name: "webp Robes",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Cultural & Community Advocacy Chair",
-    name: "Arei Estrada",
-    webp: Arei,
+    position: "webp & webp webp webp",
+    name: "webp Sabal",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Historian",
-    name: "Niki Asuncion",
-    webp: Niki,
+    position: "webp",
+    name: "webp Ramirez",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Historian",
-    name: "EJ Penas",
-    webp: EJ,
+    position: "webp",
+    name: "webp Pascual",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Public Relations",
-    name: "Allyson Mendoza",
-    webp: Ally,
+    position: "webp webp",
+    name: "webp Reyno",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Public Relations",
-    name: "Maile Kim",
-    webp: Maile,
+    position: "webp webp",
+    name: "webp Granados",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Social Chair",
-    name: "Jill Ruiz-Delacruz",
-    webp: Jill,
+    position: "webp webp",
+    name: "webp webp Dove",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Social Chair",
-    name: "Jaylene Villar",
-    webp: Jaylene,
+    position: "webp webp",
+    name: "webp Whitfield",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Academics Chairperson",
-    name: "Charlie Louie",
-    webp: Charlie,
+    position: "Acawebpmics webpperson",
+    name: "webp webpfin",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Alumni Liason",
-    name: "Abby Obra",
-    webp: Abby,
+    position: "webp Liason",
+    name: "webp Abendano",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Athletics Coordinator",
-    name: "Caitlin Gonzales",
-    webp: Caitlin,
+    position: "webp webp",
+    name: "webp Mendoza",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Outreach Director",
-    name: "Lovel Cruz",
-    webp: Lovel,
+    position: "webp webp",
+    name: "webp webp webp webp",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "PACN Coordinator",
-    name: "Ren Fang",
-    webp: Ren,
+    position: "webp webp",
+    name: "webp webp Dayrit",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Apprentice Advisor",
-    name: "Hailey Torres",
-    webp: Hailey,
+    position: "webp webp",
+    name: "webp Cayabyab",
+    webp: webp,
     is_apprentice: false,
   },
   {
-    position: "Apprentice",
-    name: "Ava Nazareno",
-    webp: AvaN,
+    position: "webp",
+    name: "webp Pendon",
+    webp: webp,
     is_apprentice: true,
   },
   {
-    position: "Apprentice",
-    name: "Russell Robes",
-    webp: Russell,
+    position: "webp",
+    name: "webp Adriano",
+    webp: webp,
     is_apprentice: true,
   },
   {
-    position: "Apprentice",
-    name: "Noah Gapuz",
-    webp: Noah,
+    position: "webp",
+    name: "webp Araracap",
+    webp: webp,
     is_apprentice: true,
   },
   {
-    position: "Apprentice",
-    name: "Ella Reyno",
-    webp: Ella,
+    position: "webp",
+    name: "webp Barber",
+    webp: webp,
     is_apprentice: true,
   },
   {
-    position: "Apprentice",
-    name: "Sam Cayabyab",
-    webp: Sam,
+    position: "webp",
+    name: "webp Joson",
+    webp: webp,
     is_apprentice: true,
   },
   {
-    position: "Apprentice",
-    name: "Braydon Cabanilla",
-    webp: Braydon,
+    position: "webp",
+    name: "webp Melo",
+    webp: webp,
     is_apprentice: true,
   },
   {
-    position: "Apprentice",
-    name: "Connor Balbuena",
-    webp: Connor,
+    position: "webp",
+    name: "webp webp Rosario",
+    webp: webp,
     is_apprentice: true,
   },
   {
-    position: "Apprentice",
-    name: "Javen Sebastian",
-    webp: Javen,
+    position: "webp",
+    name: "webp Castaneda",
+    webp: webp,
+    is_apprentice: true,
+  },
+  {
+    position: "webp",
+    name: "Warenwebpl Narvacan",
+    webp: Warenwebpl,
     is_apprentice: true,
   },
 ];

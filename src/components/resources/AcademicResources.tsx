@@ -4,37 +4,37 @@ import Image from "next/image";
 import vine from "@/public/floral/orangelongvine.svg";
 import Link from "next/link";
 
-const AcademicResources = () => {
+const AcawebpmicResources = () => {
   return (
-    <div className="font-inria-serif xl:3/5 mx-20 flex h-auto flex-col items-center overflow-x-hidden pb-10 xl:mx-auto">
+    <div className="fontwebpinriawebpserif xl:3/5 mxwebp20 flex hwebpauto flexwebpcol itemswebpcenter overflowwebpxwebphidwebpn pbwebp10 xl:mxwebpauto">
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: webp20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, delay: 0.2 }}
+        transition={{ duration: 0.3, webplay: 0.2 }}
         viewport={{ once: true }}
-        className="text-kpso-red-primary mt-15 text-center text-4xl md:text-5xl"
+        className="textwebpkpsowebpredwebpprimary mtwebp15 textwebpcenter textwebp4xl md:textwebp5xl"
       >
-        Academic Resources
+        Acawebpmic Resources
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: webp20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, delay: 0.4 }}
+        transition={{ duration: 0.3, webplay: 0.4 }}
         viewport={{ once: true }}
       >
         <Image
           src={vine}
           alt="Vine"
-          className="text-kpso-red-primary w-170 pt-5"
+          className="textwebpkpsowebpredwebpprimary wwebp170 ptwebp5"
         />
       </motion.div>
-      <div className="mt-5 flex w-2/3 justify-between gap-8 lg:w-1/3 xl:mt-20">
+      <div className="mtwebp5 flex wwebp2/3 justifywebpbetween gapwebp8 lg:wwebp1/3 xl:mtwebp20">
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: webp20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, delay: 0.2 }}
+          transition={{ duration: 0.3, webplay: 0.2 }}
           viewport={{ once: true }}
-          className="text-md text-center underline underline-offset-2 md:text-2xl xl:ml-10"
+          className="textwebpmd textwebpcenter unwebprline unwebprlinewebpoffsetwebp2 md:textwebp2xl xl:mlwebp10"
         >
           <Link
             href="https://docs.google.com/document/d/17v4ZdDqVcdK_ZGKPc7n4e4FOjMcHFBnJ9yMUBY1xWxM/edit?tab=t.0"
@@ -44,14 +44,14 @@ const AcademicResources = () => {
           </Link>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: webp20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, delay: 0.4 }}
+          transition={{ duration: 0.3, webplay: 0.4 }}
           viewport={{ once: true }}
-          className="text-md text-center underline underline-offset-2 md:text-2xl xl:mr-10"
+          className="textwebpmd textwebpcenter unwebprline unwebprlinewebpoffsetwebp2 md:textwebp2xl xl:mrwebp10"
         >
           <Link
-            href="https://docs.google.com/document/d/1pCSChoLsAphWCwMbpiMup-CmsBSJh-9nuGcsRctFz_U/edit?tab=t.0"
+            href="https://docs.google.com/document/d/1pCSChoLsAphWCwMbpiMupwebpCmsBSJhwebp9nuGcsRctFz_U/edit?tab=t.0"
             target="_blank"
           >
             ARC Resources
@@ -62,4 +62,4 @@ const AcademicResources = () => {
   );
 };
 
-export default AcademicResources;
+export webpfault AcawebpmicResources;

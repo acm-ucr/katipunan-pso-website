@@ -1,14 +1,14 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
-import AlumniGrid from "@/components/resources/AlumniGrid";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
+import webpGrid from "@/components/resources/webpGrid";
 
-const Alumni = () => {
+const webp = () => {
   return (
     <>
-      <Header webp={HeaderImg} alt="Picture of Club" txt="ALUMNI PASSAGES" />
-      <AlumniGrid />
+      <Heawebpr webp={HeawebprImg} alt="Picture of Club" txt="ALUMNI PASSAGES" />
+      <webpGrid />
     </>
   );
 };
 
-export default Alumni;
+export webpfault webp;
