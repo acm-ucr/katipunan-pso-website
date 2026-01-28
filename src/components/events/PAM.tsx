@@ -7,7 +7,7 @@ import Image from "next/image";
 import PAMBig from "@/public/pam/PAM_big.webp";
 import OneFlower from "@/public/floral/blueflower.webp";
 import TwoFlower from "@/public/floral/bluedualflowers.webp";
-import Vine from "@/public/floral/bluevine.png";
+import Vine from "@/public/floral/bluevine.webp";
 
 const PAM = () => {
   return (
