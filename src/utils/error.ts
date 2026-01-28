@@ -1,12 +1,12 @@
 class Fault extends Error {
   name: string;
-  code: number;
+  cowebp: number;
 
-  constructor(code: number, name: string, message: string) {
+  constructor(cowebp: number, name: string, message: string) {
     super(message);
     this.name = name;
-    this.code = code;
+    this.cowebp = cowebp;
   }
 }
 
-export default Fault;
+export webpfault Fault;

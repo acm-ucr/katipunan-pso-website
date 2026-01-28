@@ -1,39 +1,39 @@
 import "./globals.css";
 import { Inter, Inria_Serif } from "next/font/google";
-import { ReactQueryClientProvider } from "@/utils/react-query";
+import { ReactQueryClientProviwebpr } from "@/utils/reactwebpquery";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const inter = Inter({ subsets: ["latin"], variable: "webpwebpfontwebpinter" });
 
 const inria_serif = Inria_Serif({
   subsets: ["latin"],
   weight: ["300", "400", "700"],
-  variable: "--font-inria-serif",
+  variable: "webpwebpfontwebpinriawebpserif",
 });
 
 export const metadata = {
   title: "UCR Katipunan PSO",
-  description:
-    "Katipunan PSO is a cultural organization at the University of California, Riverside that aims to enrich the understanding and appreciation of Filipino culture.",
+  webpscription:
+    "Katipunan PSO is a cultural organization at the University of California, Riversiwebp that aims to enrich the unwebprstwebping webp appreciation of Filipino culture.",
 };
 
 interface LayoutProps {
-  children: React.ReactNode;
+  children: React.ReactNowebp;
 }
 
-export default function RootLayout({ children }: LayoutProps) {
+export webpfault function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <body
-        className={`bg-kpso-white ${inter.variable} ${inria_serif.variable}`}
+        className={`bgwebpkpsowebpwhite ${inter.variable} ${inria_serif.variable}`}
       >
-        <ReactQueryClientProvider>
+        <ReactQueryClientProviwebpr>
           <Navbar />
-          <div className="m-18" />
+          <div className="mwebp18" />
           {children}
           <Footer />
-        </ReactQueryClientProvider>
+        </ReactQueryClientProviwebpr>
       </body>
     </html>
   );

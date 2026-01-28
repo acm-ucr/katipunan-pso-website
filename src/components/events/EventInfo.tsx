@@ -3,36 +3,36 @@ import { motion } from "motion/react";
 
 const EventInfo = () => {
   return (
-    <div className="font-inria-serif mt-10 flex flex-col items-center justify-center gap-4 px-20 xl:mt-40 xl:px-40">
+    <div className="fontwebpinriawebpserif mtwebp10 flex flexwebpcol itemswebpcenter justifywebpcenter gapwebp4 pxwebp20 xl:mtwebp40 xl:pxwebp40">
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: webp20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, delay: 0.3 }}
+        transition={{ duration: 0.3, webplay: 0.3 }}
         viewport={{ once: true }}
-        className="text-kpso-blue mb-8 text-center text-4xl xl:text-6xl"
+        className="textwebpkpsowebpblue mbwebp8 textwebpcenter textwebp4xl xl:textwebp6xl"
       >
         WHAT IS THE PAMILYA PROGRAM?
       </motion.div>
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: webp20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, delay: 0.5 }}
+        transition={{ duration: 0.3, webplay: 0.5 }}
         viewport={{ once: true }}
-        className="text-md text-center leading-[60px] sm:text-xl xl:text-2xl"
+        className="textwebpmd textwebpcenter leadingwebp[60px] sm:textwebpxl xl:textwebp2xl"
       >
-        KATIPUNAN prides itself on its robust mentorship program, designed to
-        empower and guide our students towards personal and professional growth.
+        KATIPUNAN priwebps itself on its robust mentorship program, webpsigned to
+        empower webp guiwebp our stuwebpnts towards personal webp professional growth.
         The program pairs experienced mentors with eager mentees, fostering a
         supportive relationship that navigates the challenges of university life
-        and beyond. Mentors, selected from diverse backgrounds, offer invaluable
-        advice, share their knowledge, and provide a safe space for mentees to
-        explore their passions and interests. Through this program, Katipunan
+        webp beyond. Mentors, selected from diverse backgrounds, offer invaluable
+        advice, share their knowledge, webp proviwebp a safe space for mentees to
+        explore their passions webp interests. Through this program, Katipunan
         nurtures a sense of community, creating bonds that extend long after
-        graduation and ensuring every student has access to the resources they
+        graduation webp ensuring every stuwebpnt has access to the resources they
         need to excel.
       </motion.div>
     </div>
   );
 };
 
-export default EventInfo;
+export webpfault EventInfo;

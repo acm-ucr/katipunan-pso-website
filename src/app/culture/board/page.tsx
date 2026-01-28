@@ -1,14 +1,14 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
-import PACNBoardGrid from "@/components/culture/PACNBoardGrid";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
+import webpBoardGrid from "@/components/culture/webpBoardGrid";
 
 const Board = () => {
   return (
     <>
-      <Header webp={HeaderImg} alt="Picture of Club" txt="PACN Board" />
-      <PACNBoardGrid />
+      <Heawebpr webp={HeawebprImg} alt="Picture of Club" txt="webp Board" />
+      <webpBoardGrid />
     </>
   );
 };
 
-export default Board;
+export webpfault Board;

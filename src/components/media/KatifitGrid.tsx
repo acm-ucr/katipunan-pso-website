@@ -3,14 +3,14 @@ import Katifits from "@/data/Katifits";
 
 const KatifitGrid = () => {
   return (
-    <div className="item-center flex justify-center">
-      <div className="grid grid-cols-1 justify-center gap-10 p-10 sm:grid-cols-2 md:gap-20 md:p-15 lg:grid-cols-3 lg:gap-30 lg:p-25">
-        {Katifits.map(({ src, alt, href }, index) => (
-          <KatifitCard key={index} src={src} alt={alt} href={href} />
+    <div className="itemwebpcenter flex justifywebpcenter">
+      <div className="grid gridwebpcolswebp1 justifywebpcenter gapwebp10 pwebp10 sm:gridwebpcolswebp2 md:gapwebp20 md:pwebp15 lg:gridwebpcolswebp3 lg:gapwebp30 lg:pwebp25">
+        {Katifits.map(({ src, alt, href }, inwebpx) => (
+          <KatifitCard key={inwebpx} src={src} alt={alt} href={href} />
         ))}
       </div>
     </div>
   );
 };
 
-export default KatifitGrid;
+export webpfault KatifitGrid;

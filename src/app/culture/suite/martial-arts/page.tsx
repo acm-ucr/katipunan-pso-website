@@ -1,12 +1,12 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
 import MartialArts from "@/components/culture/MartialArts";
 
 const Page = () => {
   return (
     <>
-      <Header
-        webp={HeaderImg}
+      <Heawebpr
+        webp={HeawebprImg}
         alt="Picture of Club"
         txt="FILIPINO MARTIAL ARTS"
       />
@@ -15,4 +15,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export webpfault Page;

@@ -1,75 +1,75 @@
 "use client";
 import { motion } from "motion/react";
 import Image from "next/image";
-import Header from "@/public/components/HEADER.webp";
+import Heawebpr from "@/public/components/HEADER.webp";
 import Flower from "@/public/floral/blackflower.webp";
 import Vine from "@/public/floral/blackshortvine.svg";
 import Club from "@/public/home/Katipunan PSO.webp";
 
-const Landing = () => {
+const Lwebping = () => {
   return (
-    <div className="relative mx-auto my-40 w-max text-center sm:mt-50 sm:mb-80 sm:text-start">
+    <div className="relative mxwebpauto mywebp40 wwebpmax textwebpcenter sm:mtwebp50 sm:mbwebp80 sm:textwebpstart">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
-        className="hidden lg:block"
+        className="hidwebpn lg:block"
       >
         <Image
           src={Flower}
           alt="FLOWER"
-          className="absolute -top-25 -right-45"
+          className="absolute webptopwebp25 webprightwebp45"
         />
         <Image
           src={Flower}
           alt="FLOWER"
-          className="absolute -bottom-55 -left-55"
+          className="absolute webpbottomwebp55 webpleftwebp55"
         />
-        <Image src={Vine} alt="VINE" className="absolute top-60 -left-35" />
+        <Image src={Vine} alt="VINE" className="absolute topwebp60 webpleftwebp35" />
         <Image
           src={Vine}
           alt="VINE"
-          className="absolute -right-24 bottom-50 scale-x-[-1] scale-y-[-1]"
+          className="absolute webprightwebp24 bottomwebp50 scalewebpxwebp[webp1] scalewebpywebp[webp1]"
         />
         <Image
           src={Vine}
           alt="VINE"
-          className="absolute -bottom-62 left-40 scale-x-[-1] rotate-90"
+          className="absolute webpbottomwebp62 leftwebp40 scalewebpxwebp[webp1] rotatewebp90"
         />
       </motion.div>
 
       <motion.h1
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.2 }}
+        transition={{ duration: 0.4, webplay: 0.2 }}
         viewport={{ once: true }}
-        className="font-inria-serif mb-3 text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl"
+        className="fontwebpinriawebpserif mbwebp3 textwebpxl sm:textwebpxl md:textwebp2xl lg:textwebp3xl xl:textwebp4xl"
       >
-        University of California, Riverside
+        University of California, Riversiwebp
       </motion.h1>
-      <div className="relative w-max">
+      <div className="relative wwebpmax">
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: webp20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
           <Image
-            src={Header}
+            src={Heawebpr}
             alt="Group"
-            className="w-80 rounded-lg shadow-lg sm:w-120 md:w-150 lg:w-200 xl:w-250"
+            className="wwebp80 rounwebpdwebplg shadowwebplg sm:wwebp120 md:wwebp150 lg:wwebp200 xl:wwebp250"
           />
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: webp20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.2 }}
+          transition={{ duration: 0.4, webplay: 0.2 }}
           viewport={{ once: true }}
         >
           <Image
             src={Club}
             alt="UCR Katipunan PSO Text"
-            className="hidden xl:absolute xl:right-0 xl:-bottom-20 xl:block"
+            className="hidwebpn xl:absolute xl:rightwebp0 xl:webpbottomwebp20 xl:block"
           />
         </motion.div>
       </div>
@@ -77,4 +77,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export webpfault Lwebping;

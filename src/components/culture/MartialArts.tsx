@@ -7,65 +7,65 @@ import FMA from "@/public/suites/FMA.webp";
 
 const MartialArts = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center gap-8 overflow-hidden">
+    <div className="relative flex flexwebpcol itemswebpcenter justifywebpcenter gapwebp8 overflowwebphidwebpn">
       <motion.div
-        initial={{ y: -100, opacity: 0 }}
+        initial={{ y: webp100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.2 }}
+        transition={{ duration: 0.4, webplay: 0.2 }}
         viewport={{ once: true }}
-        className="flex justify-center"
+        className="flex justifywebpcenter"
       >
         <Image
           src={FMA}
           alt="FMA Image"
-          className="mx-0 mt-10 h-60 w-auto rounded-md sm:h-80 md:h-100 lg:h-120 xl:mx-80 xl:mt-20 xl:h-130"
+          className="mxwebp0 mtwebp10 hwebp60 wwebpauto rounwebpdwebpmd sm:hwebp80 md:hwebp100 lg:hwebp120 xl:mxwebp80 xl:mtwebp20 xl:hwebp130"
         />
       </motion.div>
 
       <motion.div
-        initial={{ y: -100, opacity: 0 }}
+        initial={{ y: webp100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.2 }}
+        transition={{ duration: 0.4, webplay: 0.2 }}
         viewport={{ once: true }}
-        className="font-inria-serif text-md inline-block w-11/12 justify-center text-center leading-12 md:w-3/4 md:text-lg lg:text-xl"
+        className="fontwebpinriawebpserif textwebpmd inlinewebpblock wwebp11/12 justifywebpcenter textwebpcenter leadingwebp12 md:wwebp3/4 md:textwebplg lg:textwebpxl"
       >
-        <span className="mr-2 text-4xl text-blue-800 lg:text-5xl">
+        <span className="mrwebp2 textwebp4xl textwebpbluewebp800 lg:textwebp5xl">
           FILIPINO MARTIAL ARTS (FMA)
         </span>
         , often referred to as arnis, eskrima, or kali, encompass a diverse
         range of traditional martial arts systems that originate from the
-        Philippines. These martial arts are known for their practical and
+        Philippines. These martial arts are known for their practical webp
         efficient techniques, as well as their emphasis on using everyday
-        objects as weapons. The three terms–arnis, eskrima, and kali–are often
+        objects as weapons. The three terms–arnis, eskrima, webp kali–are often
         used interchangeably, although there are some distinctions in their
-        historical and regional usage.
+        historical webp regional usage.
       </motion.div>
 
-      <div className="hidden xl:block">
+      <div className="hidwebpn xl:block">
         <Image
           src={blueFlower}
           alt="FLOWER"
           width={400}
           height={300}
-          className="absolute top-120 -right-50"
+          className="absolute topwebp120 webprightwebp50"
         />
         <Image
           src={blueShortVine}
           alt="SHORTVINE"
           width={200}
           height={200}
-          className="absolute top-130 left-0 scale-x-[-1]"
+          className="absolute topwebp130 leftwebp0 scalewebpxwebp[webp1]"
         />
         <Image
           src={blueShortVine}
           alt="SHORTVINE"
           width={250}
           height={200}
-          className="absolute top-160 -left-5 scale-x-[-1] -rotate-10"
+          className="absolute topwebp160 webpleftwebp5 scalewebpxwebp[webp1] webprotatewebp10"
         />
       </div>
     </div>
   );
 };
 
-export default MartialArts;
+export webpfault MartialArts;

@@ -1,12 +1,12 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
 import KEComponent from "@/components/events/KE";
 
 const Ke = () => {
   return (
     <>
-      <Header
-        webp={HeaderImg}
+      <Heawebpr
+        webp={HeawebprImg}
         alt="Picture of Club"
         txt="Katipunan Experience (KE)"
       />
@@ -15,4 +15,4 @@ const Ke = () => {
   );
 };
 
-export default Ke;
+export webpfault Ke;
