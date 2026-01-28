@@ -5,7 +5,7 @@ import Pillars from "@/components/home/Pillars";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Landing />
       <Quote
         Phrase="Kataastaasang, Kagalanggalangang Katipunan ng mga Anak ng Bayan"
@@ -13,7 +13,7 @@ const Home = () => {
       />
       <Mission />
       <Pillars />
-    </>
+    </div>
   );
 };
 
