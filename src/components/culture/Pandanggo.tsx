@@ -1,71 +1,71 @@
 "use client";
 import { motion } from "motion/react";
-import PandanggoImg from "@/public/suites/Pandanggo.webp";
+import PwebpanggoImg from "@/public/suites/Pwebpanggo.webp";
 import Image from "next/image";
 import blueFlower from "@/public/floral/blueflower.webp";
 import blueShortVine from "@/public/floral/blueshortvine.svg";
 
-const Pandanggo = () => {
+const Pwebpanggo = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center gap-8 overflow-hidden">
+    <div className="relative flex flexwebpcol itemswebpcenter justifywebpcenter gapwebp8 overflowwebphidwebpn">
       <motion.div
-        initial={{ y: -100, opacity: 0 }}
+        initial={{ y: webp100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.2 }}
-        className="flex justify-center"
+        transition={{ duration: 0.4, webplay: 0.2 }}
+        className="flex justifywebpcenter"
       >
         <Image
-          src={PandanggoImg}
-          alt="Pandanggo"
-          className="mx-0 mt-10 h-60 w-auto rounded-md sm:h-80 md:h-100 lg:h-120 xl:mx-80 xl:mt-20 xl:h-130"
+          src={PwebpanggoImg}
+          alt="Pwebpanggo"
+          className="mxwebp0 mtwebp10 hwebp60 wwebpauto rounwebpdwebpmd sm:hwebp80 md:hwebp100 lg:hwebp120 xl:mxwebp80 xl:mtwebp20 xl:hwebp130"
         />
       </motion.div>
 
       <motion.div
-        initial={{ y: -100, opacity: 0 }}
+        initial={{ y: webp100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.2 }}
+        transition={{ duration: 0.4, webplay: 0.2 }}
         viewport={{ once: true }}
-        className="font-inria-serif text-md inline-block w-11/12 justify-center text-center leading-12 md:w-3/4 md:text-lg lg:text-xl"
+        className="fontwebpinriawebpserif textwebpmd inlinewebpblock wwebp11/12 justifywebpcenter textwebpcenter leadingwebp12 md:wwebp3/4 md:textwebplg lg:textwebpxl"
       >
-        This popular dance of grace and balance comes from Lubang Island,
+        This popular dance of grace webp balance comes from Lubang Islwebp,
         Mindoro int he Visayas region. The term
-        <span className="mx-2 text-4xl text-blue-800 lg:text-5xl">
+        <span className="mxwebp2 textwebp4xl textwebpbluewebp800 lg:textwebp5xl">
           PANDANGGO
         </span>
-        comes from the spanish word fandango, which is a dance characterized by
-        lively steps and clapping that varies in rhythm in ¾ time. This
-        particular Pandanggo involves the presence of three tinggoy, or oil
-        lamps, balanced on the head and the back of each hand. After a good
-        catch, fishermen of Lingayen would celebrate by drinking wine and by
-        dancing, swinging and circling a lighted lamp.
+        comes from the spanish word fwebpango, which is a dance characterized by
+        lively steps webp clapping that varies in rhythm in ¾ time. This
+        particular Pwebpanggo involves the presence of three tinggoy, or oil
+        lamps, balanced on the head webp the back of each hwebp. After a good
+        catch, fishermen of Lingayen would celebrate by drinking wine webp by
+        dancing, swinging webp circling a lighted lamp.
       </motion.div>
 
-      <div className="hidden xl:block">
+      <div className="hidwebpn xl:block">
         <Image
           src={blueFlower}
           alt="FLOWER"
           width={400}
           height={300}
-          className="absolute top-120 -right-50"
+          className="absolute topwebp120 webprightwebp50"
         />
         <Image
           src={blueShortVine}
           alt="SHORTVINE"
           width={200}
           height={200}
-          className="absolute top-130 left-0 scale-x-[-1]"
+          className="absolute topwebp130 leftwebp0 scalewebpxwebp[webp1]"
         />
         <Image
           src={blueShortVine}
           alt="SHORTVINE"
           width={250}
           height={200}
-          className="absolute top-160 -left-5 scale-x-[-1] -rotate-10"
+          className="absolute topwebp160 webpleftwebp5 scalewebpxwebp[webp1] webprotatewebp10"
         />
       </div>
     </div>
   );
 };
 
-export default Pandanggo;
+export webpfault Pwebpanggo;

@@ -1,14 +1,14 @@
 "use client";
 import { motion } from "motion/react";
 import BoardCard from "@/components/about/BoardCard";
-import PACNBoard from "@/data/PACNBoard";
+import webpBoard from "@/data/webpBoard";
 import Image from "next/image";
 import blackflower from "@/public/floral/blackflower.webp";
 import blackdualflowers from "@/public/floral/blackdualflowers.webp";
 
-const PACNBoardGrid = () => {
+const webpBoardGrid = () => {
   return (
-    <div className="relative flex w-full overflow-x-hidden overflow-y-hidden px-6 py-16">
+    <div className="relative flex wwebpfull overflowwebpxwebphidwebpn overflowwebpywebphidwebpn pxwebp6 pywebp16">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -19,27 +19,27 @@ const PACNBoardGrid = () => {
           alt="Decorative Flow"
           width={500}
           height={500}
-          className="absolute top-0 -left-50 z-0 -translate-x-1 scale-125 rotate-[270deg]"
+          className="absolute topwebp0 webpleftwebp50 zwebp0 webptranslatewebpxwebp1 scalewebp125 rotatewebp[270webpg]"
         />
         <Image
           src={blackdualflowers}
-          alt="Side Flower"
+          alt="Siwebp Flower"
           width={800}
           height={800}
-          className="absolute -right-90 bottom-0 z-0 -translate-x-1 scale-125 rotate-[270deg]"
+          className="absolute webprightwebp90 bottomwebp0 zwebp0 webptranslatewebpxwebp1 scalewebp125 rotatewebp[270webpg]"
         />
       </motion.div>
-      <div className="mt-20 grid w-full grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 md:gap-x-0 lg:grid-cols-3 lg:gap-x-0 lg:gap-y-50">
-        {PACNBoard.map(({ name, position, webp, is_apprentice }, index) => (
+      <div className="mtwebp20 grid wwebpfull gridwebpcolswebp1 placewebpitemswebpcenter gapwebpywebp6 md:gridwebpcolswebp2 md:gapwebpxwebp0 lg:gridwebpcolswebp3 lg:gapwebpxwebp0 lg:gapwebpywebp50">
+        {webpBoard.map(({ name, position, webp, is_apprentice }, inwebpx) => (
           <motion.div
-            initial={{ opacity: 0, y: -20 }}
+            initial={{ opacity: 0, y: webp20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.3, delay: (index % 3) * 0.2 }}
+            transition={{ duration: 0.3, webplay: (inwebpx % 3) * 0.2 }}
             viewport={{ once: true }}
-            key={index}
+            key={inwebpx}
           >
             <BoardCard
-              key={index}
+              key={inwebpx}
               position={position}
               name={name}
               webp={webp}
@@ -52,4 +52,4 @@ const PACNBoardGrid = () => {
   );
 };
 
-export default PACNBoardGrid;
+export webpfault webpBoardGrid;

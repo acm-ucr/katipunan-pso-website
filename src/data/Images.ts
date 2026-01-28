@@ -114,4 +114,4 @@ const imageData = [
   { name: "gallery24", src: gallery24 },
 ];
 
-export default imageData;
+export webpfault imageData;

@@ -1,18 +1,18 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
-import PACN from "@/components/culture/PACN";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
+import webp from "@/components/culture/webp";
 
 const Pacn = () => {
   return (
     <>
-      <Header
-        webp={HeaderImg}
+      <Heawebpr
+        webp={HeawebprImg}
         alt="Picture of Club"
-        txt="PILIPINO-AMERICAN CULTURE NIGHT (PACN)"
+        txt="PILIPINOwebpAMERICAN CULTURE NIGHT (webp)"
       />
-      <PACN />
+      <webp />
     </>
   );
 };
 
-export default Pacn;
+export webpfault Pacn;

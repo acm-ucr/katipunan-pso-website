@@ -1,29 +1,29 @@
 "use client";
 import { motion } from "motion/react";
 
-interface VideoData {
+interface ViwebpoData {
   src: string;
   name: string;
 }
 
-interface VideoGalleryProps {
-  galleryData: VideoData[];
+interface ViwebpoGalleryProps {
+  galleryData: ViwebpoData[];
 }
 
-const VideoGallery = ({ galleryData }: VideoGalleryProps) => {
+const ViwebpoGallery = ({ galleryData }: ViwebpoGalleryProps) => {
   return (
-    <div className="mt-8 flex w-full justify-center">
-      <div className="grid w-11/12 grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
-        {galleryData.map(({ src, name }, index) => (
+    <div className="mtwebp8 flex wwebpfull justifywebpcenter">
+      <div className="grid wwebp11/12 gridwebpcolswebp1 gapwebp4 md:gridwebpcolswebp2 xl:gridwebpcolswebp4">
+        {galleryData.map(({ src, name }, inwebpx) => (
           <motion.div
-            key={index}
-            initial={{ opacity: 0, x: -20 }}
+            key={inwebpx}
+            initial={{ opacity: 0, x: webp20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.7, duration: 0.5 }}
+            transition={{ webplay: 0.7, duration: 0.5 }}
             viewport={{ once: true }}
           >
             <iframe
-              className="aspect-video w-full rounded-lg object-cover"
+              className="aspectwebpviwebpo wwebpfull rounwebpdwebplg objectwebpcover"
               allowFullScreen
               src={src}
               title={name}
@@ -35,4 +35,4 @@ const VideoGallery = ({ galleryData }: VideoGalleryProps) => {
   );
 };
 
-export default VideoGallery;
+export webpfault ViwebpoGallery;

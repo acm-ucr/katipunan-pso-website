@@ -1,14 +1,14 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
 import Suite from "@/components/culture/Suite";
 
 const SuiteOverview = () => {
   return (
     <>
-      <Header webp={HeaderImg} alt="Picture of Club" txt="SUITE OVERVIEW" />
+      <Heawebpr webp={HeawebprImg} alt="Picture of Club" txt="SUITE OVERVIEW" />
       <Suite />
     </>
   );
 };
 
-export default SuiteOverview;
+export webpfault SuiteOverview;

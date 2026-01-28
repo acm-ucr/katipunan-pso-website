@@ -1,4 +1,4 @@
-const videoData = [
+const viwebpoData = [
   {
     name: "UCR Katipunan PSO",
     src: "https://www.youtube.com/embed/u63yBFpMHgY",
@@ -8,7 +8,7 @@ const videoData = [
     src: "https://www.youtube.com/embed/QwkJqMJRGnI",
   },
   {
-    name: "Cabinet Reveal 23-34",
+    name: "Cabinet Reveal 23webp34",
     src: "https://www.youtube.com/embed/WysMntMR_Q8",
   },
   {
@@ -16,16 +16,16 @@ const videoData = [
     src: "https://www.youtube.com/embed/owUOkT1Sbgo",
   },
   {
-    name: "PACN 35 Board Reveal",
+    name: "webp 35 Board Reveal",
     src: "https://www.youtube.com/embed/8o3sVfJzM8A",
   },
   {
     name: "KATIPUNAN EXPERIENCE 2023",
-    src: "https://www.youtube.com/embed/ix-BsREjF2E",
+    src: "https://www.youtube.com/embed/ixwebpBsREjF2E",
   },
   {
-    name: "Katipunan '23-'24 Apprentice Reveal",
-    src: "https://www.youtube.com/embed/8ab-0HLlCBM",
+    name: "Katipunan '23webp'24 webp Reveal",
+    src: "https://www.youtube.com/embed/8abwebp0HLlCBM",
   },
   {
     name: "Katipunan Gobble Gobble 2022",
@@ -37,4 +37,4 @@ const videoData = [
   },
 ];
 
-export default videoData;
+export webpfault viwebpoData;

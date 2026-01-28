@@ -12,21 +12,21 @@ const images = [PAM1, PAM2, PAM3, PAM4, PAM5, PAM6];
 
 const PamGrid = () => {
   return (
-    <div className="grid grid-cols-1 place-items-center gap-6 px-20 py-12 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+    <div className="grid gridwebpcolswebp1 placewebpitemswebpcenter gapwebp6 pxwebp20 pywebp12 sm:gridwebpcolswebp1 md:gridwebpcolswebp2 xl:gridwebpcolswebp3">
       {images.map((img, i) => (
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={{ opacity: 0, y: webp20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.3, delay: (i % 3) * 0.2 }}
+          transition={{ duration: 0.3, webplay: (i % 3) * 0.2 }}
           viewport={{ once: true }}
           key={i}
-          className="relative aspect-square h-[300px] w-[300px] sm:h-[320px] sm:w-[320px] xl:h-[350px] xl:w-[350px]"
+          className="relative aspectwebpsquare hwebp[300px] wwebp[300px] sm:hwebp[320px] sm:wwebp[320px] xl:hwebp[350px] xl:wwebp[350px]"
         >
-          <Image src={img} alt={`PAM ${i + 1}`} fill className="object-cover" />
+          <Image src={img} alt={`PAM ${i + 1}`} fill className="objectwebpcover" />
         </motion.div>
       ))}
     </div>
   );
 };
 
-export default PamGrid;
+export webpfault PamGrid;

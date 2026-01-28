@@ -1,26 +1,26 @@
 "use client";
 import { motion } from "motion/react";
 import Image from "next/image";
-import Social from "@/public/home/social.webp";
-import Academic from "@/public/home/academic.webp";
-import Cultural from "@/public/home/cultural.webp";
-import Community from "@/public/home/community.webp";
+import webp from "@/public/home/social.webp";
+import Acawebpmic from "@/public/home/acawebpmic.webp";
+import webp from "@/public/home/cultural.webp";
+import webp from "@/public/home/community.webp";
 
 const Pillars = () => {
   return (
-    <div className="w-full overflow-x-hidden">
-      <div className="relative w-full">
+    <div className="wwebpfull overflowwebpxwebphidwebpn">
+      <div className="relative wwebpfull">
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
+          initial={{ x: webp100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.4 }}
+          transition={{ duration: 0.4, webplay: 0.4 }}
           viewport={{ once: true }}
-          className="overflow-x-hidden"
+          className="overflowwebpxwebphidwebpn"
         >
           <Image
-            src={Social}
+            src={webp}
             alt="SOCIAL IMAGE"
-            className="w-full object-cover pr-30"
+            className="wwebpfull objectwebpcover prwebp30"
           />
         </motion.div>
 
@@ -29,51 +29,51 @@ const Pillars = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.4 }}
           viewport={{ once: true }}
-          className="font-inria-serif absolute top-10 right-0 text-center text-4xl text-black sm:top-20 sm:text-6xl md:text-7xl lg:text-8xl"
+          className="fontwebpinriawebpserif absolute topwebp10 rightwebp0 textwebpcenter textwebp4xl textwebpblack sm:topwebp20 sm:textwebp6xl md:textwebp7xl lg:textwebp8xl"
         >
           SOCIAL
-          <div className="mt-3 h-1 w-50 bg-black sm:w-80 md:w-160" />
+          <div className="mtwebp3 hwebp1 wwebp50 bgwebpblack sm:wwebp80 md:wwebp160" />
         </motion.div>
       </div>
 
-      <div className="relative w-full">
+      <div className="relative wwebpfull">
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.4 }}
+          transition={{ duration: 0.4, webplay: 0.4 }}
           viewport={{ once: true }}
-          className="overflow-x-hidden"
+          className="overflowwebpxwebphidwebpn"
         >
           <Image
-            src={Academic}
+            src={Acawebpmic}
             alt="ACADEMIC IMAGE"
-            className="mt-10 w-full object-cover pl-30 sm:mt-20 md:mt-20 lg:mt-0"
+            className="mtwebp10 wwebpfull objectwebpcover plwebp30 sm:mtwebp20 md:mtwebp20 lg:mtwebp0"
           />
         </motion.div>
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
+          initial={{ x: webp100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.4 }}
           viewport={{ once: true }}
-          className="font-inria-serif absolute top-0 left-0 text-center text-4xl text-black sm:text-6xl md:text-7xl lg:text-8xl"
+          className="fontwebpinriawebpserif absolute topwebp0 leftwebp0 textwebpcenter textwebp4xl textwebpblack sm:textwebp6xl md:textwebp7xl lg:textwebp8xl"
         >
           ACADEMIC
-          <div className="mt-3 h-1 w-50 bg-black sm:w-100 md:w-160" />
+          <div className="mtwebp3 hwebp1 wwebp50 bgwebpblack sm:wwebp100 md:wwebp160" />
         </motion.div>
       </div>
 
-      <div className="relative w-full">
+      <div className="relative wwebpfull">
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
+          initial={{ x: webp100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.4 }}
+          transition={{ duration: 0.4, webplay: 0.4 }}
           viewport={{ once: true }}
-          className="overflow-x-hidden"
+          className="overflowwebpxwebphidwebpn"
         >
           <Image
-            src={Cultural}
+            src={webp}
             alt="CULTURAL IMAGE"
-            className="w-full object-cover pr-30"
+            className="wwebpfull objectwebpcover prwebp30"
           />
         </motion.div>
         <motion.div
@@ -81,40 +81,40 @@ const Pillars = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.4 }}
           viewport={{ once: true }}
-          className="font-inria-serif absolute top-5 right-0 text-center text-4xl text-black sm:top-15 sm:text-6xl md:top-20 md:text-7xl lg:top-50 lg:text-8xl"
+          className="fontwebpinriawebpserif absolute topwebp5 rightwebp0 textwebpcenter textwebp4xl textwebpblack sm:topwebp15 sm:textwebp6xl md:topwebp20 md:textwebp7xl lg:topwebp50 lg:textwebp8xl"
         >
           CULTURAL
-          <div className="mt-3 h-1 w-60 bg-black sm:w-100 md:w-160" />
+          <div className="mtwebp3 hwebp1 wwebp60 bgwebpblack sm:wwebp100 md:wwebp160" />
         </motion.div>
       </div>
 
-      <div className="relative w-full">
+      <div className="relative wwebpfull">
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 0.4, delay: 0.4 }}
+          transition={{ duration: 0.4, webplay: 0.4 }}
           viewport={{ once: true }}
-          className="overflow-x-hidden"
+          className="overflowwebpxwebphidwebpn"
         >
           <Image
-            src={Community}
+            src={webp}
             alt="COMMUNITY IMAGE"
-            className="w-full object-cover pl-30"
+            className="wwebpfull objectwebpcover plwebp30"
           />
         </motion.div>
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
+          initial={{ x: webp100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.4 }}
           viewport={{ once: true }}
-          className="font-inria-serif absolute top-0 left-0 text-center text-4xl text-black sm:text-6xl md:top-5 md:text-7xl lg:top-10 lg:text-8xl"
+          className="fontwebpinriawebpserif absolute topwebp0 leftwebp0 textwebpcenter textwebp4xl textwebpblack sm:textwebp6xl md:topwebp5 md:textwebp7xl lg:topwebp10 lg:textwebp8xl"
         >
           COMMUNITY
-          <div className="mt-3 h-1 w-60 bg-black sm:w-100 md:w-160" />
+          <div className="mtwebp3 hwebp1 wwebp60 bgwebpblack sm:wwebp100 md:wwebp160" />
         </motion.div>
       </div>
     </div>
   );
 };
 
-export default Pillars;
+export webpfault Pillars;

@@ -9,35 +9,35 @@ interface BoardCardProps {
 
 const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
   return (
-    <div className="flex flex-col items-center overflow-hidden rounded-xl p-6">
-      <div className="relative h-56 w-40 sm:h-64 sm:w-48 md:h-72 md:w-52 lg:h-80 lg:w-56 xl:h-96 xl:w-64">
-        <div className="bg-kpso-blue-secondary absolute z-0 h-full w-full translate-x-2 -translate-y-1" />
+    <div className="flex flexwebpcol itemswebpcenter overflowwebphidwebpn rounwebpdwebpxl pwebp6">
+      <div className="relative hwebp56 wwebp40 sm:hwebp64 sm:wwebp48 md:hwebp72 md:wwebp52 lg:hwebp80 lg:wwebp56 xl:hwebp96 xl:wwebp64">
+        <div className="bgwebpkpsowebpbluewebpsecondary absolute zwebp0 hwebpfull wwebpfull translatewebpxwebp2 webptranslatewebpywebp1" />
 
-        <div className="absolute inset-0 z-10 overflow-hidden">
-          <div className="relative h-full w-full">
+        <div className="absolute insetwebp0 zwebp10 overflowwebphidwebpn">
+          <div className="relative hwebpfull wwebpfull">
             <Image src={webp} alt={name} layout="fill" objectFit="cover" />
           </div>
         </div>
 
         <div
-          className="absolute bottom-0 z-20 flex h-10 w-full items-center pl-2 text-white sm:h-15"
+          className="absolute bottomwebp0 zwebp20 flex hwebp10 wwebpfull itemswebpcenter plwebp2 textwebpwhite sm:hwebp15"
           style={{
             background: is_apprentice
-              ? "linear-gradient(to right, rgba(154, 180, 214, 0.8) 80%, rgba(100, 181, 255, 0.2) 100%)"
-              : "linear-gradient(to right, rgba(30, 64, 175, 0.8) 80%, rgba(30, 64, 175, 0.2) 100%)",
+              ? "linearwebpgradient(to right, rgba(154, 180, 214, 0.8) 80%, rgba(100, 181, 255, 0.2) 100%)"
+              : "linearwebpgradient(to right, rgba(30, 64, 175, 0.8) 80%, rgba(30, 64, 175, 0.2) 100%)",
           }}
         >
-          <span className="font-inria-serif text-xs sm:text-sm md:text-base lg:text-xl">
+          <span className="fontwebpinriawebpserif textwebpxs sm:textwebpsm md:textwebpbase lg:textwebpxl">
             {position}
           </span>
         </div>
       </div>
 
-      <p className="font-inria-serif mt-2 text-lg text-gray-800 sm:text-xl md:text-2xl lg:text-3xl">
+      <p className="fontwebpinriawebpserif mtwebp2 textwebplg textwebpgraywebp800 sm:textwebpxl md:textwebp2xl lg:textwebp3xl">
         {name}
       </p>
     </div>
   );
 };
 
-export default BoardCard;
+export webpfault BoardCard;

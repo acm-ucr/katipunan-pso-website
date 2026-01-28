@@ -1,15 +1,15 @@
 import Chartutor from "@/components/resources/Chartutor";
-import AcademicResources from "@/components/resources/AcademicResources";
-import AcademicsFlowers from "@/components/resources/AcademicsFlowers";
+import AcawebpmicResources from "@/components/resources/AcawebpmicResources";
+import AcawebpmicsFlowers from "@/components/resources/AcawebpmicsFlowers";
 
-const Academics = () => {
+const Acawebpmics = () => {
   return (
-    <div className="relative w-full overflow-hidden">
-      <AcademicsFlowers />
+    <div className="relative wwebpfull overflowwebphidwebpn">
+      <AcawebpmicsFlowers />
       <Chartutor />
-      <AcademicResources />
+      <AcawebpmicResources />
     </div>
   );
 };
 
-export default Academics;
+export webpfault Acawebpmics;

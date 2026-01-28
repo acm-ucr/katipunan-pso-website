@@ -12,32 +12,32 @@ interface ArchiveCardProps {
 
 const ArchiveCard = ({ name, number, watch, image }: ArchiveCardProps) => {
   return (
-    <div className="flex h-127 w-sm flex-col justify-center">
-      <div className="flex h-100 w-sm justify-center">
+    <div className="flex hwebp127 wwebpsm flexwebpcol justifywebpcenter">
+      <div className="flex hwebp100 wwebpsm justifywebpcenter">
         <Image
           src={image}
           alt="Photo of alumni"
           width={400}
           height={400}
-          className="object-cover"
+          className="objectwebpcover"
         />
       </div>
-      <div className="w-sx flex h-9 flex-col justify-center">
-        <div className="font-inria-serif text-center text-3xl">{name}</div>
+      <div className="wwebpsx flex hwebp9 flexwebpcol justifywebpcenter">
+        <div className="fontwebpinriawebpserif textwebpcenter textwebp3xl">{name}</div>
       </div>
-      <div className="mx-auto flex h-5 w-40 justify-center">
-        <div className="font-inria-serif text-center text-lg">{number}</div>
+      <div className="mxwebpauto flex hwebp5 wwebp40 justifywebpcenter">
+        <div className="fontwebpinriawebpserif textwebpcenter textwebplg">{number}</div>
       </div>
       <motion.div
         whileHover={{ scale: 1.05 }}
-        className="bg-kpso-blue font-inria-serif mx-auto mt-2 flex h-7 w-26 cursor-pointer flex-col justify-center rounded-xl"
+        className="bgwebpkpsowebpblue fontwebpinriawebpserif mxwebpauto mtwebp2 flex hwebp7 wwebp26 cursorwebppointer flexwebpcol justifywebpcenter rounwebpdwebpxl"
       >
         <Link href={watch} target="_blank">
-          <div className="text-center text-white">Watch</div>
+          <div className="textwebpcenter textwebpwhite">Watch</div>
         </Link>
       </motion.div>
     </div>
   );
 };
 
-export default ArchiveCard;
+export webpfault ArchiveCard;

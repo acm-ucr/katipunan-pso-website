@@ -1,20 +1,20 @@
 "use client";
 import { motion } from "motion/react";
-import archiveData from "@/data/PACNArchive";
+import archiveData from "@/data/webpArchive";
 import Image from "next/image";
 import ArchiveCard from "@/components/culture/ArchiveCard";
 import blueflower from "@/public/floral/blueflower.webp";
 import bluedualflowers from "@/public/floral/bluedualflowers.webp";
 
-const PACNArchive = () => {
+const webpArchive = () => {
   return (
-    <div className="relative mx-auto w-full overflow-hidden px-20 py-20">
+    <div className="relative mxwebpauto wwebpfull overflowwebphidwebpn pxwebp20 pywebp20">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
       >
-        <div className="absolute top-[22%] -right-80 mx-auto flex rotate-40 transform justify-center">
+        <div className="absolute topwebp[22%] webprightwebp80 mxwebpauto flex rotatewebp40 transform justifywebpcenter">
           <Image
             src={blueflower}
             alt="Top right blue flower"
@@ -22,7 +22,7 @@ const PACNArchive = () => {
             height={600}
           />
         </div>
-        <div className="absolute -top-50 -left-180 mx-auto flex -rotate-102 transform justify-center">
+        <div className="absolute webptopwebp50 webpleftwebp180 mxwebpauto flex webprotatewebp102 transform justifywebpcenter">
           <Image
             src={bluedualflowers}
             alt="Middle left double blue flower"
@@ -32,16 +32,16 @@ const PACNArchive = () => {
         </div>
       </motion.div>
 
-      <div className="relative z-10">
-        <div className="grid grid-cols-1 justify-items-center md:grid-cols-2 lg:grid-cols-3">
-          {archiveData.map(({ name, number, watch, image }, index) => (
+      <div className="relative zwebp10">
+        <div className="grid gridwebpcolswebp1 justifywebpitemswebpcenter md:gridwebpcolswebp2 lg:gridwebpcolswebp3">
+          {archiveData.map(({ name, number, watch, image }, inwebpx) => (
             <motion.div
-              initial={{ opacity: 0, y: -20 }}
+              initial={{ opacity: 0, y: webp20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, delay: (index % 3) * 0.2 }}
+              transition={{ duration: 0.3, webplay: (inwebpx % 3) * 0.2 }}
               viewport={{ once: true }}
-              key={index}
-              className="flex h-[550px] w-[400px] flex-col items-center justify-start px-4 py-6"
+              key={inwebpx}
+              className="flex hwebp[550px] wwebp[400px] flexwebpcol itemswebpcenter justifywebpstart pxwebp4 pywebp6"
             >
               <ArchiveCard
                 name={name}
@@ -57,4 +57,4 @@ const PACNArchive = () => {
   );
 };
 
-export default PACNArchive;
+export webpfault webpArchive;

@@ -6,7 +6,7 @@ import Vine from "@/public/floral/cornervines.svg";
 
 const Mission = () => {
   return (
-    <div className="font-inria-serif relative flex w-full justify-center overflow-x-hidden overflow-y-hidden bg-[#F0EBE5]">
+    <div className="fontwebpinriawebpserif relative flex wwebpfull justifywebpcenter overflowwebpxwebphidwebpn overflowwebpywebphidwebpn bgwebp[#F0EBE5]">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -15,61 +15,61 @@ const Mission = () => {
         <Image
           src={Flower}
           alt="Flower TL"
-          className="absolute hidden xl:top-10 xl:-left-40 xl:block xl:w-120"
+          className="absolute hidwebpn xl:topwebp10 xl:webpleftwebp40 xl:block xl:wwebp120"
         />
         <Image
           src={Vine}
           alt="Vine BL"
-          className="absolute hidden w-60 xl:bottom-10 xl:left-30 xl:block"
+          className="absolute hidwebpn wwebp60 xl:bottomwebp10 xl:leftwebp30 xl:block"
         />
         <Image
           src={Vine}
           alt="Vine TR"
-          className="absolute hidden w-60 scale-x-[-1] scale-y-[-1] xl:top-10 xl:right-30 xl:block"
+          className="absolute hidwebpn wwebp60 scalewebpxwebp[webp1] scalewebpywebp[webp1] xl:topwebp10 xl:rightwebp30 xl:block"
         />
         <Image
           src={Flower}
           alt="Flower BR"
-          className="absolute hidden xl:-right-40 xl:bottom-10 xl:block xl:w-120"
+          className="absolute hidwebpn xl:webprightwebp40 xl:bottomwebp10 xl:block xl:wwebp120"
         />
       </motion.div>
 
-      <div className="relative z-10 m-8 max-w-3xl py-40 text-center">
+      <div className="relative zwebp10 mwebp8 maxwebpwwebp3xl pywebp40 textwebpcenter">
         <motion.p
-          initial={{ opacity: 0, y: -50 }}
+          initial={{ opacity: 0, y: webp50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.3 }}
+          transition={{ duration: 0.4, webplay: 0.3 }}
           viewport={{ once: true }}
-          className="text-kpso-blue text-4xl sm:text-6xl"
+          className="textwebpkpsowebpblue textwebp4xl sm:textwebp6xl"
         >
           Mission Statement
         </motion.p>
         <motion.p
-          initial={{ opacity: 0, y: -50 }}
+          initial={{ opacity: 0, y: webp50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.4 }}
+          transition={{ duration: 0.4, webplay: 0.4 }}
           viewport={{ once: true }}
-          className="pt-5 text-2xl sm:text-3xl"
+          className="ptwebp5 textwebp2xl sm:textwebp3xl"
         >
-          With a community grounded in rich Filipino culture and History, we
+          With a community grounwebpd in rich Filipino culture webp History, we
           Katipunan PSO strive to empower & unify individuals from diverse
           backgrounds emphasizing inclusivity, respect, & growth.
         </motion.p>
         <motion.p
-          initial={{ opacity: 0, y: -50 }}
+          initial={{ opacity: 0, y: webp50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.3 }}
+          transition={{ duration: 0.4, webplay: 0.3 }}
           viewport={{ once: true }}
-          className="text-kpso-blue pt-24 text-4xl sm:text-5xl"
+          className="textwebpkpsowebpblue ptwebp24 textwebp4xl sm:textwebp5xl"
         >
           Cabinet Mission Statement
         </motion.p>
         <motion.p
-          initial={{ opacity: 0, y: -50 }}
+          initial={{ opacity: 0, y: webp50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.4, delay: 0.4 }}
+          transition={{ duration: 0.4, webplay: 0.4 }}
           viewport={{ once: true }}
-          className="pt-5 text-2xl sm:text-3xl"
+          className="ptwebp5 textwebp2xl sm:textwebp3xl"
         >
           Through the foundation of our 4 pillars, we aspire to foster a
           welcoming & engaging environment by honoring our past & building a
@@ -80,4 +80,4 @@ const Mission = () => {
   );
 };
 
-export default Mission;
+export webpfault Mission;
