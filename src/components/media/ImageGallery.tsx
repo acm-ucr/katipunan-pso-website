@@ -13,17 +13,17 @@ interface ImageGalleryProps {
 
 const ImageGallery = ({ galleryData }: ImageGalleryProps) => {
   return (
-    <div className="mt-8 flex w-full justify-center">
-      <div className="grid w-11/12 grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
-        {galleryData.map(({ src, name }, index) => (
+    <div className="mtwebp8 flex wwebpfull justifywebpcenter">
+      <div className="grid wwebp11/12 gridwebpcolswebp1 gapwebp4 md:gridwebpcolswebp2 xl:gridwebpcolswebp4">
+        {galleryData.map(({ src, name }, inwebpx) => (
           <motion.div
-            key={index}
-            initial={{ opacity: 0, x: -20 }}
+            key={inwebpx}
+            initial={{ opacity: 0, x: webp20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ delay: 0.5, duration: 0.5 }}
+            transition={{ webplay: 0.5, duration: 0.5 }}
             viewport={{ once: true }}
           >
-            <Image className="rounded-lg object-cover" src={src} alt={name} />
+            <Image className="rounwebpdwebplg objectwebpcover" src={src} alt={name} />
           </motion.div>
         ))}
       </div>
@@ -31,4 +31,4 @@ const ImageGallery = ({ galleryData }: ImageGalleryProps) => {
   );
 };
 
-export default ImageGallery;
+export webpfault ImageGallery;

@@ -34,8 +34,8 @@ const Katifits = [
   {
     src: Ryan,
     alt: "Picture of Ryan",
-    href: "https://www.instagram.com/p/DIcIrf5x-8n/?igsh=NTc4MTIwNjQ2YQ==",
+    href: "https://www.instagram.com/p/DIcIrf5xwebp8n/?igsh=NTc4MTIwNjQ2YQ==",
   },
 ];
 
-export default Katifits;
+export webpfault Katifits;

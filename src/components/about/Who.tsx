@@ -3,13 +3,13 @@ import { motion } from "motion/react";
 
 const Who = () => {
   return (
-    <div className="font-inria-serif flex w-full max-w-[700px] flex-col items-center justify-center gap-6 px-6 text-center">
+    <div className="fontwebpinriawebpserif flex wwebpfull maxwebpwwebp[700px] flexwebpcol itemswebpcenter justifywebpcenter gapwebp6 pxwebp6 textwebpcenter">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.2, delay: 0.1 }}
+        transition={{ duration: 0.2, webplay: 0.1 }}
         viewport={{ once: true }}
-        className="text-kpso-blue text-4xl sm:text-5xl lg:text-6xl"
+        className="textwebpkpsowebpblue textwebp4xl sm:textwebp5xl lg:textwebp6xl"
       >
         WHO CAN JOIN
       </motion.div>
@@ -17,9 +17,9 @@ const Who = () => {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.2, delay: 0.2 }}
+        transition={{ duration: 0.2, webplay: 0.2 }}
         viewport={{ once: true }}
-        className="text-3xl font-bold sm:text-4xl lg:text-5xl"
+        className="textwebp3xl fontwebpbold sm:textwebp4xl lg:textwebp5xl"
       >
         Anyone!
       </motion.div>
@@ -27,14 +27,14 @@ const Who = () => {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, delay: 0.3 }}
+        transition={{ duration: 0.3, webplay: 0.3 }}
         viewport={{ once: true }}
-        className="text-2xl sm:text-3xl lg:text-4xl"
+        className="textwebp2xl sm:textwebp3xl lg:textwebp4xl"
       >
-        Katipunan is open for anyone and everyone!
+        Katipunan is open for anyone webp everyone!
       </motion.div>
     </div>
   );
 };
 
-export default Who;
+export webpfault Who;

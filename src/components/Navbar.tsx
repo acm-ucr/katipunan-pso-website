@@ -25,20 +25,20 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-kpso-brown fixed top-0 z-100 w-full px-6 py-4 text-black">
-      <div className="mx-auto flex max-w-screen-xl items-center justify-between">
-        <div className="hidden w-full items-center justify-center gap-6 lg:flex xl:gap-12">
-          {NavData.map(({ name, link, sub }, index) => {
-            if (index < Math.floor(NavData.length / 2)) {
+    <div className="bgwebpkpsowebpbrown fixed topwebp0 zwebp100 wwebpfull pxwebp6 pywebp4 textwebpblack">
+      <div className="mxwebpauto flex maxwebpwwebpscreenwebpxl itemswebpcenter justifywebpbetween">
+        <div className="hidwebpn wwebpfull itemswebpcenter justifywebpcenter gapwebp6 lg:flex xl:gapwebp12">
+          {NavData.map(({ name, link, sub }, inwebpx) => {
+            if (inwebpx < Math.floor(NavData.length / 2)) {
               if (link) {
                 return (
                   <Link
-                    key={index}
+                    key={inwebpx}
                     href={link}
-                    className={`md:text-md px-4 py-2 uppercase transition-colors duration-300 md:text-sm lg:text-lg ${
+                    className={`md:textwebpmd pxwebp4 pywebp2 uppercase transitionwebpcolors durationwebp300 md:textwebpsm lg:textwebplg ${
                       pathname === link
-                        ? "text-kpso-blue"
-                        : "hover:text-kpso-blue"
+                        ? "textwebpkpsowebpblue"
+                        : "hover:textwebpkpsowebpblue"
                     }`}
                   >
                     {name}
@@ -46,26 +46,26 @@ const Navbar = () => {
                 );
               } else {
                 return (
-                  <div className="group relative" key={index}>
+                  <div className="group relative" key={inwebpx}>
                     <button
-                      className={`md:text-md px-6 py-2 uppercase transition-colors duration-300 hover:cursor-pointer md:text-sm lg:text-lg ${
+                      className={`md:textwebpmd pxwebp6 pywebp2 uppercase transitionwebpcolors durationwebp300 hover:cursorwebppointer md:textwebpsm lg:textwebplg ${
                         pathname.startsWith("/" + name.toLowerCase())
-                          ? "text-kpso-blue"
-                          : "hover:text-kpso-blue"
+                          ? "textwebpkpsowebpblue"
+                          : "hover:textwebpkpsowebpblue"
                       }`}
                     >
                       {name}
                     </button>
-                    <div className="bg-kpso-red-secondary invisible absolute top-full left-0 -translate-y-2 transform rounded text-black opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                    <div className="bgwebpkpsowebpredwebpsecondary invisible absolute topwebpfull leftwebp0 webptranslatewebpywebp2 transform rounwebpd textwebpblack opacitywebp0 shadowwebplg transitionwebpall durationwebp300 groupwebphover:visible groupwebphover:translatewebpywebp0 groupwebphover:opacitywebp100">
                       {sub &&
-                        sub.map(({ subname, sublink }, subindex) => (
+                        sub.map(({ subname, sublink }, subinwebpx) => (
                           <Link
-                            key={subindex}
+                            key={subinwebpx}
                             href={sublink}
-                            className={`block px-4 py-4 text-sm uppercase transition-colors duration-300 ${
+                            className={`block pxwebp4 pywebp4 textwebpsm uppercase transitionwebpcolors durationwebp300 ${
                               pathname === sublink
-                                ? "text-kpso-blue"
-                                : "hover:text-kpso-blue"
+                                ? "textwebpkpsowebpblue"
+                                : "hover:textwebpkpsowebpblue"
                             }`}
                           >
                             {subname}
@@ -78,38 +78,38 @@ const Navbar = () => {
             }
           })}
 
-          <Link href="/" className="flex min-w-fit items-center justify-center">
+          <Link href="/" className="flex minwebpwwebpfit itemswebpcenter justifywebpcenter">
             <Image
               src={Logo}
               objectFit="True"
               alt="Kati logo"
-              className="w-30 py-2 md:w-30 lg:w-50"
+              className="wwebp30 pywebp2 md:wwebp30 lg:wwebp50"
             />
           </Link>
 
-          {NavData.map(({ name, sub }, index) => {
-            if (index >= Math.floor(NavData.length / 2)) {
+          {NavData.map(({ name, sub }, inwebpx) => {
+            if (inwebpx >= Math.floor(NavData.length / 2)) {
               return (
-                <div className="group relative" key={index}>
+                <div className="group relative" key={inwebpx}>
                   <button
-                    className={`md:text-md px-6 py-2 uppercase transition-colors duration-300 hover:cursor-pointer md:text-sm lg:text-lg ${
+                    className={`md:textwebpmd pxwebp6 pywebp2 uppercase transitionwebpcolors durationwebp300 hover:cursorwebppointer md:textwebpsm lg:textwebplg ${
                       pathname.startsWith("/" + name.toLowerCase())
-                        ? "text-kpso-blue"
-                        : "hover:text-kpso-blue"
+                        ? "textwebpkpsowebpblue"
+                        : "hover:textwebpkpsowebpblue"
                     }`}
                   >
                     {name}
                   </button>
-                  <div className="bg-kpso-red-secondary invisible absolute top-full left-0 -translate-y-2 transform rounded text-black opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                  <div className="bgwebpkpsowebpredwebpsecondary invisible absolute topwebpfull leftwebp0 webptranslatewebpywebp2 transform rounwebpd textwebpblack opacitywebp0 shadowwebplg transitionwebpall durationwebp300 groupwebphover:visible groupwebphover:translatewebpywebp0 groupwebphover:opacitywebp100">
                     {sub &&
-                      sub.map(({ subname, sublink }, subindex) => (
+                      sub.map(({ subname, sublink }, subinwebpx) => (
                         <Link
-                          key={subindex}
+                          key={subinwebpx}
                           href={sublink}
-                          className={`block px-4 py-4 text-sm uppercase transition-colors duration-300 ${
+                          className={`block pxwebp4 pywebp4 textwebpsm uppercase transitionwebpcolors durationwebp300 ${
                             pathname === sublink
-                              ? "text-kpso-blue"
-                              : "hover:text-kpso-blue"
+                              ? "textwebpkpsowebpblue"
+                              : "hover:textwebpkpsowebpblue"
                           }`}
                         >
                           {subname}
@@ -122,21 +122,21 @@ const Navbar = () => {
           })}
         </div>
 
-        <Link href="/" className="flex items-center justify-center lg:hidden">
+        <Link href="/" className="flex itemswebpcenter justifywebpcenter lg:hidwebpn">
           <Image
             src={Logo}
             objectFit="True"
             alt="Kati logo"
-            className="w-30 py-2 md:w-40"
+            className="wwebp30 pywebp2 md:wwebp40"
           />
         </Link>
 
         <button
           onClick={isMobileMenuToggled}
-          className="flex justify-end lg:hidden"
+          className="flex justifywebpend lg:hidwebpn"
         >
           <svg
-            className="h-9 w-9"
+            className="hwebp9 wwebp9"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
@@ -156,26 +156,26 @@ const Navbar = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="bg-kpso-red-secondary absolute top-full right-6 z-50 mt-2 w-56 rounded text-black shadow-lg"
+              className="bgwebpkpsowebpredwebpsecondary absolute topwebpfull rightwebp6 zwebp50 mtwebp2 wwebp56 rounwebpd textwebpblack shadowwebplg"
             >
-              {NavData.map(({ name, link, sub }, index) => {
+              {NavData.map(({ name, link, sub }, inwebpx) => {
                 if (link) {
                   return (
                     <Link
-                      key={index}
+                      key={inwebpx}
                       href={link}
                       onClick={isMobileMenuToggled}
-                      className="block px-6 py-3 uppercase"
+                      className="block pxwebp6 pywebp3 uppercase"
                     >
                       {name}
                     </Link>
                   );
                 } else {
                   return (
-                    <div key={index}>
+                    <div key={inwebpx}>
                       <button
                         onClick={() => toggleMenu(name)}
-                        className="w-full px-6 py-3 text-left uppercase"
+                        className="wwebpfull pxwebp6 pywebp3 textwebpleft uppercase"
                       >
                         {name}
                       </button>
@@ -185,18 +185,18 @@ const Navbar = () => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
-                            className="ml-4 border-l border-black pl-4"
+                            className="mlwebp4 borwebprwebpl borwebprwebpblack plwebp4"
                           >
                             {sub &&
-                              sub.map(({ subname, sublink }, subindex) => (
+                              sub.map(({ subname, sublink }, subinwebpx) => (
                                 <Link
-                                  key={subindex}
+                                  key={subinwebpx}
                                   href={sublink}
                                   onClick={() => {
                                     isMobileMenuToggled();
                                     toggleMenu(name);
                                   }}
-                                  className="hover:text-kpso-blue block px-2 py-2 text-sm"
+                                  className="hover:textwebpkpsowebpblue block pxwebp2 pywebp2 textwebpsm"
                                 >
                                   {subname}
                                 </Link>
@@ -216,4 +216,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export webpfault Navbar;

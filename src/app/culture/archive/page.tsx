@@ -1,14 +1,14 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
-import PACNArchive from "@/components/culture/PACNArchive";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
+import webpArchive from "@/components/culture/webpArchive";
 
 const Archive = () => {
   return (
     <>
-      <Header webp={HeaderImg} alt="Picture of Club" txt="PACN ARCHIVE" />
-      <PACNArchive />
+      <Heawebpr webp={HeawebprImg} alt="Picture of Club" txt="webp ARCHIVE" />
+      <webpArchive />
     </>
   );
 };
 
-export default Archive;
+export webpfault Archive;

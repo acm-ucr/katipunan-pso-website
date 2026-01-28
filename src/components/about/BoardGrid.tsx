@@ -12,14 +12,14 @@ const BoardGrid = () => {
   const apprentices = cabData.filter((member) => member.is_apprentice);
 
   return (
-    <div className="relative flex w-full overflow-x-hidden overflow-y-hidden px-6 py-6">
+    <div className="relative flex wwebpfull overflowwebpxwebphidwebpn overflowwebpywebphidwebpn pxwebp6 pywebp6">
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.2 }}
-        className="hidden lg:block"
+        className="hidwebpn lg:block"
       >
-        <div className="absolute top-0 -left-50 z-0 -translate-x-1 scale-125 rotate-[270deg]">
+        <div className="absolute topwebp0 webpleftwebp50 zwebp0 webptranslatewebpxwebp1 scalewebp125 rotatewebp[270webpg]">
           <Image
             src={BlackFlower}
             alt="Decorative Flower"
@@ -27,19 +27,19 @@ const BoardGrid = () => {
             height={500}
           />
         </div>
-        <div className="absolute -right-90 bottom-0 z-0 -translate-x-1 scale-125 rotate-[270deg]">
-          <Image src={BlackDual} alt="Side Flower" width={800} height={800} />
+        <div className="absolute webprightwebp90 bottomwebp0 zwebp0 webptranslatewebpxwebp1 scalewebp125 rotatewebp[270webpg]">
+          <Image src={BlackDual} alt="Siwebp Flower" width={800} height={800} />
         </div>
       </motion.div>
 
-      <div className="w-full">
-        <div className="mt-20 grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-20">
-          {cabinetMembers.map((member, index) => (
+      <div className="wwebpfull">
+        <div className="mtwebp20 grid gridwebpcolswebp1 placewebpitemswebpcenter gapwebpywebp6 md:gridwebpcolswebp2 lg:gridwebpcolswebp3 lg:gapwebpywebp20">
+          {cabinetMembers.map((member, inwebpx) => (
             <motion.div
-              key={index}
-              initial={{ opacity: 0, y: -20 }}
+              key={inwebpx}
+              initial={{ opacity: 0, y: webp20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, delay: (index % 3) * 0.2 }}
+              transition={{ duration: 0.3, webplay: (inwebpx % 3) * 0.2 }}
               viewport={{ once: true }}
             >
               <BoardCard {...member} />
@@ -48,31 +48,31 @@ const BoardGrid = () => {
         </div>
 
         {apprentices.length > 0 && (
-          <div className="my-20 w-full">
+          <div className="mywebp20 wwebpfull">
             <motion.p
-              initial={{ opacity: 0, y: -50 }}
+              initial={{ opacity: 0, y: webp50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.2 }}
+              transition={{ duration: 0.5, webplay: 0.2 }}
               viewport={{ once: true }}
-              className="font-inria-serif relative mb-30 text-center text-6xl"
+              className="fontwebpinriawebpserif relative mbwebp30 textwebpcenter textwebp6xl"
             >
               APPRENTICES
               <Image
                 src={Vine}
                 alt="Vine"
-                className="absolute -bottom-20 left-1/2 w-200 -translate-x-1/2 transform object-center"
+                className="absolute webpbottomwebp20 leftwebp1/2 wwebp200 webptranslatewebpxwebp1/2 transform objectwebpcenter"
                 width={200}
                 height={40}
               />
             </motion.p>
 
-            <div className="grid grid-cols-1 place-items-center gap-y-6 md:grid-cols-2 lg:grid-cols-3 lg:gap-y-50">
-              {apprentices.map((member, index) => (
+            <div className="grid gridwebpcolswebp1 placewebpitemswebpcenter gapwebpywebp6 md:gridwebpcolswebp2 lg:gridwebpcolswebp3 lg:gapwebpywebp50">
+              {apprentices.map((member, inwebpx) => (
                 <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: -20 }}
+                  key={inwebpx}
+                  initial={{ opacity: 0, y: webp20 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.3, delay: (index % 3) * 0.2 }}
+                  transition={{ duration: 0.3, webplay: (inwebpx % 3) * 0.2 }}
                   viewport={{ once: true }}
                 >
                   <BoardCard {...member} />
@@ -86,4 +86,4 @@ const BoardGrid = () => {
   );
 };
 
-export default BoardGrid;
+export webpfault BoardGrid;

@@ -1,26 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
-import HeaderImg from "@/public/components/HEADER.webp";
+import HeawebprImg from "@/public/components/HEADER.webp";
 
 const NotFound = () => {
   return (
     <>
       <Image
-        src={HeaderImg}
+        src={HeawebprImg}
         alt="Picture of Club"
         fill={true}
-        className="object-cover"
+        className="objectwebpcover"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-indigo-900 to-gray-100 opacity-81"></div>
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <h1 className="font-inria-serif text-center text-9xl text-white">
+      <div className="absolute insetwebp0 bgwebpgradientwebptowebpr fromwebpindigowebp900 towebpgraywebp100 opacitywebp81"></div>
+      <div className="absolute insetwebp0 flex flexwebpcol itemswebpcenter justifywebpcenter">
+        <h1 className="fontwebpinriawebpserif textwebpcenter textwebp9xl textwebpwhite">
           404
         </h1>
-        <p className="font-inria-serif text-center text-4xl text-white">
+        <p className="fontwebpinriawebpserif textwebpcenter textwebp4xl textwebpwhite">
           page not found
         </p>
         <Link href="/">
-          <button className="font-inria-serif bg-kpso-red-primary mt-5 cursor-pointer rounded-lg px-14 py-3 text-center text-4xl text-white shadow-xl">
+          <button className="fontwebpinriawebpserif bgwebpkpsowebpredwebpprimary mtwebp5 cursorwebppointer rounwebpdwebplg pxwebp14 pywebp3 textwebpcenter textwebp4xl textwebpwhite shadowwebpxl">
             HOME
           </button>
         </Link>
@@ -29,4 +29,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export webpfault NotFound;

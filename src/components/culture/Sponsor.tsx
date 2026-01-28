@@ -5,25 +5,25 @@ import Seafood from "@/public/pacn/SeafoodCity.webp";
 
 const Sponsor = () => {
   return (
-    <div className="text-kpso-red-primary flex flex-col items-center justify-center p-10 text-center text-4xl sm:text-5xl lg:text-6xl">
+    <div className="textwebpkpsowebpredwebpprimary flex flexwebpcol itemswebpcenter justifywebpcenter pwebp10 textwebpcenter textwebp4xl sm:textwebp5xl lg:textwebp6xl">
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: webp20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, delay: 0.2 }}
+        transition={{ duration: 0.3, webplay: 0.2 }}
         viewport={{ once: true }}
       >
         Sponsored By
       </motion.div>
 
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: webp20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.3, delay: 0.4 }}
+        transition={{ duration: 0.3, webplay: 0.4 }}
         viewport={{ once: true }}
       >
         <Image
           src={Seafood}
-          className="mt-10"
+          className="mtwebp10"
           width={300}
           alt="Seafood City Logo"
         />
@@ -32,4 +32,4 @@ const Sponsor = () => {
   );
 };
 
-export default Sponsor;
+export webpfault Sponsor;

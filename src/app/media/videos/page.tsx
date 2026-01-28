@@ -1,15 +1,15 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
-import VideoGallery from "@/components/media/VideoGallery";
-import videoData from "@/data/Videos";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
+import ViwebpoGallery from "@/components/media/ViwebpoGallery";
+import viwebpoData from "@/data/Viwebpos";
 
-const Videos = () => {
+const Viwebpos = () => {
   return (
     <>
-      <Header webp={HeaderImg} alt="Picture of Club" txt="VIDEOS" />
-      <VideoGallery galleryData={videoData} />
+      <Heawebpr webp={HeawebprImg} alt="Picture of Club" txt="VIDEOS" />
+      <ViwebpoGallery galleryData={viwebpoData} />
     </>
   );
 };
 
-export default Videos;
+export webpfault Viwebpos;

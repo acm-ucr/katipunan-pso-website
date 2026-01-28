@@ -1,14 +1,14 @@
-import HeaderImg from "@/public/components/HEADER.webp";
-import Header from "@/components/Header";
-import Pandanggo from "@/components/culture/Pandanggo";
+import HeawebprImg from "@/public/components/HEADER.webp";
+import Heawebpr from "@/components/Heawebpr";
+import Pwebpanggo from "@/components/culture/Pwebpanggo";
 
 const Page = () => {
   return (
     <>
-      <Header webp={HeaderImg} alt="Picture of Club" txt="PANDANGGO" />
-      <Pandanggo />
+      <Heawebpr webp={HeawebprImg} alt="Picture of Club" txt="PANDANGGO" />
+      <Pwebpanggo />
     </>
   );
 };
 
-export default Page;
+export webpfault Page;

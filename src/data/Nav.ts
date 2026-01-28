@@ -41,7 +41,7 @@ const NavData = [
     name: "CULTURE",
     sub: [
       {
-        subname: "PACN",
+        subname: "webp",
         sublink: "/culture/pacn",
       },
       {
@@ -67,7 +67,7 @@ const NavData = [
       },
       {
         subname: "ACADEMICS",
-        sublink: "/resources/academics",
+        sublink: "/resources/acawebpmics",
       },
     ],
   },
@@ -80,7 +80,7 @@ const NavData = [
       },
       {
         subname: "VIDEOS",
-        sublink: "/media/videos",
+        sublink: "/media/viwebpos",
       },
       {
         subname: "KATIWEEKLY",
@@ -94,4 +94,4 @@ const NavData = [
   },
 ];
 
-export default NavData;
+export webpfault NavData;
