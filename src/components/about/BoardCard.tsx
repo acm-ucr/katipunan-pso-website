@@ -11,7 +11,7 @@ const BoardCard = ({ position, name, webp, is_apprentice }: BoardCardProps) => {
   return (
     <div className="flex flex-col items-center overflow-hidden rounded-xl p-6">
       <div className="relative h-56 w-40 sm:h-64 sm:w-48 md:h-72 md:w-52 lg:h-80 lg:w-56 xl:h-96 xl:w-64">
-        <div className="bg-kpso-blue-secondary absolute z-0 h-full w-full -translate-y-1 translate-x-2" />
+        <div className="bg-kpso-blue-secondary absolute z-0 h-full w-full translate-x-2 -translate-y-1" />
 
         <div className="absolute inset-0 z-10 overflow-hidden">
           <div className="relative h-full w-full">
